@@ -1,0 +1,14 @@
+# Diretórios de build e dependências
+/node_modules
+/.next
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Variáveis de ambiente
+.env
+.env.local
+
+# Arquivos de IDEs (opcional, mas recomendado)
+.vscode/

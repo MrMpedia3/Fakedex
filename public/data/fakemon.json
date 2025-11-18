@@ -1,0 +1,1638 @@
+[
+  {
+    "id": 1,
+    "name": "Glimmeroot",
+    "number": "001",
+    "types": [
+      "Grass"
+    ],
+    "image": "/images/Glimmeroot.png",
+    "entry": "Sua composição é, em sua maioria, composta por gases e poeira estelar que foi absorvida pelo seu corpo, fazendo-o mais leve que o esperado.",
+    "height_m": 0.5,
+    "weight_kg": 4.5,
+    "description": "O Glimmeroot é um Pokémon de tipo Planta, geralmente encontrado em clareiras, onde há luz solar plena, e em florestas adjacentes a montanhas ou campos. Sua coloração é majoritariamente verde, mas a característica mais notável é a presença de gases e poeiras cósmicas em tons de roxo, azul e ciano que compõem sua crina e a ponta de seu rabo, dando-lhe uma aparência de mini-nebulosa. \n Seus chifres são em formato de folha, com uma rigidez cartilaginosa, e funcionam como pequenos painéis solares biológicos. O Glimmeroot passa a maior parte do dia descansando ao sol, absorvendo passivamente a energia luminosa para crescer. \n O Glimmeroot é conhecido por sua personalidade calma e curiosa, sendo um Pokémon dócil e muito sociável. Diferentemente de suas evoluções, ele ainda não consegue absorver grandes quantidades de energia, o que o mantém em um estado de tranquilidade constante. \n A ligação com o Treinador se fortalece no silêncio; eles apreciam muito a companhia humana, e o simples ato de descansar junto ao Glimmeroot em uma clareira ensolarada é a forma mais eficaz de criar um vínculo profundo e duradouro. A lealdade de um Glimmeroot é considerada uma das mais puras da região.",
+    "abilities": [{ "name": "Foco Solar (Solar Focus)", "desc": "Se o clima for Ensolarado, o Pokémon recupera 1/8 de seu HP máximo a cada turno." }],
+    "hidden_ability": { "name": "Poder de Carga (Power Charge)", "desc": "O Ataque e o Ataque Especial do Pokémon aumentam em 1 estágio quando atingido por um movimento do tipo Elétrico (e o dano é negado, como uma imunidade)." },
+    "evolutions": [
+    {
+      "id": 2,
+      "name": "Cellaraffe",
+      "number": "002",
+      "method": "Evolui no nível 16",
+      "image": "/images/Cellaraffe.png"
+    },
+    {
+      "id": 3,
+      "name": "Girarborarge",
+      "number": "003",
+      "method": "Evolui no nível 36",
+      "image": "/images/pyroak.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 45,
+      "atk": 45,
+      "def": 50,
+      "spa": 65,
+      "spd": 55,
+      "spe": 50
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type": "Normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100
+      },
+      {
+        "level": 1,
+        "name": "Absorb",
+        "type": "Grass",
+        "category": "special",
+        "power": 20,
+        "accuracy": 100,
+        "desc": "O usuário recupera metade dos pontos de vida infligidos ao oponente."
+      },
+      {
+        "level": 3,
+        "name": "Growl",
+        "type":"Normal",
+        "accuracy": 100,
+        "desc": "Reduz o ataque do oponente."
+      },
+      {
+        "level": 6,
+        "name": "Leech Seed",
+        "type": "Grass",
+        "accuracy": 100,
+        "desc": "Drena os PV do oponente a cada turno."
+      },
+      {
+        "level": 10,
+        "name": "Razor Leaf",
+        "type": "Grass",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 95,
+        "desc": "Alta taxa de acerto crítico."
+      },
+      {
+        "level": 15,
+        "name": "Synthesis",
+        "type": "Grass",
+        "desc": "O usuário recupera HP. A quantidade varia de acordo com o clima."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Cellaraffe",
+    "number": "002",
+    "types": [
+      "Grass",
+      "Electric"
+    ],
+    "image": "/images/Cellaraffe.png",
+    "entry": "Conforme cresce, o pescoço de Cellaraffe se endurece, tornando mais difícil dobrá-lo, fazendo tarefas como beber água mais difíceis. Tendo que depender de fontes altas de comida e água ou da chuva.",
+    "height_m": 1.2,
+    "weight_kg": 78,
+    "description": "O Cellaraffe é o estágio intermediário do pokémon, adquirindo a tipagem Elétrica. Seus chifres de painel solar se multiplicam, cobrindo sua cabeça com múltiplas estruturas rígidas, semelhantes a pequenas folhas carregadoras. A nebulosa cósmica em sua crina e cauda se expande e brilha com mais intensidade, variando a cor conforme sua carga interna. \n A energia é armazenada por todo o seu corpo, refletida pelas manchas e linhas que se acendem em seu pescoço, como um indicador de bateria visível. \n O Cellaraffe ainda mantém sua natureza calma de descansar e absorver energia. No entanto, sua principal característica é a dificuldade em controlar a carga absorvida. Quando ele coleta energia demais (especialmente em dias muito ensolarados), a sobrecarga o torna extremamente agitado e brincalhão. \n Na natureza, o Cellaraffe é tipicamente um Pokémon de fuga, preferindo se afastar quando ameaçado. Contudo, nesses estados de hiperatividade, ele pode descarregar a energia de duas formas: através de uma explosão elétrica descontrolada ou por contato físico, o que pode surpreender até mesmo o Treinador ao tentar tocá-lo.",
+    "abilities": [
+    { "name": "Foco Solar (Solar Focus)", "desc": "Se o clima for Ensolarado, o Pokémon recupera 1/8 de seu HP máximo a cada turno." }
+    ],
+    "hidden_ability": { "name": "Poder de Carga (Power Charge)", "desc": "O Ataque e o Ataque Especial do Pokémon aumentam em 1 estágio quando atingido por um movimento do tipo Elétrico (e o dano é negado, como uma imunidade)." },
+    "evolutions": [
+    {
+      "id": 3,
+      "name": "Girarborarge",
+      "number": "003",
+      "method": "Evolui no nível 36",
+      "image": "/images/pyroak.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 60,
+      "atk": 60,
+      "def": 65,
+      "spa": 85,
+      "spd": 75,
+      "spe": 65
+    },
+    "moves": [
+      {
+        "level": 16,
+        "name": "Thunder Shock",
+        "type": "Electric",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "desc": "Pode paralisar o oponente."
+      },
+      {
+        "level": 18,
+        "name": "Stomp",
+        "type":"Normal",
+        "category":"physical",
+        "power":65,
+        "accuracy":100,
+        "desc": "65 de poder. Pode estremecer o oponente."
+      },
+      {
+        "level": 23,
+        "name": "Thunder Wave",
+        "type": "Electric",
+        "accuracy":90,
+        "desc": "Paralisa o oponente."
+      },
+      {
+        "level": 27,
+        "name": "Magical Leaf",
+        "type":"Grass",
+        "category":"special",
+        "power":60,
+        "accuracy": "∞",
+        "desc": "Ignora precisão e evasiva."
+      },
+      {
+        "level": 32,
+        "name": "Spark",
+        "type":"Electric",
+        "category":"physical",
+        "power":65,
+        "accuracy":100,
+        "desc":"Pode paralisar o oponente."
+      },
+      {
+        "level": 35,
+        "name": "Energy Ball",
+        "type":"Grass",
+        "category":"special",
+        "power":90,
+        "accuracy":100,
+        "desc": "Pode diminuir a Defesa Especial do oponente."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Girarborarge",
+    "number": "003",
+    "types": [
+      "Grass",
+      "Electric"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Girarborarge é um pokémon tanto diurno quanto noturno. Alguns indivíduos preferem dormir durante o dia enquanto absorvem luz do sol para se tornarem mais ativos à noite enquanto outros preferem manter-se acordados durante o dia enquanto se carregam de luz solar enquanto deixam a noite para dormir.",
+    "height_m": 2.8,
+    "weight_kg": 260,
+    "description": "O Girarborarge é o ápice da linha, combinando a robustez de um tronco com a anatomia elegante da girafa. Seu pescoço e patas dianteiras se converteram em madeira sólida, formando um tronco imponente. Para trás dos ombros, ele retém sua pelagem verde e o padrão de manchas que agora funcionam como painéis solares orgânicos. Sua crina evoluiu para uma coroa de gases e poeiras estelares densas. \n Agora alto o suficiente para competir com as árvores adultas, o Girarborarge reside em florestas densas, embora não recuse a luz extra das clareiras. Ele domina o controle da energia, canalizando-a para suas manchas de painel e utilizando-a para suas habilidades únicas. \n O Girarborarge adota uma postura calma, majestosa e largamente indiferente ao mundo. Os laços formados em estágios anteriores com seu Treinador permanecem inquebráveis, mas criar novos vínculos se torna um desafio. Sua principal função na natureza é a supervisão e produção de recursos.",
+    "abilities": [{ "name": "Foco Solar (Solar Focus)", "desc": "Se o clima for Ensolarado, o Pokémon recupera 1/8 de seu HP máximo a cada turno." }],
+    "hidden_ability": { "name": "Poder de Carga (Power Charge)", "desc": "O Ataque e o Ataque Especial do Pokémon aumentam em 1 estágio quando atingido por um movimento do tipo Elétrico (e o dano é negado, como uma imunidade)." },
+    "base_stats": {
+      "hp": 80,
+      "atk": 70,
+      "def": 100,
+      "spa": 125,
+      "spd": 95,
+      "spe": 60
+    },
+    "moves": [
+      {
+        "level": 36,
+        "name": "Stellar Nursery",
+        "type": "Grass",
+        "desc": "Causa o clima Ensolarado e, ao mesmo tempo, gera um item consumível Fruta Estelar para o usuário."
+      },
+      {
+        "level": 42,
+        "name": "Discharge",
+        "type":"Electric",
+        "category":"special",
+        "power":80,
+        "accuracy":100,
+        "desc": "Pode paralisar o oponente."
+      },
+      {
+        "level": 46,
+        "name": "Giga Drain",
+        "type":"Grass",
+        "category":"special",
+        "power":75,
+        "accuracy":100,
+        "desc": "O usuário recupera metade dos pontos de vida infligidos ao oponente."
+      },
+      {
+        "level": 55,
+        "name": "Calm Mind",
+        "type": "Psychic",
+        "desc": "Aumenta o Ataque Especial e Defesa Especial do usuário."
+      },
+      {
+        "level": 60,
+        "name": "Thunder Bolt",
+        "type":"Electric",
+        "category":"special",
+        "power":90,
+        "accuracy":100,
+        "desc": "Pode paralisar o oponente."
+      },
+      {
+        "level": 70,
+        "name": "Leaf Storm",
+        "type": "Grass",
+        "category":"special",
+        "power":130,
+        "accuracy":90,
+        "desc": "Reduz drasticamente o Ataque Especial do usuário."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Dynite",
+    "number": "004",
+    "types": [
+      "Fire"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "A maioria dos Dynite segue seu próprio rumo, se afastando dos irmãos e pais pouco tempo depois de nascer. Cerca de alguns meses é o que precisam para começar a explorar as regiões próximas de onde nasceram.",
+    "height_m": 0.6,
+    "weight_kg": 12,
+    "description": "O Dynite é um Pokémon bípede que se assemelha a um Tyrunt, preferindo viver em áreas abertas e quentes, como campos secos, desertos e arredores de vulcões. Sua característica mais notável é sua língua, que funciona como um pavio, e a pequena estrutura semelhante a uma clava na ponta da cauda. Suas escamas são majoritariamente vermelhas e laranjas, mas as pontas das patas, cauda e cabeça já exibem escamas mais escuras, prenunciando a tipagem Pedra de sua evolução. \n O Dynite gera fogo através do atrito: ele bate os dentes para produzir uma faísca que instantaneamente acende sua língua-pavio. \n Conhecido por seu temperamento de 'Pavio Curto', o Dynite se estressa e se irrita com facilidade. Quando o estresse atinge o pico, o movimento de gerar a faísca e acender o pavio se torna automático, resultando em pequenas explosões de raiva. Ele usa o ato de mostrar a língua acesa como um aviso primário antes de explodir. \n Apesar da dificuldade em lidar com sua impulsividade, o Dynite é um Pokémon que desenvolve grande afinidade com seu Treinador. Ele se apega profundamente, mas expressa seu carinho através de travessuras e irritações constantes. O Treinador deve ter paciência para lidar com o filhote explosivo e evitar que ele se machuque durante suas crises.",
+    "abilities": [{ "name": "Cabeça de Pedra (Rock Head)", "desc": "Previne qualquer dano de recuo causado pelos próprios movimentos do Pokémon." }],
+    "hidden_ability": { "name": "Propulsor Cinético (Knetic Thruster)", "desc": "Aumenta a Velocidade do Pokémon em 1 estágio após ele usar um movimento que faz contato físico." },
+    "evolutions": [
+    {
+      "id": 5,
+      "name": "Misseorite",
+      "number": "005",
+      "method": "Evolui no nível 16",
+      "image": "/images/pyroak.svg"
+    },
+    {
+      "id": 6,
+      "name": "Morteorex",
+      "number": "006",
+      "method": "Evolui no nível 36",
+      "image": "/images/pyroak.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 45,
+      "spa": 40,
+      "spd": 45,
+      "spe": 65
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type":"Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level": 1,
+        "name": "Raging Flare",
+        "type":"Fire",
+        "category":"physical",
+        "power":100,
+        "accuracy":100,
+        "desc": "O usuário recebe 1/4 do dano causado de recuo."
+      },
+      {
+        "level": 3,
+        "name": "Howl",
+        "type":"Normal",
+        "desc": "Aumenta o Ataque de aliados."
+      },
+      {
+        "level": 6,
+        "name": "Rage",
+        "type":"Normal",
+        "category":"physical",
+        "power":20,
+        "accuracy":100,
+        "desc": "Aumenta o Ataque do usuário ao acertar."
+      },
+      {
+        "level": 10,
+        "name": "Fire Fang",
+        "type":"Fire",
+        "category":"physical",
+        "power":65,
+        "accuracy":95,
+        "desc": "Pode estremecer e/ou causar queimadura no oponente."
+      },
+      {
+        "level": 15,
+        "name": "Defense Curl",
+        "type":"Normal",
+        "desc": "Aumenta a Defesa do usuário."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Misseorite",
+    "number": "005",
+    "types": [
+      "Fire",
+      "Rock"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Por mais que sejam muito agressivos e um tanto imprevisíveis, os Misseorite quase nunca entram em combate entre si, baseando suas disputas quase que sempre em qual deles causa uma explosão maior.",
+    "height_m": 1.7,
+    "weight_kg": 115,
+    "description": "O Misseorite é o estágio onde a linha adquire a tipagem Pedra. Suas escamas ao redor da cabeça e pescoço crescem e endurecem dramaticamente, transformando-se em uma casca espessa e aerodinâmica de rocha e meteorito. Devido ao peso da blindagem, ele adota uma postura quase quadrupede em campo, embora ainda possa se levantar. Sua cauda se alonga e ganha espinhos rochosos, servindo como contrapeso essencial para manobras de alta velocidade. \n Ele prefere terrenos acidentados como cânions e rochedos, onde pode usar a propulsão. O pavio em sua língua desaparece, e a ignição do fogo torna-se totalmente controlada, canalizada através de seus pés e boca. \n A impulsividade do Dynite se transforma em foco no Misseorite. Ele agora canaliza suas explosões internas para uma propulsão controlada, lançando-se de cabeça contra seus alvos com o revestimento de rocha. \n Na natureza, Misseorite se torna extremamente agressivo e territorial. Esse comportamento se manifesta em uma proteção intensa para com seu Treinador: ele passa a encarar o Treinador como parte de seu território a ser defendido a todo custo. Seu apego evolui para um guardião feroz e super protetor, usando sua nova blindagem para se lançar na linha de frente em qualquer ameaça.",
+    "abilities": [{ "name": "Cabeça de Pedra (Rock Head)", "desc": "Previne qualquer dano de recuo causado pelos próprios movimentos do Pokémon." }],
+    "hidden_ability": { "name": "Propulsor Cinético (Knetic Thruster)", "desc": "Aumenta a Velocidade do Pokémon em 1 estágio após ele usar um movimento que faz contato físico." },
+    "evolutions": [
+    {
+      "id": 6,
+      "name": "Morteorex",
+      "number": "006",
+      "method": "Evolui no nível 36",
+      "image": "/images/pyroak.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 65,
+      "atk": 85,
+      "def": 70,
+      "spa": 55,
+      "spd": 65,
+      "spe": 70
+    },
+    "moves": [
+      {
+        "level": 16,
+        "name": "Head Smash",
+        "type":"Rock",
+        "category":"physical",
+        "power":150,
+        "accuracy":50,
+        "desc": "Usuário recebe dano de recuo."
+      },
+      {
+        "level": 18,
+        "name": "Rollout",
+        "type":"Rock",
+        "category":"physical",
+        "power":30,
+        "accuracy":90,
+        "desc": "Dobra o poder a cada turno por 5 turnos."
+      },
+      {
+        "level": 23,
+        "name": "Flame Charge",
+        "type":"Fire",
+        "category":"physical",
+        "power":50,
+        "accuracy":100,
+        "desc": "Aumenta a Velocidade do Usuário."
+      },
+      {
+        "level": 27,
+        "name": "Smack Down",
+        "type":"Rock",
+        "category":"physical",
+        "power":50,
+        "accuracy":100,
+        "desc": "Torna pokémon do tipo voador vuneráveis a movimentos do tipo Terrestre."
+      },
+      {
+        "level": 32,
+        "name": "Rock Slide",
+        "type":"Rock",
+        "category":"physical",
+        "power":75,
+        "accuracy":90,
+        "desc": "Pode estremecer o oponente."
+      }
+      ,
+      {
+        "level": 35,
+        "name": "Iron Defense",
+        "type":"Steel",
+        "desc": "Aumenta drasticamente a Defesa do Usuário."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Morteorex",
+    "number": "006",
+    "types": [
+      "Fire",
+      "Rock"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "A explosão é algo que os Morteorex aprenderam a controlar com maestria, expressando isso normalmente numa personalidade calma, tranquila e impertubável. O tornando ótima companhia para treinadores e sendo características muito importantes para se lidar com os jovens Dynites e Misseorites.",
+    "height_m": 2.5,
+    "weight_kg": 420,
+    "description": "O Morteorex é o ápice da linha de Fogo/Pedra. Seu corpo inteiro é revestido por placas de escama de rocha ígnea, que parecem se empilhar, com pequenos espaços quase invisíveis entre elas. O Morteorex é bípede e imponente. Nesses espaços, há um brilho constante de fogo interno, indicando que a base de suas escamas está perpetuamente aquecida a uma cor alaranjada, embora a cor externa permaneça escura. \n Ele prefere elevações e picos rochosos para manter vigilância sobre seu vasto território. Sua cauda, agora massiva e coberta por espetos de rocha ígnea, funciona como um tripé de suporte na hora do disparo e como uma clava devastadora em combate corpo a corpo. \n O Morteorex é calmo, estoico e imperturbável, tendo dominado completamente a impulsividade de seus estágios anteriores. Quando dormindo, ele se confunde perfeitamente com uma pilha de rochas, mas acordado, ele se assemelha a um vulcão ambulante. \n Sua habilidade primária é a Artilharia: o Morteorex canaliza sua explosão interna (controlada com maestria) para lançar suas próprias escamas de rocha ígnea — um ato completamente voluntário e indolor. Esse é o poder por trás de seu Movimento Assinatura, Bombardeio Meteórico, um ataque poderoso onde ele lança escamas flamejantes que explodem no impacto, espalhando magma e chamas na zona alvo. \n Apesar de sua baixa mobilidade (sacrificada pela blindagem), ele retém a capacidade de propulsão do Misseorite. Embora raramente use, a ideia de um Morteorex se lançando em alta velocidade contra um alvo é um lembrete do potencial destrutivo que o mundo deveria agradecer por sua natureza mais calma.",
+    "abilities": [{ "name": "Cabeça de Pedra (Rock Head)", "desc": "Previne qualquer dano de recuo causado pelos próprios movimentos do Pokémon." }],
+    "hidden_ability": { "name": "Propulsor Cinético (Knetic Thruster)", "desc": "Aumenta a Velocidade do Pokémon em 1 estágio após ele usar um movimento que faz contato físico." },
+    "base_stats": {
+      "hp": 95,
+      "atk": 135,
+      "def": 110,
+      "spa": 60,
+      "spd": 70,
+      "spe": 60
+    },
+    "moves": [
+      {
+        "level": 36,
+        "name": "Meteor Barrage",
+        "type":"Rock",
+        "category":"physical",
+        "power":120,
+        "accuracy":90,
+        "desc": "O campo do alvo fica coberto por detritos explosivos. O Pokémon que entrar em campo recebe dano e tem 10% de chance de sofrer o status Queimadura (Burn)."
+      },
+      {
+        "level": 42,
+        "name": "Flare Blitz",
+        "type":"Fire",
+        "category":"physical",
+        "power":120,
+        "accuracy":100,
+        "desc": "O Usuário recebe dano de recuo. Pode causar Queimadura."
+      },
+      {
+        "level": 48,
+        "name": "Swords Dance",
+        "type":"Normal",
+        "desc": "Aumenta drasticamente o Ataque do Usuário."
+      },
+      {
+        "level": 55,
+        "name": "Earthquake",
+        "type":"Ground",
+        "category":"physical",
+        "power":100,
+        "accuracy":100,
+        "desc": "O poder é dobrado se o oponente estiver enterrado por causa de Dig."
+      },
+      {
+        "level": 60,
+        "name": "Outrage",
+        "type":"Dragon",
+        "category":"physical",
+        "power":120,
+        "accuracy":100,
+        "desc": "Usuário ataca 2-3 turnos mas então fica confuso."
+      },
+      {
+        "level": 70,
+        "name": "Double-Edge",
+        "type":"Normal",
+        "category":"physical",
+        "power":120,
+        "accuracy":100,
+        "desc": "Usuário recebe dano de recuo."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Shynarine",
+    "number": "007",
+    "types": [
+      "Water"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "A cauda de um Shynarine é muito forte para seu tamanho, servindo de meio de locomoção dentro e fora d'água ao girar como uma hélice em alta velocidade.",
+    "height_m": 0.4,
+    "weight_kg": 4,
+    "description": "O Shynarine é um Pokémon de tipo Água, assemelhando-se a um cavalo-marinho compacto. Sua pele é completamente lisa e branca, e suas escamas refletem a luz com tanta facilidade que ele parece brilhar intensamente, mesmo sob iluminação fraca. A cauda, em vez de se curvar, é rígida e gira como uma hélice de alta propulsão, permitindo-lhe alcançar velocidades surpreendentes em águas rasas. \n Ele vive em águas costeiras rasas, preferindo áreas com muitos corais e areia clara, onde sua coloração o ajuda a se camuflar por contraste. Por ser um Pokémon fóbico, ele evita as profundezas onde a luz não alcança, temendo a escuridão. \n A personalidade do Shynarine é marcada por uma timidez e ansiedade intensas. Na natureza, essa fobia o mantém em um estado constante de nervosismo, e ele usa sua cauda-hélice para fugir rapidamente de qualquer estímulo desconhecido. \n Para um Treinador, o Shynarine é um Pokémon extremamente apegado, mas difícil de treinar devido ao seu temperamento medroso. Ele exige reafirmação e conforto constantes, buscando frequentemente se esconder nas pernas ou na mochila do Treinador. O vínculo de confiança se constrói através da paciência, garantindo a ele que o Treinador é um porto seguro contra tudo que ele teme.",
+    "abilities": [{ "name": "Propulsão Acelerada (Accelerated Thrust)", "desc": "Aumenta a Evasão do Pokémon em 1 estágio após ele usar um movimento de Cura ou Status." }],
+    "hidden_ability": { "name": "Penumbra (Umbral Veil)", "desc": "O Pokémon é imune a movimentos do tipo Não-Contato quando o clima está definido como Noite/Sombrio." },
+    "evolutions": [
+    {
+      "id": 8,
+      "name": "Penumbrike",
+      "number": "008",
+      "method": "Evolui no nível 16",
+      "image": "/images/pyroak.svg"
+    },
+    {
+      "id": 9,
+      "name": "Sklypsea",
+      "number": "009",
+      "method": "Evolui no nível 40",
+      "image": "/images/pyroak.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 45,
+      "atk": 45,
+      "def": 50,
+      "spa": 60,
+      "spd": 50,
+      "spe": 60
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type":"Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level": 1,
+        "name": "Water Gun",
+        "type":"Water",
+        "category":"special",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level": 3,
+        "name": "Tail Whip",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui a defesa do oponente."
+      },
+      {
+        "level": 6,
+        "name": "Smokescreen",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui a Precisão do oponente."
+      },
+      {
+        "level": 10,
+        "name": "Quick Attack",
+        "type": "Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100,
+        "desc": "Usuário ataca primeiro."
+      },
+      {
+        "level": 15,
+        "name": "Baton Pass",
+        "type":"Normal",
+        "desc":"O usuário troca de Pokémon e transfere as alterações de atributos para o Pokémon que entra."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Penumbrike",
+    "number": "008",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Acredita-se que seu grande visor escuro seja do mesmo material que suas escamas pretas que compõem a parte frontal do seu corpo. O que se faz questionar se o brilho de seu corpo é por alguma característica translúcida da composição dessas escamas.",
+    "height_m": 1,
+    "weight_kg": 55,
+    "description": "O Penumbrike é o estágio onde a linha adquire a tipagem Sombrio. Seu corpo se alonga e assume uma postura horizontal e rígida, que o faz parecer uma moto anfíbia que pode ser montada. \n Sua blindagem de escamas passa por uma mudança de cor dramática que reflete seu novo tipo: a cabeça e a metade frontal do corpo tornam-se completamente escuras, enquanto a metade traseira permanece clara, com uma linha turva de transição. Sua cabeça é adornada com pequenas pontas que formam uma coroa e um visor/óculos escuros que encobre seus olhos, simbolizando que ele agora abraça a escuridão que antes temia. \n A cauda-hélice é agora mais longa e forte, funcionando como um propulsor extremamente versátil e poderoso. Quando parado, ela se enrola sob o corpo, agindo como uma 'roda traseira' articulada. Seu peito, coberto por escamas especiais, é a única parte que toca o chão, permitindo-lhe deslizar e ser propulsionado em terra úmida ou pisos lisos. \n A ansiedade do Shynarine não desaparece, mas se transforma em extrema cautela e insegurança mascarada. O Penumbrike torna-se reservado, cauteloso e até um pouco orgulhoso, tratando outros Pokémon e Treinadores com certo desdém. Essa atitude rude é um mecanismo de defesa, um reflexo do seu medo anterior que agora se manifesta como arrogância e superioridade. \n Em batalha, sua cautela se traduz em táticas de evasão e desorientação. Ele utiliza seu repertório de movimentos para se tornar difícil de acertar e para causar efeitos debilitantes, atacando de forma furtiva e com precisão cirúrgica.",
+    "abilities": [{ "name": "Propulsão Acelerada (Accelerated Thrust)", "desc": "Aumenta a Evasão do Pokémon em 1 estágio após ele usar um movimento de Cura ou Status." }],
+    "hidden_ability": { "name": "Penumbra (Umbral Veil)", "desc": "O Pokémon é imune a movimentos do tipo Não-Contato quando o clima está definido como Noite/Sombrio." },
+    "evolutions": [
+    {
+      "id": 9,
+      "name": "Sklypsea",
+      "number": "009",
+      "method": "Evolui no nível 40",
+      "image": "/images/pyroak.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 60,
+      "atk": 60,
+      "def": 70,
+      "spa": 90,
+      "spd": 60,
+      "spe": 70
+    },
+    "moves": [
+      {
+        "level": 16,
+        "name": "Thief",
+        "type":"Dark",
+        "category":"physical",
+        "power":60,
+        "accuracy":100,
+        "desc": "Rouba o item que o oponente estiver segurando."
+      },
+      {
+        "level": 18,
+        "name": "Aqua Jet",
+        "type":"Water",
+        "category":"physical",
+        "power":40,
+        "accuracy":100,
+        "desc": "Usuário ataca primeiro."
+      },
+      {
+        "level": 23,
+        "name": "Nasty Plot",
+        "type":"Dark",
+        "desc": "Aumenta drasticamente o Ataque Especial do Usuário."
+      },
+      {
+        "level": 27,
+        "name": "Icy Wind",
+        "type":"Ice",
+        "category":"special",
+        "power":55,
+        "accuracy":95,
+        "desc": "Diminui a Velocidade do oponente."
+      },
+      {
+        "level": 33,
+        "name": "Hydro Pump",
+        "type":"Water",
+        "category":"special",
+        "power":120,
+        "accuracy":80
+      },
+      {
+        "level": 38,
+        "name": "Dark Pulse",
+        "type":"Dark",
+        "category":"special",
+        "power":80,
+        "accuracy":100,
+        "desc": "Pode estremecer o oponente."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Sklypsea",
+    "number": "009",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "O Sklypsea é um dos pokémon mais raros de se encontrar visto seu comportamento isolacionista e capacidades de locomoção sem iguais.",
+    "height_m": 1.8,
+    "weight_kg": 135,
+    "description": "O Sklypsea é o estágio final da linha, uma máquina de alta velocidade que representa o domínio do Eclipse Total e da furtividade. Seu corpo é longo, hidrodinâmico e aerodinâmico, fluindo suavemente de um peitoral robusto para uma cauda longa e fina, que ainda funciona como uma hélice de propulsão extremamente poderosa e eficiente. Suas nadadeiras evoluíram para asas longas e rígidas, permitindo-lhe voar com graça e silêncio. \n Sua blindagem de escamas é completamente preta na base, mas translúcida no topo. Quando contra a luz, as escamas geram um contorno brilhante ao redor do corpo, simulando a Aura Corona visível durante um eclipse. Sua coroa mantém as pontas brancas e luminosas do Shynarine. Ele é um mestre da locomoção em todos os ambientes, sendo encontrado nos pontos mais fundos do oceano e acima das nuvens. \n O Slypsea é um Pokémon solitário, silencioso e ágil. A insegurança de seus estágios anteriores se transformou em uma preferência por isolamento. Embora não seja rude, ele é reservado e exige que seu espaço seja respeitado. É extremamente difícil de ser avistado devido à sua natureza reclusa e sua impressionante capacidade de se mover sem som. \n Seu Movimento Assinatura, Manobra Sombria, é uma tática que explora seu design e tipagem: o Sklypsea voa em direção a uma fonte de luz, usando seu corpo para formar uma sombra instantânea e, quando a luz retorna, ele desapareceu, pegando o oponente de surpresa. Graças à sua coloração e furtividade, essa manobra funciona mesmo na ausência de fontes de luz fortes.",
+    "abilities": [{ "name": "Propulsão Acelerada (Accelerated Thrust)", "desc": "Aumenta a Evasão do Pokémon em 1 estágio após ele usar um movimento de Cura ou Status." }],
+    "hidden_ability": { "name": "Penumbra (Umbral Veil)", "desc": "O Pokémon é imune a movimentos do tipo Não-Contato quando o clima está definido como Noite/Sombrio." },
+    "base_stats": {
+      "hp": 85,
+      "atk": 90,
+      "def": 90,
+      "spa": 105,
+      "spd": 80,
+      "spe": 100
+    },
+    "moves": [
+      {
+        "level": 40,
+        "name": "Shadow Maneuver",
+        "type":"Dark",
+        "desc": "Aumenta drasticamente a Evasão. Diminui drasticamente o Ataque e Ataque especial do oponente que errar um ataque."
+      },
+      {
+        "level": 44,
+        "name": "Ice Beam",
+        "type":"Ice",
+        "category":"special",
+        "power":90,
+        "accuracy":100,
+        "desc": "Pode congelar o oponente."
+      },
+      {
+        "level": 50,
+        "name": "Scald",
+        "type":"Water",
+        "category":"special",
+        "power":80,
+        "accuracy":100,
+        "desc": "Pode causar queimadura no oponente."
+      },
+      {
+        "level": 56,
+        "name": "Air Slash",
+        "type":"Flying",
+        "category":"special",
+        "power":75,
+        "accuracy":95,
+        "desc": "Pode estremecer o oponente."
+      },
+      {
+        "level": 63,
+        "name": "U-Turn",
+        "type":"Bug",
+        "category":"physical",
+        "power":70,
+        "accuracy":100,
+        "desc": "O usuário troca de lugar imediatamente após atacar."
+      },
+      {
+        "level": 70,
+        "name": "Focus Blast",
+        "type":"Fighting",
+        "category":"special",
+        "power":120,
+        "accuracy":70,
+        "desc": "Pode diminuir a Defesa Especial do oponente."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Serpina",
+    "number": "010",
+    "types": [
+      "Normal"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Por mais que seja difícil de se encontrar e ganhar sua confiança, esse pokémon é um ótimo companheiro e pode ser levado para basicamente para qualquer lugar sem problemas.",
+    "height_m": 0.4,
+    "weight_kg": 4,
+    "description": "O Serpina é um Pokémon serpente pequeno e muito comum. Sua coloração é uma mistura de marrom, laranja e tons amarelados, imitando perfeitamente a folhagem seca, galhos e cascalho de campos e florestas da Rota 1. \n Na ponta de sua cauda, o Serpina desenvolveu uma estrutura que se assemelha a uma pinha ou bolota. Ele a usa principalmente para comunicação sutil com outros de sua espécie e, em raras ocasiões de extrema ameaça, como uma clava fraca para desferir um golpe de curta distância. \n O Serpina tem uma natureza arisca típica de Pokémon-presa. Seu primeiro instinto é fugir e se esconder, dependendo de sua camuflagem para evitar predadores. \n Entretanto, se for encurralado e sentir que não há rota de fuga, ele não hesita em atacar para se defender. Seus ataques são simples e diretos, geralmente visando confundir o oponente momentaneamente para ganhar tempo. Sua tipagem puramente Normal reflete seu papel como uma criatura básica de Rota 1, com o potencial da tipagem Solo latente em sua conexão com o ambiente.",
+    "abilities": [{ "name": "Fuga (Run Away)", "desc": "Permite uma fuga garantida de Pokémon selvagens." },{"name":"Intimidar (Intimidate)", "desc":"Reduz o atributo de Ataque do inimigo."}],
+    "hidden_ability": { "name": "Pele Descamada", "desc": "O Pokémon pode curar seus próprios problemas de status." },
+    "evolutions": [
+    {
+      "id": 11,
+      "name": "Viborosk",
+      "number": "011",
+      "method": "Evolui no nível 20",
+      "image": "/images/pyroak.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 35,
+      "atk": 40,
+      "def": 45,
+      "spa": 35,
+      "spd": 40,
+      "spe": 55
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Wrap",
+        "type":"Normal",
+        "category":"physical",
+        "power":15,
+        "accuracy":90,
+        "desc": "Prende o oponente, causando-o dano por 4-5 turnos."
+      },
+      {
+        "level": 1,
+        "name": "Leer",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui a Defesa do oponente."
+      },
+      {
+        "level": 4,
+        "name": "Sand Attack",
+        "type":"Ground",
+        "accuracy":100,
+        "desc": "Diminuia a Precisão do oponente."
+      },
+      {
+        "level": 7,
+        "name": "Slam",
+        "type":"Normal",
+        "category":"physical",
+        "power":80,
+        "accuracy":75
+      },
+      {
+        "level": 10,
+        "name": "Glare",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Paralisa o oponente."
+      },
+      {
+        "level": 13,
+        "name": "Coil",
+        "type":"Poison",
+        "desc": "Aumenta o Ataque, Defesa e Precisão do usuário."
+      },
+      {
+        "level": 19,
+        "name": "Rock Tomb",
+        "type":"Rock",
+        "category":"physical",
+        "power": 60,
+        "accuracy": 95,
+        "desc": "Diminui a Velocidade do oponente."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Viborosk",
+    "number": "011",
+    "types": [
+      "Normal",
+      "Ground"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Viborosk é um pokémon que cresce muito, podendo sair de 2 metros de comprimeto até mais de 7 metros. Ainda assim, geralmente não é agressivo de nenhuma forma.",
+    "height_m": 5.5,
+    "weight_kg": 160,
+    "description": "O Viborosk é a forma evoluída do Serpina, crescendo para um tamanho colossal. Sua aparência e textura de escamas se transformam drasticamente: seu corpo é agora uma massa longa e robusta que se assemelha a uma raiz retorcida ou um tronco de árvore caído (especialmente quando prestes a trocar de pele). \n O pequeno ornamento de pinha do Serpina evolui para uma estrutura ramificada e complexa, adornada com múltiplas pinhas menores. O Viborosk tipicamente mantém essa estrutura enterrada, retirando-a apenas para fins de socialização com outros de sua espécie ou para confundir oponentes. Ele vive em campos abertos e florestas, onde seu tamanho e camuflagem o tornam indistinguível do terreno. \n O Viborosk possui uma confiança absoluta em sua camuflagem. Ele evoluiu a partir da natureza arisca do Serpina para uma postura de defesa imóvel. Seu princípio é simples: se ele não se mover, ele não existe. É extremamente raro que um Viborosk reaja mesmo quando pisado ou usado como assento. Ele só se revela quando o disfarce é completamente desmascarado. \n Quando confrontado por predadores como o Washimpeckt, o Viborosk usa seu tamanho gigante não para atacar, mas para defender e intimidar, ganhando tempo para fugir ou se enterrar. A cauda ramificada é frequentemente usada para distrair o predador durante o processo de fuga.",
+    "abilities": [{ "name": "Fuga (Run Away)", "desc": "Permite uma fuga garantida de Pokémon selvagens." },{"name":"Intimidar (Intimidate)", "desc":"Reduz o atributo de Ataque do inimigo."}],
+    "hidden_ability": { "name": "Pele Descamada", "desc": "O Pokémon pode curar seus próprios problemas de status." },
+    "base_stats": {
+      "hp": 110,
+      "atk": 95,
+      "def": 105,
+      "spa": 40,
+      "spd": 70,
+      "spe": 40
+    },
+    "moves": [
+      {
+        "level": 20,
+        "name": "Magnitude",
+        "type":"Ground",
+        "category":"physical",
+        "accuracy":100,
+        "desc": "Acerta com um poder aleatório."
+      },
+      {
+        "level": 23,
+        "name": "Body Slam",
+        "type":"Normal",
+        "category":"physical",
+        "power":85,
+        "accuracy":100,
+        "desc": "Pode paralisar o oponente."
+      },
+      {
+        "level": 28,
+        "name": "Stockpile",
+        "type":"Normal",
+        "desc": "Armazena ernegia para usar com Split Up e Swallow."
+      },
+      {
+        "level": 33,
+        "name": "Earthquake",
+        "type":"Ground",
+        "category":"physical",
+        "power":100,
+        "accuracy":100,
+        "desc": "O poder é dobrado se o oponente estiver enterrado por causa de Dig."
+      },
+      {
+        "level": 38,
+        "name": "Ingrain",
+        "type":"Grass",
+        "desc": "Usuário recupera HP a cada turno. Não pode fugir ou trocar."
+      },
+      {
+        "level": 45,
+        "name": "Last Resort",
+        "type":"Normal",
+        "category":"physical",
+        "power":140,
+        "accuracy":100,
+        "desc": "Pode apenas ser usado depois que todos os outros movimentos tenham sido usados."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Passimpata",
+    "number": "012",
+    "types": [
+      "Flying"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Pyroak nasce em rochas vulcânicas e resfria o magma com seu casco.",
+    "height_m": 0.3,
+    "weight_kg": 2,
+    "description": "O Passimpata é uma ave comum de Rota 1. Seu corpo é coberto por penas marrom e cinza de camuflagem. No entanto, ele possui um bico notavelmente pontudo e resistente, e suas patas são robustas, permitindo-lhe agarrar e escalar com eficiência. Um toque de penas vermelhas na cabeça ou no peito prenuncia a ferocidade de sua evolução. \n Ele vive em campos abertos e florestas com árvores, onde usa o bico forte para bicar madeira e cascas em busca de insetos e larvas. \n O Passimpata não é agressivo por natureza contra outras espécies; ele demonstra sua ferocidade principalmente em disputas internas por território e comida com outros Passimpatas. \n O conflito principal com a linha Serpina é puramente acidental: o Passimpata, em sua busca por alimento, bica repetidamente galhos e pinhas que se parecem com o Serpina. Essa bicada constante força o Serpina a evoluir defensivamente. A reação violenta do Serpina após ser bicado é o que ensina ao Passimpata a usar seu bico e patas de forma ofensiva, preparando-o para o tipo Lutador em sua evolução.",
+    "abilities": [{ "name": "Olhar Atento (Keen Eye)", "desc": "Impede que outros Pokémon diminuam a precisão." }],
+    "hidden_ability": { "name": "Estômago (Guts)", "desc": "Aumenta o Ataque se houver algum problema de status." },
+    "evolutions": [
+    {
+      "id": 13,
+      "name": "Wahimpeckt",
+      "number": "013",
+      "method": "Evolui no nível 18",
+      "image": "/images/pyroak.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 40,
+      "atk": 60,
+      "def": 35,
+      "spa": 30,
+      "spd": 30,
+      "spe": 65
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Peck",
+        "type":"Flying",
+        "category":"physical",
+        "power":35,
+        "accuracy":100
+      },
+      {
+        "level": 1,
+        "name": "Growl",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui o Ataque do oponente."
+      },
+      {
+        "level": 4,
+        "name": "Quick Attack",
+        "type":"Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100,
+        "desc": "O usuário ataca primeiro."
+      },
+      {
+        "level": 7,
+        "name": "Fury Attack",
+        "type":"Normal",
+        "category":"physical",
+        "power":15,
+        "accuracy":85,
+        "desc": "Acerta 2-5 vezes em um turno."
+      },
+      {
+        "level": 11,
+        "name": "Wing Attack",
+        "type":"Flying",
+        "category":"physical",
+        "power":60,
+        "accuracy":100
+      },
+      {
+        "level": 15,
+        "name": "Agility",
+        "type":"Psychic",
+        "desc":"Aumenta drasticamente a Velocidade do usuário."
+      },
+      {
+        "level": 17,
+        "name": "Brave Bird",
+        "type":"Flying",
+        "category":"physical",
+        "power":120,
+        "accuracy":100,
+        "desc": "Usuário recebe dano de recuo."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Washimpeckt",
+    "number": "013",
+    "types": [
+      "Flying",
+      "Fighting"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Pyroak nasce em rochas vulcânicas e resfria o magma com seu casco.",
+    "height_m": 1.8,
+    "weight_kg": 35,
+    "description": "O Washimpeckt é a forma final da linha de pássaros da Rota 1, evoluindo de um pequeno Passimpata para uma ave de rapina terrestre e aérea. Sua tipagem Lutador manifesta-se em suas pernas longas e incrivelmente potentes, que são sua principal arma. \n Sua plumagem é uma mistura de branco e cinza, com detalhes vermelhos vivos que adornam suas penas, intensificando a ferocidade de sua evolução. Sua cabeça mantém um bico forte, mas é a força concentrada em suas pernas que o torna um predador de sucesso. Ele é um caçador de campo aberto, onde pode usar sua velocidade de corrida e suas patadas fulminantes. \n O Wahimpeckt é um caçador eficiente e metódico que possui uma taxa de sucesso muito alta. Seu modo de caça é de espera e disparo: ele vaga pela área até que algo — um movimento, um som ou uma vibração incomum — chame sua atenção. Ele então congela (postura de caça), avalia a situação e, se confirmar que é uma presa, dispara em alta velocidade com suas pernas longas, finalizando o alvo com uma série de chutes rápidos. \n Ele não possui habilidades de detecção especializadas que superem a camuflagem perfeita do Viborosk, mas a sua estratégia de chutes repetitivos e de alto impacto permite que ele derrote presas que usam camuflagem ou defesa pesada (como o Viborosk, ao bicá-lo até ele se mexer). Sua ferocidade juvenil se transforma em disciplina e foco predatório.",
+    "abilities": [{ "name": "Olhar Atento (Keen Eye)", "desc": "Impede que outros Pokémon diminuam a precisão." }],
+    "hidden_ability": { "name": "Estômago (Guts)", "desc": "Aumenta o Ataque se houver algum problema de status." },
+    "base_stats": {
+      "hp": 65,
+      "atk": 110,
+      "def": 65,
+      "spa": 60,
+      "spd": 65,
+      "spe": 85
+    },
+    "moves": [
+      {
+        "level": 18,
+        "name": "Slam Kick",
+        "type":"Fighting",
+        "category":"physical",
+        "power":100,
+        "accuracy":100,
+        "desc": "Causa dano extra em alvos menores e/ou mais pesados."
+      },
+      {
+        "level": 20,
+        "name": "Double Kick",
+        "type":"Fighting",
+        "category":"physical",
+        "power":30,
+        "accuracy":100,
+        "desc": "Acerta duas vezes em um turno."
+      },
+      {
+        "level": 23,
+        "name": "Acrobatics",
+        "type":"Flying",
+        "category":"physical",
+        "power":55,
+        "accuracy":100,
+        "desc": "Mais forte quando o usuário não está segurando um item."
+      },
+      {
+        "level": 28,
+        "name": "Bulk Up",
+        "type":"Fighting",
+        "desc": "Aumenta O Ataque e Defesa do usuário."
+      },
+      {
+        "level": 33,
+        "name": "Close Combat",
+        "type": "Fighting",
+        "category":"physical",
+        "power":120,
+        "accuracy":100,
+        "desc": "Diminui a Defesa e Defesa Especial do usuário."
+      },
+      {
+        "level": 38,
+        "name": "Drill Peck",
+        "type":"Flying",
+        "category":"physical",
+        "power":80,
+        "accuracy":100
+      },
+      {
+        "level": 45,
+        "name": "Swords Dance",
+        "type":"Normal",
+        "desc":"Aumenta drasticamente o Ataque do Usuário."
+      },
+      {
+        "level": 52,
+        "name": "High Jump Kick",
+        "type":"Fighting",
+        "category":"physical",
+        "power":130,
+        "accuracy":90,
+        "desc":"Se errar, o usuário perde metade do HP."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Ratusk",
+    "number": "014",
+    "types": [
+      "Normal"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Outros pokémon da Rota 1 temem se encontrar com este pequeno roedor. Mesmo que muitos possam ganhar em uma batalha, ainda assim, sua perseverança é de se assustar.",
+    "height_m": 0.3,
+    "weight_kg": 3.5,
+    "description": "O Ratusk é um pequeno Pokémon roedor, nativo de áreas secas e campestres. Seu corpo é coberto por uma pelagem marrom-bege discreta. A única característica notável em sua anatomia são seus dentes incisivos: são notavelmente brilhantes, polidos e duros, antecipando a tipagem Aço de sua evolução. Ao roer materiais duros ou se preparar para um ataque, ele range os dentes, emitindo um som agudo e metálico. \n O Ratusk é um caçador implacável e perseverante. Sua personalidade é marcada por uma agressividade destemida, especialmente contra presas perigosas. Ele ignora o perigo de veneno graças à sua alta resistência inata, o que o torna um predador que ataca sem hesitar. \n Seu método de caça é direto, mas ele é facilmente enganado pela camuflagem.",
+    "abilities": [{ "name": "Correria (Hustle)", "desc": "Aumenta o Ataque, mas diminui a Precisão" }],
+    "hidden_ability": { "name": "Garra Forte (Tough Claws)", "desc": "Aumenta o poder de movimentos físicos." },
+    "evolutions": [
+    {
+      "id": 15,
+      "name": "Saberatus",
+      "number": "015",
+      "method": "Evolui no nível 20",
+      "image": "/images/pyroak.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 40,
+      "atk": 65,
+      "def": 40,
+      "spa": 30,
+      "spd": 40,
+      "spe": 55
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Scratch",
+        "type":"Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level": 1,
+        "name": "Leer",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui a Defesa do oponente."
+      },
+      {
+        "level": 4,
+        "name": "Sand Attack",
+        "type":"Ground",
+        "accuracy":100,
+        "desc": "Diminui a Precisão do oponente."
+      },
+      {
+        "level": 7,
+        "name": "Bite",
+        "type":"Dark",
+        "category":"physical",
+        "power":60,
+        "accuracy":100,
+        "desc": "Pode estremecer o oponente."
+      },
+      {
+        "level": 10,
+        "name": "Quick Attack",
+        "type": "Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100,
+        "desc": "Usuário ataca primeiro."
+      },
+      {
+        "level": 13,
+        "name": "Headbutt",
+        "type":"Normal",
+        "category":"physical",
+        "power":70,
+        "accuracy":100,
+        "desc":"Pode estremecer o oponente."
+      },
+      {
+        "level": 16,
+        "name": "Crunch",
+        "type":"Dark",
+        "category":"physical",
+        "power":80,
+        "accuracy":100,
+        "desc":"Pode diminuir a Defesa do oponente."
+      },
+      {
+        "level": 19,
+        "name": "Iron Head",
+        "type":"Steel",
+        "category":"physical",
+        "power":80,
+        "accuracy":100,
+        "desc":"Pode estremecer o oponente."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Saberatus",
+    "number": "015",
+    "types": [
+      "Normal",
+      "Steel"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Este pokémon é dificil de se encontrar na natureza, o que é um alívio para pessoas e outros pokémon.",
+    "height_m": 0.8,
+    "weight_kg": 25,
+    "description": "O Saberatus é a evolução feroz do Ratusk e manifesta o poder destemido que sempre possuiu. Uma máscara/capacete de metal cobre parte de sua face. Desta blindagem emergem duas presas caninas gigantes de aço que funcionam como verdadeiros dentes de sabre, adicionando uma silhueta de predador temível. Os dentes incisivos originais do Ratusk também se tornam totalmente metálicos e incrivelmente duros, crescendo constantemente e garantindo uma mordida poderosa. \n O resto do seu corpo, embora mantendo a pelagem marrom-bege, é marcado por cicatrizes e marcas de batalha, dando-lhe a aparência de um sobrevivente implacável. Os espaços para os olhos no capacete ficam completamente escuros, exceto pelo brilho assustador de seus olhos internos, aumentando o terror. \n O Saberatus é um atacante frenético. Ele abandona qualquer cautela e ataca indiscriminadamente tudo o que vê, motivado por uma agressividade extrema. Sua evolução para o tipo Aço confere-lhe imunidade total a venenos, permitindo-lhe ignorar completamente qualquer tática venenosa de seus oponentes e atacar predadores perigosos com uma coragem imprudente que só o tipo Aço permite.",
+    "abilities": [{ "name": "Correria (Hustle)", "desc": "Aumenta o Ataque, mas diminui a Precisão" }],
+    "hidden_ability": { "name": "Garra Forte (Tough Claws)", "desc": "Aumenta o poder de movimentos físicos." },
+    "base_stats": {
+      "hp": 65,
+      "atk": 125,
+      "def": 60,
+      "spa": 40,
+      "spd": 50,
+      "spe": 110
+    },
+    "moves": [
+      {
+        "level": 20,
+        "name": "Shredding Bite",
+        "type":"Normal",
+        "category":"physical",
+        "power":110,
+        "accuracy":100,
+        "desc":"Diminui a Defesa do oponente e do usuário."
+      },
+      {
+        "level": 23,
+        "name": "Swords Dance",
+        "type":"Normal",
+        "desc": "Aumenta drasticamente o Ataque do Usuário."
+      },
+      {
+        "level": 28,
+        "name": "Assurance",
+        "type":"Dark",
+        "category":"physical",
+        "power":60,
+        "accuracy":100,
+        "desc": "O poder dobra se o oponente já recebeu dano no mesmo turno."
+      },
+      {
+        "level": 33,
+        "name": "Smart Strike",
+        "type":"Steel",
+        "category":"physical",
+        "power":70,
+        "desc": "O usuário perfura o oponente. Esse ataque nunca erra."
+      },
+      {
+        "level": 38,
+        "name": "Sucker Punch",
+        "type": "Dark",
+        "category":"physical",
+        "power":70,
+        "accuracy":100,
+        "desc": "Usuário ataca primeiro, mas só funciona se o oponente estiver preparando um ataque."
+      },
+      {
+        "level": 45,
+        "name": "High Horsepower",
+        "type":"Ground",
+        "category":"physical",
+        "power":95,
+        "accuracy":95,
+        "desc":"O usuário ataca o alvo ferozmente usando todo o seu corpo."
+      },
+      {
+        "level": 52,
+        "name": "Iron Tail",
+        "type":"Steel",
+        "category":"physical",
+        "power":100,
+        "accuracy":75,
+        "desc":"Pode diminuir a Defesa do oponente."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Tatutox",
+    "number": "016",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Por mais que tenha um pelo macio e sedoso, recomenda-se não tocar, visto que esconde entre os fios, serdas venenosas.",
+    "height_m": 0.3,
+    "weight_kg": 2.5,
+    "description": "Seu corpo é o de uma larva/lagarta, coberto por pelos densos e sedosos que escondem seus espinhos venenosos. Essa pelagem é marcada por cores de aviso vibrantes (como roxo-escuro e verde-ácido). \n O Tatutox é passivo e sua defesa é a retaliação por contato. Quando ameaçado, ele se enrola firmemente em uma bola, eriçando todos os seus pelos e espinhos venenosos para fora. Qualquer predador que o bique, toque, ou chute terá uma grande chance de ser envenenado. Sua sobrevivência depende da hesitação dos predadores.",
+    "abilities": [{ "name": "Proteção contra poeira (Shield Dust)", "desc": "Bloqueia os efeitos adicionais dos ataques recebidos." },{"name":"Ponto de Veneno (Poison Point)", "desc":"O contato com o Pokémon pode envenenar o atacante."}],
+    "hidden_ability": { "name": "Esporo de Efeito (Effect Sopore)", "desc": "O contato pode causar intoxicação, paralisia ou sonolência." },
+    "evolutions": [
+    {
+      "id": 17,
+      "name": "Caratox",
+      "number": "017",
+      "method": "Evolui no nível 10",
+      "image": "/images/pyroak.svg"
+    },
+    {
+      "id": 18,
+      "name": "Slacratox",
+      "number": "018",
+      "method": "Evolui no nível 17",
+      "image": "/images/pyroak.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 45,
+      "atk": 30,
+      "def": 40,
+      "spa": 35,
+      "spd": 35,
+      "spe": 35
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Poison Sting",
+        "type":"Poison",
+        "category":"physical",
+        "power":15,
+        "accuracy":100,
+        "desc":"Pode envenenar o oponente."
+      },
+      {
+        "level": 1,
+        "name": "Deffense Curl",
+        "type":"Normal",
+        "desc": "Aumenta a Defesa do usuário."
+      },
+      {
+        "level": 4,
+        "name": "String Shot",
+        "type":"Bug",
+        "accuracy":95,
+        "desc": "Diminui a Velocidade do oponente."
+      },
+      {
+        "level": 7,
+        "name": "Acid Spay",
+        "type":"Poison",
+        "category":"special",
+        "power":40,
+        "accuracy":100,
+        "desc": "Diminui drasticamente a Defesa Especial do oponente."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Caratox",
+    "number": "017",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Por mais que tenha um pelo macio e sedoso, recomenda-se não tocar, visto que esconde entre os fios, serdas venenosas.",
+    "height_m": 0.7,
+    "weight_kg": 15,
+    "description": "O Caratox é o estágio de pupa. Ele se enrola em uma esfera maciça. Sua carapaça não é lisa, mas rugosa e incoerente, formada pelos pelos do Tatutox que se fundiram com secreções tóxicas e seu exoesqueleto, resultando em uma armadura extremamente densa. \n O Caratox é lento e se move voluntariamente dando pequenos impulsos para rolar e se reposicionar. Sua defesa, no entanto, é baseada em gases tóxicos direcionados. Quando mordido, ele libera um Gás Indutor de Sono e ele pode expelir uma Nuvem de Fumaça Espessa que serve como cortina de fumaça, diminuindo drasticamente a Precisão do oponente e obscurecendo sua visão no ar, permitindo que o Caratox role para longe.",
+    "abilities": [{ "name": "Pele Descamada (Shed Skin)", "desc": "O Pokémon pode curar seus próprios problemas de status." },{"name":"Ponto de Veneno (Poison Point)", "desc":"O contato com o Pokémon pode envenenar o atacante."}],
+    "hidden_ability": { "name": "Esporo de Efeito (Effect Sopore)", "desc": "O contato pode causar intoxicação, paralisia ou sonolência." },
+    "evolutions": [
+    {
+      "id": 18,
+      "name": "Slacratox",
+      "number": "018",
+      "method": "Evolui no nível 17",
+      "image": "/images/pyroak.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 60,
+      "atk": 25,
+      "def": 85,
+      "spa": 40,
+      "spd": 75,
+      "spe": 10
+    },
+    "moves": [
+      {
+        "level": 10,
+        "name": "Iron Defense",
+        "type":"Steel",
+        "desc":"Aumenta drasticamente a Defesa do Usuário."
+      },
+      {
+        "level": 12,
+        "name": "Poison Gas",
+        "type":"Poison",
+        "accuracy":90,
+        "desc": "Envenena o oponente."
+      },
+      {
+        "level": 13,
+        "name": "Sleep Powder",
+        "type":"Grass",
+        "accuracy":75,
+        "desc": "Faz o oponente dormir."
+      },
+      {
+        "level": 15,
+        "name": "Smokescreen",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui a Precisão do oponente."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Slacratox",
+    "number": "018",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Por mais que tenha um pelo macio e sedoso, recomenda-se não tocar, visto que esconde entre os fios, serdas venenosas.",
+    "height_m": 1.4,
+    "weight_kg": 50,
+    "description": "Seu novo exoesqueleto é liso e homogêneo, refletindo a cura completa após a fase de casulo, e funciona como uma armadura pesada. \n Ele se move lentamente, utilizando seus numerosos pares de pernas de forma cadenciada. Para atacar, ele se contorce com ferocidade, levantando a parte traseira do corpo como um escorpião, permitindo-lhe usar suas garras e presas com maior impacto. Ele possui esporões venenosos ao longo do corpo e libera os gases tóxicos (Sono, Fumaça) pela boca. \n O Slacratox é um mestre da Guerra de Desgaste. Seu objetivo não é a força bruta, mas sim sobreviver e neutralizar o inimigo. \n Quando confrontado com predadores como o Saberatus ou o Washimpeckt, sua estratégia é estritamente defensiva: ele usa a resistência de sua carapaça para absorver ataques até conseguir uma abertura. Ele prioriza causar efeitos negativos para tornar o adversário indefeso ou forçá-lo a recuar.",
+    "abilities": [{ "name": "Proteção contra poeira (Shield Dust)", "desc": "Bloqueia os efeitos adicionais dos ataques recebidos." },{"name":"Ponto de Veneno (Poison Point)", "desc":"O contato com o Pokémon pode envenenar o atacante."}],
+    "hidden_ability": { "name": "Esporo de Efeito (Effect Sopore)", "desc": "O contato pode causar intoxicação, paralisia ou sonolência." },
+    "base_stats": {
+      "hp": 90,
+      "atk": 80,
+      "def": 110,
+      "spa": 60,
+      "spd": 90,
+      "spe": 30
+    },
+    "moves": [
+      {
+        "level": 17,
+        "name": "Coil",
+        "type":"Poison",
+        "desc":"Aumenta o Ataque, Defesa e Precisão do usuário."
+      },
+      {
+        "level": 19,
+        "name": "Bug Bite",
+        "type":"Bug",
+        "category":"physical",
+        "power":60,
+        "accuracy":100,
+        "desc": "Recebe o efeito da fruta segurada pelo oponente."
+      },
+      {
+        "level": 23,
+        "name": "Venoshock",
+        "type":"Poison",
+        "category":"special",
+        "power":65,
+        "accuracy":100,
+        "desc": "Causa o dobro de dano se o alvo estiver envenenado."
+      },
+      {
+        "level": 28,
+        "name": "Toxic Rush",
+        "type":"Poison",
+        "category":"physical",
+        "power":70,
+        "accuracy":100,
+        "desc": "Pode deixar o oponente gravemente envenenado."
+      }
+      ,
+      {
+        "level": 33,
+        "name": "Leech Life",
+        "type":"Bug",
+        "category":"physical",
+        "power":80,
+        "accuracy":100,
+        "desc": "O usuário recupera metade dos pontos de vida infligidos ao oponente."
+      },
+      {
+        "level": 39,
+        "name": "Gastro Acid",
+        "type":"Poison",
+        "accuracy":100,
+        "desc": "Cancela o efeito da habilidade do oponente."
+      },
+      {
+        "level": 44,
+        "name": "Cross Poison",
+        "type":"Poison",
+        "category":"physical",
+        "power":70,
+        "accuracy":100,
+        "desc": "Alta chance de acerto crítico. Pode envenenar o oponente."
+      },
+      {
+        "level": 50,
+        "name": "Megahorn",
+        "type":"Bug",
+        "category":"physical",
+        "power":120,
+        "accuracy":100
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Lipony",
+    "number": "019",
+    "types": [
+      "Fairy"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Por mais que tenha um pelo macio e sedoso, recomenda-se não tocar, visto que esconde entre os fios, serdas venenosas.",
+    "height_m": 0.8,
+    "weight_kg": 25,
+    "description": "O Lipony é um Pokémon potro pequeno e amigável, nativo de Campos Floridos e Clareiras Ensolaradas. Sua pelagem é curta, suave e de cor branca ou creme, liberando um odor doce e reconfortante (como baunilha) que acalma outros Pokémon por perto. Lipony é a forma base de uma linha de Pokémon que evolui com base nos laços de afeto. \n Sua característica mais notável é uma pequena mancha disforme e multicor que possui na lateral da coxa, um prenúncio de seu potencial de evolução. Enquanto o Lipony não estabelece um laço forte, a mancha apenas oscila e se altera constantemente. \n O Lipony é extremamente sociável e amigável, sendo encontrado em grandes bandos. Sua magia está diretamente ligada à força de seus laços emocionais. Quando Lipony está feliz e rodeado de amigos, ele irradia um poderoso campo de energia Fada que aumenta a Moral e fortalece seus aliados, refletindo o lema de que 'a amizade é mágica'. \n Dificilmente um bando de Lipony é atacado a não ser que pokémon de tipo Dark. No entanto, se um bando de Lipony for atacado, eles usam sua magia em conjunto para defender o grupo. Apenas quando o Lipony forma um laço de amizade profundo, essa mancha na coxa começa a se inclinar para a forma final de sua evolução, indicando o tipo que ele manifestará.",
+    "abilities": [{ "name": "Charme fofo (Cute Charm)", "desc": "O contato com o Pokémon pode causar paixão." }],
+    "hidden_ability": { "name":"Guarda Amiga (Friend Guard)", "desc":"Reduz o dano causado a aliados." },
+    "base_stats": {
+      "hp": 55,
+      "atk": 55,
+      "def": 55,
+      "spa": 55,
+      "spd": 55,
+      "spe": 55
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Disarming Voice",
+        "type":"Fairy",
+        "category":"special",
+        "power":40,
+        "accuracy":"∞",
+        "desc":"Ignora precisão e evasiva."
+      },
+      {
+        "level": 1,
+        "name": "Growl",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui o Ataque do oponente."
+      },
+      {
+        "level": 5,
+        "name": "Fairy Wind",
+        "type":"Fairy",
+        "category":"special",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level": 10,
+        "name": "Quick Attack",
+        "type":"Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100,
+        "desc": "Usuário ataca primeiro."
+      },
+      {
+        "level": 15,
+        "name": "Charm",
+        "type":"Fairy",
+        "accuracy":100,
+        "desc": "Diminui drasticamente o Ataque do oponente."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Twilux",
+    "number": "020",
+    "types": [
+      "Fairy",
+      "Psychic"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Por mais que tenha um pelo macio e sedoso, recomenda-se não tocar, visto que esconde entre os fios, serdas venenosas.",
+    "height_m": 0.8,
+    "weight_kg": 25,
+    "description": "O Lipony é um Pokémon potro pequeno e amigável, nativo de Campos Floridos e Clareiras Ensolaradas. Sua pelagem é curta, suave e de cor branca ou creme, liberando um odor doce e reconfortante (como baunilha) que acalma outros Pokémon por perto. Lipony é a forma base de uma linha de Pokémon que evolui com base nos laços de afeto. \n Sua característica mais notável é uma pequena mancha disforme e multicor que possui na lateral da coxa, um prenúncio de seu potencial de evolução. Enquanto o Lipony não estabelece um laço forte, a mancha apenas oscila e se altera constantemente. \n O Lipony é extremamente sociável e amigável, sendo encontrado em grandes bandos. Sua magia está diretamente ligada à força de seus laços emocionais. Quando Lipony está feliz e rodeado de amigos, ele irradia um poderoso campo de energia Fada que aumenta a Moral e fortalece seus aliados, refletindo o lema de que 'a amizade é mágica'. \n Dificilmente um bando de Lipony é atacado a não ser que pokémon de tipo Dark. No entanto, se um bando de Lipony for atacado, eles usam sua magia em conjunto para defender o grupo. Apenas quando o Lipony forma um laço de amizade profundo, essa mancha na coxa começa a se inclinar para a forma final de sua evolução, indicando o tipo que ele manifestará.",
+    "abilities": [{ "name": "Charme fofo (Cute Charm)", "desc": "O contato com o Pokémon pode causar paixão." }],
+    "hidden_ability": { "name":"Guarda Amiga (Friend Guard)", "desc":"Reduz o dano causado a aliados." },
+    "base_stats": {
+      "hp": 55,
+      "atk": 55,
+      "def": 55,
+      "spa": 55,
+      "spd": 55,
+      "spe": 55
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Disarming Voice",
+        "type":"Fairy",
+        "category":"special",
+        "power":40,
+        "accuracy":"∞",
+        "desc":"Ignora precisão e evasiva."
+      },
+      {
+        "level": 1,
+        "name": "Growl",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui o Ataque do oponente."
+      },
+      {
+        "level": 5,
+        "name": "Fairy Wind",
+        "type":"Fairy",
+        "category":"special",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level": 10,
+        "name": "Quick Attack",
+        "type":"Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100,
+        "desc": "Usuário ataca primeiro."
+      },
+      {
+        "level": 15,
+        "name": "Charm",
+        "type":"Fairy",
+        "accuracy":100,
+        "desc": "Diminui drasticamente o Ataque do oponente."
+      }
+    ]
+  }
+]

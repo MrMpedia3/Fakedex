@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="100%" height="100%" rx="40" fill="#FFF1E6"/>
+  <g transform="translate(60,80)">
+    <rect x="96" y="104" rx="60" ry="60" width="200" height="160" fill="#FFB97A" stroke="#E85A2B" stroke-width="6"/>
+    <text x="196" y="40" font-size="28" text-anchor="middle" fill="#8B2A12" font-family="sans-serif">Pyroak</text>
+  </g>
+</svg>

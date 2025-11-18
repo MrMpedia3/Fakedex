@@ -1,0 +1,63 @@
+export const typeColors = {
+  Normal: "from-gray-400 to-gray-400",
+  Fire: "from-orange-400 to-red-400",
+  Water: "from-blue-400 to-blue-600",
+  Grass: "from-green-400 to-green-600",
+  Electric: "from-yellow-300 to-yellow-500",
+  Ice: "from-cyan-300 to-cyan-500",
+  Fighting: "from-red-700 to-red-500",
+  Poison: "from-purple-500 to-purple-700",
+  Ground: "from-yellow-600 to-yellow-800",
+  Flying: "from-indigo-300 to-indigo-500",
+  Psychic: "from-pink-600 to-purple-400",
+  Bug: "from-lime-500 to-green-600",
+  Rock: "from-yellow-700 to-gray-600",
+  Ghost: "from-purple-700 to-purple-900",
+  Dragon: "from-purple-600 to-blue-600",
+  Dark: "from-gray-700 to-gray-900",
+  Steel: "from-gray-400 to-gray-600",
+  Fairy: "from-pink-400 to-pink-500"
+};
+
+export const typeSolid = {
+  Normal: "bg-gray-300",
+  Fire: "bg-orange-400",
+  Water: "bg-blue-500",
+  Grass: "bg-green-500",
+  Electric: "bg-yellow-400",
+  Ice: "bg-cyan-400",
+  Fighting: "bg-red-600",
+  Poison: "bg-purple-600",
+  Ground: "bg-yellow-700",
+  Flying: "bg-indigo-400",
+  Psychic: "bg-pink-500",
+  Bug: "bg-lime-600",
+  Rock: "bg-yellow-800",
+  Ghost: "bg-purple-900",
+  Dragon: "bg-purple-700",
+  Dark: "bg-gray-800",
+  Steel: "bg-gray-500",
+  Fairy: "bg-pink-400"
+};
+
+export const moveTypeColor = {
+  Normal: "#A8A77A",
+  Fire: "#EE8130",
+  Water: "#6390F0",
+  Grass: "#7AC74C",
+  Electric: "#F7D02C",
+  Ice: "#96D9D6",
+  Fighting: "#C22E28",
+  Poison: "#A33EA1",
+  Ground: "#E2BF65",
+  Flying: "#A98FF3",
+  Psychic: "#F95587",
+  Bug: "#A6B91A",
+  Rock: "#B6A136",
+  Ghost: "#735797",
+  Dragon: "#6F35FC",
+  Dark: "#705746",
+  Steel: "#B7B7CE",
+  Fairy: "#D685AD",
+};
+

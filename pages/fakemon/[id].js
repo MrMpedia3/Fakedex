@@ -12,6 +12,7 @@ export default function FakemonPage() {
 
   const [f, setF] = useState(null);
   const [tab, setTab] = useState(0);
+  const [total, setTotal] = useState(0);   // ← CORREÇÃO AQUI
 
   useEffect(() => {
     if (!id) return;
@@ -19,17 +20,36 @@ export default function FakemonPage() {
     fetch("/data/fakemon.json")
       .then((r) => r.json())
       .then((d) => {
+        setTotal(d.length);   // ← AGORA O TOTAL É DEFINIDO
+
         const found = d.find(
           (x) =>
             String(x.id) === String(id) ||
             String(x.number) === String(id)
         );
+
         setF(found ?? null);
       });
   }, [id]);
 
   if (f === null) return <div className="p-6 text-lg">Carregando...</div>;
   if (!f) return <div className="p-6 text-lg">Fakemon não encontrado.</div>;
+
+  // Agora f existe
+  const current = Number(f.number);
+
+  // Agora total existe — e se por algum motivo ainda não carregou, evitamos erro
+  const goPrev = () => {
+    if (!total) return;
+    const prev = current - 1 <= 0 ? total : current - 1;
+    router.push(`/fakemon/${prev}`);
+  };
+
+  const goNext = () => {
+    if (!total) return;
+    const next = current + 1 > total ? 1 : current + 1;
+    router.push(`/fakemon/${next}`);
+  };
 
   // -----------------------------
   // EVOLUÇÃO
@@ -44,8 +64,6 @@ export default function FakemonPage() {
         </h3>
 
         <div className="flex flex-wrap items-center gap-6">
-
-          {/* FAKEMON ATUAL */}
           <div className="text-center">
             <Image src={f.image} alt={f.name} width={80} height={80} />
             <div className="font-semibold">{f.name}</div>
@@ -54,7 +72,6 @@ export default function FakemonPage() {
 
           {f.evolutions.map((ev) => (
             <div key={ev.id} className="flex items-center gap-6">
-
               <div className="text-2xl animate-pulseArrow">➡️</div>
 
               <div
@@ -68,10 +85,8 @@ export default function FakemonPage() {
                   {ev.method}
                 </div>
               </div>
-
             </div>
           ))}
-
         </div>
       </div>
     )
@@ -107,12 +122,12 @@ export default function FakemonPage() {
           <p><strong>Altura:</strong> {f.height_m} m</p>
           <p><strong>Peso:</strong> {f.weight_kg} kg</p>
 
-          {/* COMPARAÇÃO */}
+          {/* Comparação */}
           <div className="mt-8">
             <h3 className="font-semibold text-lg mb-4">Comparação de Tamanho</h3>
 
             <div className="flex flex-row sm:flex-row items-end sm:items-end gap-8">
-
+              
               {/* Régua */}
               <div className="flex flex-col justify-between h-52 border-l-2 border-gray-700 dark:border-gray-200 pr-3">
                 {[0,1,2,3,4,5].map((i) => {
@@ -156,7 +171,6 @@ export default function FakemonPage() {
 
             </div>
           </div>
-
         </div>
       ),
     },
@@ -164,7 +178,6 @@ export default function FakemonPage() {
       label: "Técnico",
       content: (
         <div className="pt-2">
-
           {/* Habilidades */}
           <h4 className="mt-4 font-semibold mb-2">Habilidades</h4>
           <div className="flex flex-wrap gap-3">
@@ -197,7 +210,7 @@ export default function FakemonPage() {
             </>
           )}
 
-          {/* Base stats */}
+          {/* STATS */}
           <h4 className="mt-6 font-semibold mb-2">Base Stats</h4>
           <div className="mt-2 space-y-2">
             {Object.entries(f.base_stats).map(([stat, value]) => {
@@ -290,10 +303,8 @@ export default function FakemonPage() {
   ];
 
   // ------------------------------------
-  // ANIMAÇÃO SUAVE DE ENTRADA/SAÍDA
-  // E ANIMAÇÃO EXTRA SE VEIO DO ALEATÓRIO
+  // ANIMAÇÃO SUAVE
   // ------------------------------------
-
   const animationFromRandom = fromRandom === "1"
     ? { opacity: 0, scale: 0.85 }
     : { opacity: 0, y: 20 };
@@ -309,18 +320,40 @@ export default function FakemonPage() {
         className="p-4 sm:p-6 max-w-3xl mx-auto mt-10 sm:mt-16"
       >
 
-        <motion.button
-          onClick={() => router.back()}
-          className="mb-4 px-4 py-2 border rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition"
-          whileHover={{ scale: 1.03 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          ← Voltar
-        </motion.button>
+        <div className="flex justify-between items-center mb-6 w-full">
+  
+  <motion.button
+    onClick={goPrev}
+    className="px-4 py-2 border rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+    whileHover={{ scale: 1.03 }}
+    whileTap={{ scale: 0.95 }}
+  >
+    ← Anterior
+  </motion.button>
+
+  <motion.button
+    onClick={() => router.back()}
+    className="px-4 py-2 border rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+    whileHover={{ scale: 1.03 }}
+    whileTap={{ scale: 0.95 }}
+  >
+    Voltar
+  </motion.button>
+
+  <motion.button
+    onClick={goNext}
+    className="px-4 py-2 border rounded hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+    whileHover={{ scale: 1.03 }}
+    whileTap={{ scale: 0.95 }}
+  >
+    Próximo →
+  </motion.button>
+
+</div>
+
 
         <div className="rounded-xl p-4 sm:p-6 bg-white dark:bg-gray-900 shadow">
 
-          {/* RESPONSIVO: col no mobile, row no tablet/PC */}
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 mb-6 text-center sm:text-left">
 
             <Image
@@ -349,7 +382,6 @@ export default function FakemonPage() {
 
           </div>
 
-          {/* TABS */}
           <Tabs active={tab} onChange={setTab} tabs={tabs} />
         </div>
 

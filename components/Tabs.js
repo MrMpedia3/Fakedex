@@ -1,53 +1,67 @@
 import React from "react";
+import { AnimatePresence, motion } from "framer-motion";
 
-/**
- * Controlled Tabs component.
- * Props:
- * - active (number) : índice da aba ativa
- * - onChange (fn) : (index) => void
- * - tabs (array) : [{ label, content }]
- *
- * IMPORTANT: não remonta o conteúdo — apenas alterna classes para permitir animações.
- */
 export default function Tabs({ active = 0, onChange = () => {}, tabs = [] }) {
+  
+  const slideVariants = {
+    enter: (direction) => ({
+      x: direction > 0 ? 40 : -40,
+      opacity: 0,
+      position: "absolute",
+    }),
+    center: {
+      x: 0,
+      opacity: 1,
+      position: "relative",
+    },
+    exit: (direction) => ({
+      x: direction > 0 ? -40 : 40,
+      opacity: 0,
+      position: "absolute",
+    }),
+  };
+
   return (
     <div>
-      <div className="flex gap-4 mb-4 border-b border-gray-300/30 dark:border-gray-700/30 pb-2">
+      {/* Abas iguais (1/3 cada) */}
+      <div className="grid grid-cols-3 mb-4 border-b border-gray-300/30 dark:border-gray-700/30 pb-2">
         {tabs.map((t, i) => {
           const isActive = i === active;
           return (
             <button
               key={i}
               onClick={() => onChange(i)}
-              className={`relative px-4 py-2 rounded-t-lg font-semibold transition-all ${
+              className={`relative py-2 w-full text-center font-semibold transition-all ${
                 isActive
                   ? "bg-white/80 dark:bg-black/40 text-black dark:text-white shadow"
                   : "text-gray-500 hover:text-gray-800 dark:hover:text-gray-200"
               }`}
             >
               {t.label}
-              {isActive && <span className="absolute left-0 -bottom-[2px] w-full h-[3px] bg-blue-500 rounded-full" />}
+
+              {isActive && (
+                <span className="absolute left-0 -bottom-[2px] w-full h-[3px] bg-blue-500 rounded-full" />
+              )}
             </button>
           );
         })}
       </div>
 
-      {/* Painéis: todos montados, controlamos visibilidade para animação */}
-      <div className="relative">
-        {tabs.map((t, i) => {
-          const visible = i === active;
-          return (
-            <div
-              key={i}
-              aria-hidden={!visible}
-              className={`transition-opacity duration-300 ${visible ? "opacity-100" : "opacity-0 pointer-events-none absolute inset-0"}`}
-            >
-              {t.content}
-            </div>
-          );
-        })}
-        {/* espaço reservado quando os painéis são position absolute */}
-        <div aria-hidden="true" className="h-0" />
+      {/* Painéis animados */}
+      <div className="relative min-h-[200px]"> 
+        <AnimatePresence custom={active} mode="wait">
+          <motion.div
+            key={active}
+            custom={active}
+            variants={slideVariants}
+            initial="enter"
+            animate="center"
+            exit="exit"
+            transition={{ duration: 0.35, ease: "easeInOut" }}
+          >
+            {tabs[active].content}
+          </motion.div>
+        </AnimatePresence>
       </div>
     </div>
   );

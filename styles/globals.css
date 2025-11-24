@@ -20,6 +20,17 @@ body {
   transform: scale(1.04) translateY(-4px);
   @apply shadow-lg;
 }
+.animated-gradient {
+  background-size: 300% 300%;
+  animation: gradientShift 14s ease-in-out infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 
 
 /* ========================= */

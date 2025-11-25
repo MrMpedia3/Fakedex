@@ -33,7 +33,7 @@ export default function Tabs({ active = 0, onChange = () => {}, tabs = [] }) {
               onClick={() => onChange(i)}
               className={`relative py-2 w-full text-center font-semibold transition-all ${
                 isActive
-                  ? "bg-white/80 dark:bg-black/40 text-black dark:text-white shadow"
+                  ? "bg-white/80 dark:bg-gray-700 text-black dark:text-white shadow"
                   : "text-gray-500 hover:text-gray-800 dark:hover:text-gray-200"
               }`}
             >

@@ -28,7 +28,7 @@ export default function ThemeToggle() {
   }
 
   return (
-    <button onClick={toggle} aria-label="Alternar tema" className="px-3 py-2 rounded bg-gray-800 dark:bg-gray-800">
+    <button onClick={toggle} aria-label="Alternar tema" className="px-3 py-2 rounded bg-gray-300 dark:bg-gray-800 text-black dark:text-white">
       {isDark ? "🌙 Escuro" : "☀️ Claro"}
     </button>
   );

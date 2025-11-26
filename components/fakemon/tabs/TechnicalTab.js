@@ -33,7 +33,7 @@ export default function FakemonTechnicalDetails({ abilities, hidden_ability, bas
       <h4 className="mt-6 font-semibold mb-2">Base Stats</h4>
       
       {/* Botão de Alternância (Toggle) */}
-      <div className="flex justify-end mb-4">
+      <div className="flex justify-center mb-4">
         <button
           onClick={toggleDisplayMode}
           className="px-3 py-1 text-sm rounded-md bg-purple-100 text-purple-700 hover:bg-purple-200 transition"

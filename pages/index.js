@@ -86,7 +86,7 @@ export default function Home() {
           onClick={handleRandomClick}
           className="relative px-3 py-2 rounded-md bg-blue-600 hover:bg-blue-700 
                      dark:bg-blue-500 dark:hover:bg-blue-600 text-white transition 
-                     shadow mt-4 sm:mt-16 overflow-hidden"
+                     shadow mt-4 sm:mt-16 overflow-hidden justify-center"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >

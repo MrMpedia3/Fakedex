@@ -18,7 +18,7 @@ export default function SearchBar({ data, onSearch }) {
       .filter(f =>
         f.name.toLowerCase().includes(text.toLowerCase())
       )
-      .slice(0, 6); // Limita a 6 sugestões
+      .slice(0, 3); // Limita a 6 sugestões
 
     setSuggestions(s);
   }

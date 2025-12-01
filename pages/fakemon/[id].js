@@ -182,6 +182,8 @@ export default function FakemonPage() {
                   base_stats={f.base_stats}
                   moves={f.moves}
                 />
+                <br />
+                <hr />
                 <FakemonTypeChart 
                   types={f.types}
                   typeColorMap={moveTypeColor}

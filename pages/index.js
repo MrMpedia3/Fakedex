@@ -1,9 +1,8 @@
 import { useEffect, useState} from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
-import SearchBar from "../components/SearchBar";
 import FakemonCard from "../components/FakemonCard";
-import { typeSolid } from "../styles/typeColors";
+import FakemonControls from "../components/FakemonControls";
 
 export default function Home() {
   const router = useRouter();
@@ -19,27 +18,48 @@ export default function Home() {
   
   const [isTeleporting, setIsTeleporting] = useState(false);
 
+  // NOVO: Estado para ordenar (campo e direção)
+  const [sortCriteria, setSortCriteria] = useState({ field: 'number', direction: 'asc' }); 
+
+  const handleFieldChange = (e) => {
+    const newField = e.target.value; 
+    setSortCriteria(prev => ({ 
+        // Mantém a direção atual, mas muda o campo
+        field: newField, 
+        direction: prev.direction 
+    }));
+  };
+
+  const handleDirectionToggle = () => {
+    setSortCriteria(prev => ({ 
+        field: prev.field,
+        // Inverte a direção atual
+        direction: prev.direction === 'asc' ? 'desc' : 'asc' 
+    }));
+  };
+  
+  // EFEITO 1: Carrega os dados uma única vez
   useEffect(() => {
     fetch("/data/fakemon.json")
       .then((r) => r.json())
       .then((d) => {
         setData(d);
-        setFiltered(d);
+        // Não precisa setar filtered aqui, o useEffect de filtro/ordenação fará isso.
         setLoading(false);
       });
   }, []);
+
 
   // Centraliza a função de busca de texto
   function handleSearch(q) {
     const term = q.trim().toLowerCase();
     setSearchTerm(term); // Atualiza o estado da busca
-    // Aplica os filtros imediatamente com o novo termo e os tipos atuais
-    applyFilters(term, selectedTypes); 
+    // A ordenação/filtragem real é disparada pelo useEffect de filtro/ordenação
   }
-
-  // Lógica de Filtragem Múltipla
+  
+  // LÓGICA PRINCIPAL: Filtra, Busca E ORDENA.
   function applyFilters(currentSearchTerm, currentTypes) {
-    let result = data;
+    let result = [...data];
 
     // 1. Filtragem por Texto (Nome/Número/ID)
     if (currentSearchTerm) {
@@ -54,10 +74,68 @@ export default function Home() {
     // 2. Filtragem por Múltiplos Tipos (Fakémon deve ter TODOS os tipos selecionados)
     if (currentTypes.length > 0) {
       result = result.filter((f) => 
-        // Usa `every` para garantir que o Fakémon possua CADA tipo selecionado
         currentTypes.every(selectedType => f.types.includes(selectedType))
       );
     }
+    
+    // 3. Lógica de Ordenação
+    const { field, direction } = sortCriteria;
+
+    result.sort((a, b) => {
+      let valA, valB;
+
+      // --- Definição dos Valores (valA e valB) ---
+      if (field === 'name') {
+        valA = a.name.toLowerCase();
+        valB = b.name.toLowerCase();
+      } 
+      else if (field === 'total_stats') {
+        // Soma todos os base_stats para o total
+        const sumStats = (f) => Object.values(f.base_stats || {}).reduce((sum, val) => sum + val, 0);
+        valA = sumStats(a);
+        valB = sumStats(b);
+      }
+      else if (field === 'number') {
+        valA = a.number || 0;
+        valB = b.number || 0;
+      } 
+      else if (field === 'weight') {
+        valA = a.weight_kg || 0;
+        valB = b.weight_kg || 0;
+      } 
+      else if (field === 'height') {
+        valA = a.height_m || 0;
+        valB = b.height_m || 0;
+      } 
+      else {
+        // Para Stats Individuais (hp, attack, defense, speed, etc.)
+        valA = a.base_stats ? a.base_stats[field] : 0;
+        valB = b.base_stats ? b.base_stats[field] : 0;
+      }
+
+      // --- Aplicação da Comparação CORRIGIDA ---
+      let comparison = 0;
+
+      // 1. Encontra a comparação padrão (Assumindo Ascendente)
+      if (valA < valB) {
+          comparison = -1; 
+      } else if (valA > valB) {
+          comparison = 1;  
+      }
+      
+      // 2. Aplica a Inversão se a direção for descendente
+      if (direction === 'desc') {
+          comparison = comparison * -1;
+      }
+
+      // 3. Desempate por número da dex
+      // Se a comparação ainda for 0 (empate), usa o número da dex como desempate final.
+      if (comparison === 0) {
+          return a.number - b.number;
+      }
+
+      return comparison;
+    });
 
     setFiltered(result);
   }
@@ -74,17 +152,16 @@ export default function Home() {
       newTypes = [...selectedTypes, type];
     }
     
-    // Atualiza o estado dos tipos e aplica os filtros, preservando o termo de busca
     setSelectedTypes(newTypes);
-    applyFilters(searchTerm, newTypes); // Usa o estado atual de searchTerm
+    // A ordenação/filtragem real é disparada pelo useEffect abaixo
   }
   
-  // Para garantir que o filtro inicial seja aplicado após o carregamento dos dados
+  // EFEITO 2: Dispara a filtragem/ordenação sempre que os dados, busca, tipos ou ordenação mudam
   useEffect(() => {
-    if (data.length > 0) {
-        applyFilters(searchTerm, selectedTypes);
+  if (data.length > 0) {
+      applyFilters(searchTerm, selectedTypes);
     }
-  }, [data]);
+  }, [data, searchTerm, selectedTypes, sortCriteria]);
 
 
   // ⚡ Teleporte no botão Aleatório
@@ -111,58 +188,18 @@ export default function Home() {
       exit={{ opacity: 0, y: -10 }}
       transition={{ duration: 0.35, ease: "easeInOut" }}
     >
-      {/* Barra de busca + botão Aleatório */}
-      <div className="flex flex-col sm:flex-row sm:items-center gap-3 mt-2 relative">
-        <SearchBar onSearch={handleSearch} data={data} />
-
-        <motion.button
-          onClick={handleRandomClick}
-          className="relative px-3 py-2 rounded-md bg-blue-600 hover:bg-blue-700 
-                     dark:bg-blue-500 dark:hover:bg-blue-600 text-white transition 
-                     shadow mt-4 sm:mt-16 overflow-hidden justify-center"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          Aleatório
-          <AnimatePresence>
-            {isTeleporting && (
-              <motion.div
-                className="absolute inset-0 bg-blue-300 dark:bg-blue-700"
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{
-                  opacity: [0, 1, 0],
-                  scale: [1, 1.6, 0.8],
-                  filter: ["blur(0px)", "blur(6px)", "blur(0px)"],
-                }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.55, ease: "easeInOut" }}
-              />
-            )}
-          </AnimatePresence>
-        </motion.button>
-      </div>
-
-      {/* Filtros */}
-      <div className="flex gap-2 flex-wrap my-4 justify-center sm:justify-start">
-        {allTypes.map((t) => (
-          <motion.button
-            key={t}
-            onClick={() => handleTypeSelect(t)}
-            className={`filtros px-3 py-1 rounded-full text-sm text-white shadow 
-              ${typeSolid[t]} 
-              ${
-                selectedTypes.includes(t) // Verificação no novo array
-                  ? "outline outline-2 outline-black dark:outline-white scale-105" // Destaque ativado
-                  : "opacity-70 hover:opacity-100" // Destaque desativado
-              }
-            `}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            {t}
-          </motion.button>
-        ))}
-      </div>
+      <FakemonControls
+            allTypes={allTypes}
+            selectedTypes={selectedTypes}
+            sortCriteria={sortCriteria}
+            isTeleporting={isTeleporting}
+            handleSearch={handleSearch}
+            handleTypeSelect={handleTypeSelect}
+            handleFieldChange={handleFieldChange} 
+            handleDirectionToggle={handleDirectionToggle}
+            handleRandomClick={handleRandomClick}
+            data={data} // Passa data para que SearchBar funcione internamente
+        />
 
       {/* Lista de Fakemons */}
       {filtered.length === 0 ? (

@@ -36,7 +36,7 @@ export default function FakemonTechnicalDetails({ abilities, hidden_ability, bas
       <div className="flex justify-center mb-4">
         <button
           onClick={toggleDisplayMode}
-          className="px-3 py-1 text-sm rounded-md bg-purple-100 text-purple-700 hover:bg-purple-200 transition"
+          className="px-3 py-1 text-sm rounded-md bg-purple-100 text-purple-700 hover:bg-purple-200 transition0"
         >
           Ver em {displayMode === 'bars' ? 'Gráfico' : 'Barras'}
         </button>

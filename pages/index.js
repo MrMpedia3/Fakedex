@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState} from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 import SearchBar from "../components/SearchBar";
@@ -10,7 +10,13 @@ export default function Home() {
   const [data, setData] = useState([]);
   const [filtered, setFiltered] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [selectedType, setSelectedType] = useState(null);
+  
+  // Usa um array para tipos selecionados (permite múltiplos)
+  const [selectedTypes, setSelectedTypes] = useState([]); 
+  
+  // Estado para armazenar o termo de busca para persistência
+  const [searchTerm, setSearchTerm] = useState(""); 
+  
   const [isTeleporting, setIsTeleporting] = useState(false);
 
   useEffect(() => {
@@ -23,36 +29,63 @@ export default function Home() {
       });
   }, []);
 
+  // Centraliza a função de busca de texto
   function handleSearch(q) {
     const term = q.trim().toLowerCase();
-    if (!term) return applyFilters(null, selectedType);
-    applyFilters(term, selectedType);
+    setSearchTerm(term); // Atualiza o estado da busca
+    // Aplica os filtros imediatamente com o novo termo e os tipos atuais
+    applyFilters(term, selectedTypes); 
   }
 
-  function applyFilters(searchTerm, type) {
+  // Lógica de Filtragem Múltipla
+  function applyFilters(currentSearchTerm, currentTypes) {
     let result = data;
 
-    if (searchTerm) {
+    // 1. Filtragem por Texto (Nome/Número/ID)
+    if (currentSearchTerm) {
       result = result.filter(
         (f) =>
-          f.name.toLowerCase().includes(searchTerm) ||
-          ("" + f.number).includes(searchTerm) ||
-          ("" + f.id).includes(searchTerm)
+          f.name.toLowerCase().includes(currentSearchTerm) ||
+          ("" + f.number).includes(currentSearchTerm) ||
+          ("" + f.id).includes(currentSearchTerm)
       );
     }
 
-    if (type) {
-      result = result.filter((f) => f.types.includes(type));
+    // 2. Filtragem por Múltiplos Tipos (Fakémon deve ter TODOS os tipos selecionados)
+    if (currentTypes.length > 0) {
+      result = result.filter((f) => 
+        // Usa `every` para garantir que o Fakémon possua CADA tipo selecionado
+        currentTypes.every(selectedType => f.types.includes(selectedType))
+      );
     }
 
     setFiltered(result);
   }
 
+  // Gerencia o array de Tipos Selecionados
   function handleTypeSelect(type) {
-    const newType = type === selectedType ? null : type;
-    setSelectedType(newType);
-    applyFilters(null, newType);
+    let newTypes;
+
+    if (selectedTypes.includes(type)) {
+      // Se o tipo já está selecionado, remove-o (toggle off)
+      newTypes = selectedTypes.filter((t) => t !== type);
+    } else {
+      // Se o tipo não está selecionado, adiciona-o (toggle on)
+      newTypes = [...selectedTypes, type];
+    }
+    
+    // Atualiza o estado dos tipos e aplica os filtros, preservando o termo de busca
+    setSelectedTypes(newTypes);
+    applyFilters(searchTerm, newTypes); // Usa o estado atual de searchTerm
   }
+  
+  // Para garantir que o filtro inicial seja aplicado após o carregamento dos dados
+  useEffect(() => {
+    if (data.length > 0) {
+        applyFilters(searchTerm, selectedTypes);
+    }
+  }, [data]);
+
 
   // ⚡ Teleporte no botão Aleatório
   function handleRandomClick() {
@@ -112,20 +145,22 @@ export default function Home() {
       {/* Filtros */}
       <div className="flex gap-2 flex-wrap my-4 justify-center sm:justify-start">
         {allTypes.map((t) => (
-          <button
+          <motion.button
             key={t}
             onClick={() => handleTypeSelect(t)}
-            className={`px-3 py-1 rounded-full text-sm text-white shadow 
+            className={`filtros px-3 py-1 rounded-full text-sm text-white shadow 
               ${typeSolid[t]} 
               ${
-                selectedType === t
-                  ? "outline outline-2 outline-black dark:outline-white"
-                  : ""
+                selectedTypes.includes(t) // Verificação no novo array
+                  ? "outline outline-2 outline-black dark:outline-white scale-105" // Destaque ativado
+                  : "opacity-70 hover:opacity-100" // Destaque desativado
               }
             `}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
           >
             {t}
-          </button>
+          </motion.button>
         ))}
       </div>
 
@@ -134,19 +169,28 @@ export default function Home() {
         <p className="text-gray-500 mt-6">Nenhum fakemon encontrado...</p>
       ) : (
         <motion.div
-          layout
           className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6"
+          initial={{ opacity: 0 }} 
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.3 }}
         >
-          {filtered.map((f) => (
-            <motion.div
-              key={f.id}
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.2 }}
-            >
-              <FakemonCard f={f} />
-            </motion.div>
-          ))}
+          <AnimatePresence> 
+            {filtered.map((f) => (
+              <motion.div
+                key={f.id}
+                layout="position" 
+                
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                
+                exit={{ opacity: 0, scale: 0.8 }} 
+                
+                transition={{ duration: 0.3 }}
+              >
+                <FakemonCard f={f} />
+              </motion.div>
+            ))}
+          </AnimatePresence>
         </motion.div>
       )}
     </motion.div>

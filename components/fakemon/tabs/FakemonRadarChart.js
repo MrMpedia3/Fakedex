@@ -16,16 +16,16 @@ export default function FakemonRadarChart({ base_stats }) {
   // - o valor real do stat
   // - um valor máximo para o eixo (para dimensionar o gráfico)
   const data = [
-    { stat: "HP", A: base_stats.hp, fullMark: 180 }, // 'A' é o valor do Fakemon, fullMark é o valor máximo
-    { stat: "Atk", A: base_stats.atk, fullMark: 180 },
-    { stat: "Def", A: base_stats.def, fullMark: 180 },
-    { stat: "Sp. Atk", A: base_stats.spa, fullMark: 180 },
-    { stat: "Sp. Def", A: base_stats.spd, fullMark: 180 },
-    { stat: "Spe", A: base_stats.spe, fullMark: 180 },
+    { stat: "HP", A: base_stats.hp, fullMark: 255 }, // 'A' é o valor do Fakemon, fullMark é o valor máximo
+    { stat: "Atk", A: base_stats.atk, fullMark: 255 },
+    { stat: "Def", A: base_stats.def, fullMark: 255 },
+    { stat: "Sp. Atk", A: base_stats.spa, fullMark: 255 },
+    { stat: "Sp. Def", A: base_stats.spd, fullMark: 255 },
+    { stat: "Spe", A: base_stats.spe, fullMark: 255 },
   ];
 
   // Você pode ajustar o fullMark com base nos seus Fakemon mais fortes,
-  // ou usar um valor fixo como 255 (máximo em Pokémon). 180 parece ser um bom valor
+  // ou usar um valor fixo como 255 (máximo em Pokémon). 255 parece ser um bom valor
   // com base no cálculo da sua barra de stats.
 
   return (
@@ -38,7 +38,7 @@ export default function FakemonRadarChart({ base_stats }) {
             <PolarAngleAxis dataKey="stat" stroke="#888" /> {/* Nomes dos stats */}
             <PolarRadiusAxis 
               angle={90} 
-              domain={[0, 180]} // Definir o domínio min/max do eixo
+              domain={[0, 255]} // Definir o domínio min/max do eixo
               stroke="#888" 
               tickFormatter={(value) => `${value}`} // Formato dos valores no eixo
             />

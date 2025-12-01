@@ -16,6 +16,14 @@ body {
   @apply transition-transform duration-200 ease-out;
 }
 
+.filtros {
+  @apply transition-transform duration-150 ease-out;
+}
+
+.filtros:hover {
+  transform: scale(1.05) translateY(-1px);
+}
+
 .fakecard:hover {
   transform: scale(1.04) translateY(-4px);
   @apply shadow-lg;

@@ -1691,7 +1691,7 @@
       "Electric"
     ],
     "image": "/images/spriglet.svg",
-    "entry": "Este pokémon tem um comportamento único, sendo metédico e organizado, mas com certas manias difíceis de se lidar.",
+    "entry": "Seus cascos conseguem interagir com nuvens como se fossem estruturas sólidas.",
     "height_m": 1.6,
     "weight_kg": 80,
     "description": "O Rainboost é a forma manifestada do Elemento da Lealdade, evoluindo através de uma amizade inabalável e exposição ao próprio elemento da Lealdade. Ele se transforma em um Pégaso esguio e potente. Suas grandes asas são cobertas por penas coloridas, que brilham com as cores vibrantes de um arco-íris. \n O corpo do Rainboost gera eletricidade constantemente, e essa energia é diretamente proporcional à sua velocidade: quanto mais rápido ele voa, mais energia ele gera. A eletricidade envolve suas patas e, ao atingir o pico de sua velocidade, ele deixa um rastro marcante de arco-íris e faíscas elétricas por onde passa. Sua marca na coxa se manifesta como uma nuvem com um raio triplo. \n O Rainboost é a personificação da lealdade. O ato de evoluir para um Rainboost através do laço de amizade garante ao Treinador uma parceria duradoura e inabalável por toda a vida. \n Ele expressa sua alegria e energia interagindo com o clima, vagando pelo céu para brincar com as nuvens, arrastando-as e criando desenhos. Em combate, ele usa sua velocidade e o poder Elétrico para proteger seus amigos, sendo capaz de atrair e neutralizar raios. Sua natureza é amigável e cooperativa com as outras Ponevoluções, mantendo uma relação de amizade e camaradagem com o estudioso Twilux.",
@@ -1749,6 +1749,83 @@
         "power":90,
         "accuracy":100,
         "desc": "Usuário recebe dano de recuo."
+      },
+      {
+        "level": 60,
+        "name": "Moonblast",
+        "type":"Fairy",
+        "category":"special",
+        "power":95,
+        "accuracy":100,
+        "desc": "Pode diminuir o Ataque Especial do oponente."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Agerjack",
+    "number": "022",
+    "types": [
+      "Fairy",
+      "Ground"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Sua comida favorita são maçãs.",
+    "height_m": 1.8,
+    "weight_kg": 95,
+    "description": "O Agerjack é a forma manifestada do Elemento da Honestidade, evoluindo do Lipony através de um laço de amizade e o elemento da Honestidade. Ele se transforma em um pokémon imponente e musculoso, com o físico robusto de um Mudsdale. Sua crina e cauda são castanhas e douradas, trançadas com um aspecto que lembra palha. \n Seu corpo é sinônimo de trabalho duro: os pelos longos de suas patas estão frequentemente sujos de terra e lama, e sua principal arma são seus cascos, usados para coices e ataques terrestres devastadores. Sua marca se resolve em um padrão de solo rachado com um broto de maçã no centro. \n O Agerjack é o âncora e a voz da razão entre as Ponevoluções. \n Sua aura Fada/Solo pulsa em desaprovação quando detecta a desonestidade, agindo com visível irritação contra mentiras.",
+    "abilities": { "name": "Desastrado (Scrappy)", "desc": "Permite que os golpes atinjam pokémon do tipo Fantasma." },
+    "hidden_ability": { "name":"Desafiador (Defiant)", "desc":"Aumenta drasticamente o Ataque do Usuário quando os atributos são reduzidos." },
+    "base_stats": {
+      "hp": 91,
+      "atk": 121,
+      "def": 111,
+      "spa": 50,
+      "spd": 75,
+      "spe": 80
+    },
+    "moves": [
+      {
+        "level": "(Evo)",
+        "name": "Stomping Tantrum",
+        "type":"Ground",
+        "category":"physical",
+        "power":75,
+        "accuracy":100,
+        "desc":"Movido pela frustração, o usuário ataca o alvo. Se o movimento anterior do usuário falhou, o poder deste movimento dobra."
+      },
+      {
+        "level": 30,
+        "name": "Play Rough",
+        "type":"Fairy",
+        "category":"physical",
+        "power":90,
+        "accuracy":90,
+        "desc": "Pode diminuir o Ataque do oponente."
+      },
+      {
+        "level": 38,
+        "name": "Honest Charge",
+        "type":"Ground",
+        "category":"physical",
+        "power":95,
+        "accuracy":100,
+        "desc": "O poder dobra se nenhum dos stats do Agerjack tiver sido alterado (aumentado ou diminuído) nas últimas duas rodadas."
+      },
+      {
+        "level": 45,
+        "name": "High Horsepower",
+        "type":"Ground",
+        "category":"physical",
+        "power":95,
+        "accuracy":95,
+        "desc":"O usuário ataca o alvo ferozmente usando todo o seu corpo."
+      },
+      {
+        "level": 53,
+        "name": "Iron Defense",
+        "type":"Steel",
+        "desc": "Aumenta drasticamente a Defesa do Usuário."
       },
       {
         "level": 60,

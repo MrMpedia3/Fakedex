@@ -271,7 +271,7 @@
       "name": "Misseorite",
       "number": "005",
       "method": "Evolui no nível 16",
-      "image": "/images/pyroak.svg"
+      "image": "/images/Misseorite.png"
     },
     {
       "id": 6,
@@ -347,7 +347,7 @@
       "Fire",
       "Rock"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Misseorite.png",
     "entry": "Por mais que sejam muito agressivos e um tanto imprevisíveis, os Misseorite quase nunca entram em combate entre si, baseando suas disputas quase que sempre em qual deles causa uma explosão maior.",
     "height_m": 1.7,
     "weight_kg": 115,

@@ -2,6 +2,27 @@ import Link from "next/link";
 import Image from "next/image";
 import { typeColors } from "../styles/typeColors";
 
+/**
+ * Componente reutilizável para exibir o distintivo (badge) de tipo.
+ * Este componente foi extraído para ser usado em FakedleHintsDisplay.js.
+ */
+export const TypeBadge = ({ type }) => (
+  <span
+    className={`
+      px-2 py-1 
+      rounded 
+      text-xs 
+      font-medium 
+      shadow
+      bg-gradient-to-r 
+      text-white // Adicionado para contraste
+      ${typeColors[type] ?? "from-gray-400 to-gray-600"}
+    `}
+  >
+    {type}
+  </span>
+);
+
 export default function FakemonCard({ f }) {
   if (!f) return null;
 
@@ -49,20 +70,8 @@ export default function FakemonCard({ f }) {
         {/* Tipos */}
         <div className="flex justify-center gap-2">
           {f.types.map((t) => (
-            <span
-              key={t}
-              className={`
-                px-2 py-1 
-                rounded 
-                text-xs 
-                font-medium 
-                shadow
-                bg-gradient-to-r 
-                ${typeColors[t] ?? "from-gray-400 to-gray-600"}
-              `}
-            >
-              {t}
-            </span>
+            // Agora usamos o componente TypeBadge
+            <TypeBadge key={t} type={t} />
           ))}
         </div>
       </div>

@@ -3,8 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useRouter } from "next/router";
 import FakemonCard from "../components/FakemonCard";
 import FakemonControls from "../components/FakemonControls";
+import FakédleGame from '../components/FakedleGame';
 
-export default function Home() {
+export default function Home({ isFakedleOpen, toggleFakedle }) {
   const router = useRouter();
   const [data, setData] = useState([]);
   const [filtered, setFiltered] = useState([]);
@@ -188,6 +189,24 @@ export default function Home() {
       exit={{ opacity: 0, y: -10 }}
       transition={{ duration: 0.35, ease: "easeInOut" }}
     >
+
+      {isFakedleOpen && (
+        <div className="fixed inset-0 z-50 bg-black bg-opacity-70 flex items-center justify-center p-4">
+            <div className="relative max-h-full overflow-y-auto">
+                <FakédleGame 
+                  allFakemons={data} // 💡 AGORA 'data' ESTÁ DISPONÍVEL!
+                  onClose={toggleFakedle} 
+                />
+                        <button
+                            onClick={toggleFakedle}
+                            className="absolute top-4 right-4 text-white text-3xl z-50"
+                        >
+                            &times;
+                        </button>
+                    </div>
+              </div>
+      )}
+
       <FakemonControls
             allTypes={allTypes}
             selectedTypes={selectedTypes}

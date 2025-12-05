@@ -74,11 +74,11 @@ export default function FakemonControls(
                     
                     <optgroup label="Stats Individuais">
                         <option value="hp">HP</option>
-                        <option value="attack">Ataque</option>
-                        <option value="defense">Defesa</option>
-                        <option value="special_attack">Sp. Atk</option>
-                        <option value="special_defense">Sp. Def</option>
-                        <option value="speed">Velocidade</option>
+                        <option value="atk">Ataque</option>
+                        <option value="def">Defesa</option>
+                        <option value="spa">Sp. Atk</option>
+                        <option value="spd">Sp. Def</option>
+                        <option value="spe">Velocidade</option>
                     </optgroup>
                 </select>
                 

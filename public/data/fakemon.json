@@ -14,6 +14,8 @@
     "abilities": [{ "name": "Foco Solar (Solar Focus)", "desc": "Se o clima for Ensolarado, o Pokémon recupera 1/8 de seu HP máximo a cada turno." }],
     "hidden_ability": { "name": "Poder de Carga (Power Charge)", "desc": "O Ataque e o Ataque Especial do Pokémon aumentam em 1 estágio quando atingido por um movimento do tipo Elétrico (e o dano é negado, como uma imunidade)." },
     "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":1,
+    "is_final_stage":false,
     "evolutions": [
     {
       "id": 2,
@@ -104,6 +106,8 @@
     { "name": "Foco Solar (Solar Focus)", "desc": "Se o clima for Ensolarado, o Pokémon recupera 1/8 de seu HP máximo a cada turno." }
     ],
     "hidden_ability": { "name": "Poder de Carga (Power Charge)", "desc": "O Ataque e o Ataque Especial do Pokémon aumentam em 1 estágio quando atingido por um movimento do tipo Elétrico (e o dano é negado, como uma imunidade)." },
+    "evolution_stage":2,
+    "is_final_stage":false,
     "evolutions": [
     {
       "id": 3,
@@ -191,6 +195,8 @@
     "description": "O Girarborarge é o ápice da linha, combinando a robustez de um tronco com a anatomia elegante da girafa. Seu pescoço e patas dianteiras se converteram em madeira sólida, formando um tronco imponente. Para trás dos ombros, ele retém sua pelagem verde e o padrão de manchas que agora funcionam como painéis solares orgânicos. Sua crina evoluiu para uma coroa de gases e poeiras estelares densas. \n Agora alto o suficiente para competir com as árvores adultas, o Girarborarge reside em florestas densas, embora não recuse a luz extra das clareiras. Ele domina o controle da energia, canalizando-a para suas manchas de painel e utilizando-a para suas habilidades únicas. \n O Girarborarge adota uma postura calma, majestosa e largamente indiferente ao mundo. Os laços formados em estágios anteriores com seu Treinador permanecem inquebráveis, mas criar novos vínculos se torna um desafio. Sua principal função na natureza é a supervisão e produção de recursos.",
     "abilities": [{ "name": "Foco Solar (Solar Focus)", "desc": "Se o clima for Ensolarado, o Pokémon recupera 1/8 de seu HP máximo a cada turno." }],
     "hidden_ability": { "name": "Poder de Carga (Power Charge)", "desc": "O Ataque e o Ataque Especial do Pokémon aumentam em 1 estágio quando atingido por um movimento do tipo Elétrico (e o dano é negado, como uma imunidade)." },
+    "evolution_stage":3,
+    "is_final_stage":true,
     "base_stats": {
       "hp": 80,
       "atk": 70,
@@ -265,6 +271,8 @@
     "abilities": [{ "name": "Cabeça de Pedra (Rock Head)", "desc": "Previne qualquer dano de recuo causado pelos próprios movimentos do Pokémon." }],
     "hidden_ability": { "name": "Propulsor Cinético (Knetic Thruster)", "desc": "Aumenta a Velocidade do Pokémon em 1 estágio após ele usar um movimento que faz contato físico." },
     "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":1,
+    "is_final_stage":false,
     "evolutions": [
     {
       "id": 5,
@@ -354,6 +362,8 @@
     "description": "O Misseorite é o estágio onde a linha adquire a tipagem Pedra. Suas escamas ao redor da cabeça e pescoço crescem e endurecem dramaticamente, transformando-se em uma casca espessa e aerodinâmica de rocha e meteorito. Devido ao peso da blindagem, ele adota uma postura quase quadrupede em campo, embora ainda possa se levantar. Sua cauda se alonga e ganha espinhos rochosos, servindo como contrapeso essencial para manobras de alta velocidade. \n Ele prefere terrenos acidentados como cânions e rochedos, onde pode usar a propulsão. O pavio em sua língua desaparece, e a ignição do fogo torna-se totalmente controlada, canalizada através de seus pés e boca. \n A impulsividade do Dynite se transforma em foco no Misseorite. Ele agora canaliza suas explosões internas para uma propulsão controlada, lançando-se de cabeça contra seus alvos com o revestimento de rocha. \n Na natureza, Misseorite se torna extremamente agressivo e territorial. Esse comportamento se manifesta em uma proteção intensa para com seu Treinador: ele passa a encarar o Treinador como parte de seu território a ser defendido a todo custo. Seu apego evolui para um guardião feroz e super protetor, usando sua nova blindagem para se lançar na linha de frente em qualquer ameaça.",
     "abilities": [{ "name": "Cabeça de Pedra (Rock Head)", "desc": "Previne qualquer dano de recuo causado pelos próprios movimentos do Pokémon." }],
     "hidden_ability": { "name": "Propulsor Cinético (Knetic Thruster)", "desc": "Aumenta a Velocidade do Pokémon em 1 estágio após ele usar um movimento que faz contato físico." },
+    "evolution_stage":2,
+    "is_final_stage":false,
     "evolutions": [
     {
       "id": 6,
@@ -441,6 +451,8 @@
     "description": "O Morteorex é o ápice da linha de Fogo/Pedra. Seu corpo inteiro é revestido por placas de escama de rocha ígnea, que parecem se empilhar, com pequenos espaços quase invisíveis entre elas. O Morteorex é bípede e imponente. Nesses espaços, há um brilho constante de fogo interno, indicando que a base de suas escamas está perpetuamente aquecida a uma cor alaranjada, embora a cor externa permaneça escura. \n Ele prefere elevações e picos rochosos para manter vigilância sobre seu vasto território. Sua cauda, agora massiva e coberta por espetos de rocha ígnea, funciona como um tripé de suporte na hora do disparo e como uma clava devastadora em combate corpo a corpo. \n O Morteorex é calmo, estoico e imperturbável, tendo dominado completamente a impulsividade de seus estágios anteriores. Quando dormindo, ele se confunde perfeitamente com uma pilha de rochas, mas acordado, ele se assemelha a um vulcão ambulante. \n Sua habilidade primária é a Artilharia: o Morteorex canaliza sua explosão interna (controlada com maestria) para lançar suas próprias escamas de rocha ígnea — um ato completamente voluntário e indolor. Esse é o poder por trás de seu Movimento Assinatura, Bombardeio Meteórico, um ataque poderoso onde ele lança escamas flamejantes que explodem no impacto, espalhando magma e chamas na zona alvo. \n Apesar de sua baixa mobilidade (sacrificada pela blindagem), ele retém a capacidade de propulsão do Misseorite. Embora raramente use, a ideia de um Morteorex se lançando em alta velocidade contra um alvo é um lembrete do potencial destrutivo que o mundo deveria agradecer por sua natureza mais calma.",
     "abilities": [{ "name": "Cabeça de Pedra (Rock Head)", "desc": "Previne qualquer dano de recuo causado pelos próprios movimentos do Pokémon." }],
     "hidden_ability": { "name": "Propulsor Cinético (Knetic Thruster)", "desc": "Aumenta a Velocidade do Pokémon em 1 estágio após ele usar um movimento que faz contato físico." },
+    "evolution_stage":1,
+    "is_final_stage":true,
     "base_stats": {
       "hp": 95,
       "atk": 135,
@@ -518,6 +530,8 @@
     "abilities": [{ "name": "Propulsão Acelerada (Accelerated Thrust)", "desc": "Aumenta a Evasão do Pokémon em 1 estágio após ele usar um movimento de Cura ou Status." }],
     "hidden_ability": { "name": "Penumbra (Umbral Veil)", "desc": "O Pokémon é imune a movimentos do tipo Não-Contato quando o clima está definido como Noite/Sombrio." },
     "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":1,
+    "is_final_stage":false,
     "evolutions": [
     {
       "id": 8,
@@ -605,6 +619,8 @@
     "description": "O Penumbrike é o estágio onde a linha adquire a tipagem Sombrio. Seu corpo se alonga e assume uma postura horizontal e rígida, que o faz parecer uma moto anfíbia que pode ser montada. \n Sua blindagem de escamas passa por uma mudança de cor dramática que reflete seu novo tipo: a cabeça e a metade frontal do corpo tornam-se completamente escuras, enquanto a metade traseira permanece clara, com uma linha turva de transição. Sua cabeça é adornada com pequenas pontas que formam uma coroa e um visor/óculos escuros que encobre seus olhos, simbolizando que ele agora abraça a escuridão que antes temia. \n A cauda-hélice é agora mais longa e forte, funcionando como um propulsor extremamente versátil e poderoso. Quando parado, ela se enrola sob o corpo, agindo como uma 'roda traseira' articulada. Seu peito, coberto por escamas especiais, é a única parte que toca o chão, permitindo-lhe deslizar e ser propulsionado em terra úmida ou pisos lisos. \n A ansiedade do Shynarine não desaparece, mas se transforma em extrema cautela e insegurança mascarada. O Penumbrike torna-se reservado, cauteloso e até um pouco orgulhoso, tratando outros Pokémon e Treinadores com certo desdém. Essa atitude rude é um mecanismo de defesa, um reflexo do seu medo anterior que agora se manifesta como arrogância e superioridade. \n Em batalha, sua cautela se traduz em táticas de evasão e desorientação. Ele utiliza seu repertório de movimentos para se tornar difícil de acertar e para causar efeitos debilitantes, atacando de forma furtiva e com precisão cirúrgica.",
     "abilities": [{ "name": "Propulsão Acelerada (Accelerated Thrust)", "desc": "Aumenta a Evasão do Pokémon em 1 estágio após ele usar um movimento de Cura ou Status." }],
     "hidden_ability": { "name": "Penumbra (Umbral Veil)", "desc": "O Pokémon é imune a movimentos do tipo Não-Contato quando o clima está definido como Noite/Sombrio." },
+    "evolution_stage":2,
+    "is_final_stage":false,
     "evolutions": [
     {
       "id": 9,
@@ -690,6 +706,8 @@
     "description": "O Sklypsea é o estágio final da linha, uma máquina de alta velocidade que representa o domínio do Eclipse Total e da furtividade. Seu corpo é longo, hidrodinâmico e aerodinâmico, fluindo suavemente de um peitoral robusto para uma cauda longa e fina, que ainda funciona como uma hélice de propulsão extremamente poderosa e eficiente. Suas nadadeiras evoluíram para asas longas e rígidas, permitindo-lhe voar com graça e silêncio. \n Sua blindagem de escamas é completamente preta na base, mas translúcida no topo. Quando contra a luz, as escamas geram um contorno brilhante ao redor do corpo, simulando a Aura Corona visível durante um eclipse. Sua coroa mantém as pontas brancas e luminosas do Shynarine. Ele é um mestre da locomoção em todos os ambientes, sendo encontrado nos pontos mais fundos do oceano e acima das nuvens. \n O Slypsea é um Pokémon solitário, silencioso e ágil. A insegurança de seus estágios anteriores se transformou em uma preferência por isolamento. Embora não seja rude, ele é reservado e exige que seu espaço seja respeitado. É extremamente difícil de ser avistado devido à sua natureza reclusa e sua impressionante capacidade de se mover sem som. \n Seu Movimento Assinatura, Manobra Sombria, é uma tática que explora seu design e tipagem: o Sklypsea voa em direção a uma fonte de luz, usando seu corpo para formar uma sombra instantânea e, quando a luz retorna, ele desapareceu, pegando o oponente de surpresa. Graças à sua coloração e furtividade, essa manobra funciona mesmo na ausência de fontes de luz fortes.",
     "abilities": [{ "name": "Propulsão Acelerada (Accelerated Thrust)", "desc": "Aumenta a Evasão do Pokémon em 1 estágio após ele usar um movimento de Cura ou Status." }],
     "hidden_ability": { "name": "Penumbra (Umbral Veil)", "desc": "O Pokémon é imune a movimentos do tipo Não-Contato quando o clima está definido como Noite/Sombrio." },
+    "evolution_stage":1,
+    "is_final_stage":true,
     "base_stats": {
       "hp": 85,
       "atk": 90,
@@ -767,6 +785,8 @@
     "abilities": [{ "name": "Fuga (Run Away)", "desc": "Permite uma fuga garantida de Pokémon selvagens." },{"name":"Intimidar (Intimidate)", "desc":"Reduz o atributo de Ataque do inimigo."}],
     "hidden_ability": { "name": "Pele Descamada", "desc": "O Pokémon pode curar seus próprios problemas de status." },
     "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":1,
+    "is_final_stage":false,
     "evolutions": [
     {
       "id": 11,
@@ -855,6 +875,8 @@
     "description": "O Viborosk é a forma evoluída do Serpina, crescendo para um tamanho colossal. Sua aparência e textura de escamas se transformam drasticamente: seu corpo é agora uma massa longa e robusta que se assemelha a uma raiz retorcida ou um tronco de árvore caído (especialmente quando prestes a trocar de pele). \n O pequeno ornamento de pinha do Serpina evolui para uma estrutura ramificada e complexa, adornada com múltiplas pinhas menores. O Viborosk tipicamente mantém essa estrutura enterrada, retirando-a apenas para fins de socialização com outros de sua espécie ou para confundir oponentes. Ele vive em campos abertos e florestas, onde seu tamanho e camuflagem o tornam indistinguível do terreno. \n O Viborosk possui uma confiança absoluta em sua camuflagem. Ele evoluiu a partir da natureza arisca do Serpina para uma postura de defesa imóvel. Seu princípio é simples: se ele não se mover, ele não existe. É extremamente raro que um Viborosk reaja mesmo quando pisado ou usado como assento. Ele só se revela quando o disfarce é completamente desmascarado. \n Quando confrontado por predadores como o Washimpeckt, o Viborosk usa seu tamanho gigante não para atacar, mas para defender e intimidar, ganhando tempo para fugir ou se enterrar. A cauda ramificada é frequentemente usada para distrair o predador durante o processo de fuga.",
     "abilities": [{ "name": "Fuga (Run Away)", "desc": "Permite uma fuga garantida de Pokémon selvagens." },{"name":"Intimidar (Intimidate)", "desc":"Reduz o atributo de Ataque do inimigo."}],
     "hidden_ability": { "name": "Pele Descamada", "desc": "O Pokémon pode curar seus próprios problemas de status." },
+    "evolution_stage":2,
+    "is_final_stage":true,
     "base_stats": {
       "hp": 110,
       "atk": 95,
@@ -928,6 +950,8 @@
     "abilities": [{ "name": "Olhar Atento (Keen Eye)", "desc": "Impede que outros Pokémon diminuam a precisão." }],
     "hidden_ability": { "name": "Estômago (Guts)", "desc": "Aumenta o Ataque se houver algum problema de status." },
     "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":1,
+    "is_final_stage":false,
     "evolutions": [
     {
       "id": 13,
@@ -1019,6 +1043,8 @@
     "description": "O Washimpeckt é a forma final da linha de pássaros da Rota 1, evoluindo de um pequeno Passimpata para uma ave de rapina terrestre e aérea. Sua tipagem Lutador manifesta-se em suas pernas longas e incrivelmente potentes, que são sua principal arma. \n Sua plumagem é uma mistura de branco e cinza, com detalhes vermelhos vivos que adornam suas penas, intensificando a ferocidade de sua evolução. Sua cabeça mantém um bico forte, mas é a força concentrada em suas pernas que o torna um predador de sucesso. Ele é um caçador de campo aberto, onde pode usar sua velocidade de corrida e suas patadas fulminantes. \n O Wahimpeckt é um caçador eficiente e metódico que possui uma taxa de sucesso muito alta. Seu modo de caça é de espera e disparo: ele vaga pela área até que algo — um movimento, um som ou uma vibração incomum — chame sua atenção. Ele então congela (postura de caça), avalia a situação e, se confirmar que é uma presa, dispara em alta velocidade com suas pernas longas, finalizando o alvo com uma série de chutes rápidos. \n Ele não possui habilidades de detecção especializadas que superem a camuflagem perfeita do Viborosk, mas a sua estratégia de chutes repetitivos e de alto impacto permite que ele derrote presas que usam camuflagem ou defesa pesada (como o Viborosk, ao bicá-lo até ele se mexer). Sua ferocidade juvenil se transforma em disciplina e foco predatório.",
     "abilities": [{ "name": "Olhar Atento (Keen Eye)", "desc": "Impede que outros Pokémon diminuam a precisão." }],
     "hidden_ability": { "name": "Estômago (Guts)", "desc": "Aumenta o Ataque se houver algum problema de status." },
+    "evolution_stage":2,
+    "is_final_stage":true,
     "base_stats": {
       "hp": 65,
       "atk": 110,
@@ -1110,6 +1136,8 @@
     "abilities": [{ "name": "Correria (Hustle)", "desc": "Aumenta o Ataque, mas diminui a Precisão" }],
     "hidden_ability": { "name": "Garra Forte (Tough Claws)", "desc": "Aumenta o poder de movimentos físicos." },
     "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":1,
+    "is_final_stage":false,
     "evolutions": [
     {
       "id": 15,
@@ -1212,6 +1240,8 @@
     "description": "O Saberatus é a evolução feroz do Ratusk e manifesta o poder destemido que sempre possuiu. Uma máscara/capacete de metal cobre parte de sua face. Desta blindagem emergem duas presas caninas gigantes de aço que funcionam como verdadeiros dentes de sabre, adicionando uma silhueta de predador temível. Os dentes incisivos originais do Ratusk também se tornam totalmente metálicos e incrivelmente duros, crescendo constantemente e garantindo uma mordida poderosa. \n O resto do seu corpo, embora mantendo a pelagem marrom-bege, é marcado por cicatrizes e marcas de batalha, dando-lhe a aparência de um sobrevivente implacável. Os espaços para os olhos no capacete ficam completamente escuros, exceto pelo brilho assustador de seus olhos internos, aumentando o terror. \n O Saberatus é um atacante frenético. Ele abandona qualquer cautela e ataca indiscriminadamente tudo o que vê, motivado por uma agressividade extrema. Sua evolução para o tipo Aço confere-lhe imunidade total a venenos, permitindo-lhe ignorar completamente qualquer tática venenosa de seus oponentes e atacar predadores perigosos com uma coragem imprudente que só o tipo Aço permite.",
     "abilities": [{ "name": "Correria (Hustle)", "desc": "Aumenta o Ataque, mas diminui a Precisão" }],
     "hidden_ability": { "name": "Garra Forte (Tough Claws)", "desc": "Aumenta o poder de movimentos físicos." },
+    "evolution_stage":2,
+    "is_final_stage":true,
     "base_stats": {
       "hp": 65,
       "atk": 125,
@@ -1298,6 +1328,8 @@
     "abilities": [{ "name": "Proteção contra poeira (Shield Dust)", "desc": "Bloqueia os efeitos adicionais dos ataques recebidos." },{"name":"Ponto de Veneno (Poison Point)", "desc":"O contato com o Pokémon pode envenenar o atacante."}],
     "hidden_ability": { "name": "Esporo de Efeito (Effect Sopore)", "desc": "O contato pode causar intoxicação, paralisia ou sonolência." },
     "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":1,
+    "is_final_stage":false,
     "evolutions": [
     {
       "id": 17,
@@ -1365,12 +1397,14 @@
       "Poison"
     ],
     "image": "/images/pyroak.svg",
-    "entry": "Por mais que tenha um pelo macio e sedoso, recomenda-se não tocar, visto que esconde entre os fios, serdas venenosas.",
+    "entry": "Coberto por uma carapaça rígida, esse pokémon é constantemente confundido com sedimentos do terreno",
     "height_m": 0.7,
     "weight_kg": 15,
     "description": "O Caratox é o estágio de pupa. Ele se enrola em uma esfera maciça. Sua carapaça não é lisa, mas rugosa e incoerente, formada pelos pelos do Tatutox que se fundiram com secreções tóxicas e seu exoesqueleto, resultando em uma armadura extremamente densa. \n O Caratox é lento e se move voluntariamente dando pequenos impulsos para rolar e se reposicionar. Sua defesa, no entanto, é baseada em gases tóxicos direcionados. Quando mordido, ele libera um Gás Indutor de Sono e ele pode expelir uma Nuvem de Fumaça Espessa que serve como cortina de fumaça, diminuindo drasticamente a Precisão do oponente e obscurecendo sua visão no ar, permitindo que o Caratox role para longe.",
     "abilities": [{ "name": "Pele Descamada (Shed Skin)", "desc": "O Pokémon pode curar seus próprios problemas de status." },{"name":"Ponto de Veneno (Poison Point)", "desc":"O contato com o Pokémon pode envenenar o atacante."}],
     "hidden_ability": { "name": "Esporo de Efeito (Effect Sopore)", "desc": "O contato pode causar intoxicação, paralisia ou sonolência." },
+    "evolution_stage":2,
+    "is_final_stage":false,
     "evolutions": [
     {
       "id": 18,
@@ -1427,12 +1461,14 @@
       "Poison"
     ],
     "image": "/images/pyroak.svg",
-    "entry": "Por mais que tenha um pelo macio e sedoso, recomenda-se não tocar, visto que esconde entre os fios, serdas venenosas.",
+    "entry": "Esse pokémon é famoso por seus inúmeros tipos de substâncias com efeitos diversos produzidas dentro de si. Recomenda-se cuidado ao se aproximar.",
     "height_m": 1.4,
     "weight_kg": 50,
     "description": "Seu novo exoesqueleto é liso e homogêneo, refletindo a cura completa após a fase de casulo, e funciona como uma armadura pesada. \n Ele se move lentamente, utilizando seus numerosos pares de pernas de forma cadenciada. Para atacar, ele se contorce com ferocidade, levantando a parte traseira do corpo como um escorpião, permitindo-lhe usar suas garras e presas com maior impacto. Ele possui esporões venenosos ao longo do corpo e libera os gases tóxicos (Sono, Fumaça) pela boca. \n O Slacratox é um mestre da Guerra de Desgaste. Seu objetivo não é a força bruta, mas sim sobreviver e neutralizar o inimigo. \n Quando confrontado com predadores como o Saberatus ou o Washimpeckt, sua estratégia é estritamente defensiva: ele usa a resistência de sua carapaça para absorver ataques até conseguir uma abertura. Ele prioriza causar efeitos negativos para tornar o adversário indefeso ou forçá-lo a recuar.",
     "abilities": [{ "name": "Proteção contra poeira (Shield Dust)", "desc": "Bloqueia os efeitos adicionais dos ataques recebidos." },{"name":"Ponto de Veneno (Poison Point)", "desc":"O contato com o Pokémon pode envenenar o atacante."}],
     "hidden_ability": { "name": "Esporo de Efeito (Effect Sopore)", "desc": "O contato pode causar intoxicação, paralisia ou sonolência." },
+    "evolution_stage":3,
+    "is_final_stage":true,
     "base_stats": {
       "hp": 90,
       "atk": 80,
@@ -1526,6 +1562,8 @@
     "abilities": [{ "name": "Charme fofo (Cute Charm)", "desc": "O contato com o Pokémon pode causar paixão." }],
     "hidden_ability": { "name":"Guarda Amiga (Friend Guard)", "desc":"Reduz o dano causado a aliados." },
     "evolution_display_type": "BRANCHING",
+    "evolution_stage":1,
+    "is_final_stage":false,
     "evolutions":[
       {
         "id": 20,
@@ -1623,6 +1661,8 @@
     "description": "O Twilux é a forma manifestada do Elemento da Magia, evoluindo do Lipony através de um profundo laço de amizade e o uso do próprio elemento. Ele se transforma em um Unicórnio imponente, do tamanho de um Rapidash, com a pelagem de um roxo suave e uma crina esvoaçante. \n Seu chifre único é a chave de seu poder: ele é espiralado e adornado com runas que pulsam com energia Psíquica. O Twilux utiliza esse chifre para canalizar e amplificar seus feitiços. A marca disforme de Lipony se resolve em uma Estrela cintilante em sua coxa. \n O Twilux é reconhecido como um dos Pokémon mais inteligentes da região. Sua sede insaciável por conhecimento o leva a buscar ativamente lugares de aprendizado, como bibliotecas e universidades, embora a maioria seja encontrada ao lado de seus Treinadores, que são seus parceiros no estudo da magia. \n Ele usa a telecinesia para tarefas diárias, movendo objetos com a mente e levitando por curtas distâncias. Sua magia não é instintiva, mas o resultado de estudo e planejamento, o que o torna um estrategista brilhante. A habilidade de teletransporte é frequentemente discutida, mas a maioria dos pesquisadores acredita que seja um mito, devido à sua raridade.",
     "abilities": [{ "name": "Charme fofo (Cute Charm)", "desc": "O contato com o Pokémon pode causar paixão." }, {"name": "Sincronizar (Synchronize)", "desc":"Inflige queimaduras, veneno ou paralisia ao inimigo."}],
     "hidden_ability": { "name":"Guarda Mágica (Magic Guard)", "desc":"Protege o Pokémon de danos indiretos." },
+    "evolution_stage":2,
+    "is_final_stage":true,
     "base_stats": {
       "hp": 70,
       "atk": 60,
@@ -1697,6 +1737,8 @@
     "description": "O Rainboost é a forma manifestada do Elemento da Lealdade, evoluindo através de uma amizade inabalável e exposição ao próprio elemento da Lealdade. Ele se transforma em um Pégaso esguio e potente. Suas grandes asas são cobertas por penas coloridas, que brilham com as cores vibrantes de um arco-íris. \n O corpo do Rainboost gera eletricidade constantemente, e essa energia é diretamente proporcional à sua velocidade: quanto mais rápido ele voa, mais energia ele gera. A eletricidade envolve suas patas e, ao atingir o pico de sua velocidade, ele deixa um rastro marcante de arco-íris e faíscas elétricas por onde passa. Sua marca na coxa se manifesta como uma nuvem com um raio triplo. \n O Rainboost é a personificação da lealdade. O ato de evoluir para um Rainboost através do laço de amizade garante ao Treinador uma parceria duradoura e inabalável por toda a vida. \n Ele expressa sua alegria e energia interagindo com o clima, vagando pelo céu para brincar com as nuvens, arrastando-as e criando desenhos. Em combate, ele usa sua velocidade e o poder Elétrico para proteger seus amigos, sendo capaz de atrair e neutralizar raios. Sua natureza é amigável e cooperativa com as outras Ponevoluções, mantendo uma relação de amizade e camaradagem com o estudioso Twilux.",
     "abilities": [{ "name": "Para-raios (Lightning Rod)", "desc": "Atrai todos os movimentos do tipo Elétrico para aumentar o Ataque Especial." }, {"name": "Acionamento do Motor (Motor Drive)", "desc":"Aumenta a Velocidade se atingido por um movimento do tipo Elétrico."}],
     "hidden_ability": { "name":"Asas Vendaval (Gale Wings)", "desc":"Dá prioridade a movimentos do tipo voador." },
+    "evolution_stage":2,
+    "is_final_stage":true,
     "base_stats": {
       "hp": 70,
       "atk": 105,
@@ -1776,6 +1818,8 @@
     "description": "O Agerjack é a forma manifestada do Elemento da Honestidade, evoluindo do Lipony através de um laço de amizade e o elemento da Honestidade. Ele se transforma em um pokémon imponente e musculoso, com o físico robusto de um Mudsdale. Sua crina e cauda são castanhas e douradas, trançadas com um aspecto que lembra palha. \n Seu corpo é sinônimo de trabalho duro: os pelos longos de suas patas estão frequentemente sujos de terra e lama, e sua principal arma são seus cascos, usados para coices e ataques terrestres devastadores. Sua marca se resolve em um padrão de solo rachado com um broto de maçã no centro. \n O Agerjack é o âncora e a voz da razão entre as Ponevoluções. \n Sua aura Fada/Solo pulsa em desaprovação quando detecta a desonestidade, agindo com visível irritação contra mentiras.",
     "abilities": { "name": "Desastrado (Scrappy)", "desc": "Permite que os golpes atinjam pokémon do tipo Fantasma." },
     "hidden_ability": { "name":"Desafiador (Defiant)", "desc":"Aumenta drasticamente o Ataque do Usuário quando os atributos são reduzidos." },
+    "evolution_stage":2,
+    "is_final_stage":true,
     "base_stats": {
       "hp": 91,
       "atk": 121,

@@ -2,6 +2,7 @@ export default function FakemonAbilities({ abilities, hidden_ability }) {
   if ((!abilities || abilities.length === 0) && !hidden_ability) return null;
 
   const renderTooltip = (name, desc, colorClass) => (
+    // ... (o renderTooltip permanece inalterado)
     <div className="relative inline-block">
       {/* Trigger do hover */}
       <span className={`px-3 py-1 text-sm rounded-md ${colorClass} cursor-help shadow group inline-block relative`}>
@@ -21,14 +22,20 @@ export default function FakemonAbilities({ abilities, hidden_ability }) {
     </div>
   );
 
+  // Lógica para obter as habilidades como um array seguro
+  const abilitiesArray = Array.isArray(abilities) 
+    ? abilities // Se já for um Array, usa o array
+    : Object.values(abilities || {}); // Se for objeto/null/undefined, transforma em array de valores
+
   return (
     <>
-      {/* HABILIDADES NORMAIS */}
+      {/* HABILIDADES NORMAIS - AGORA USANDO abilitiesArray */}
       <h4 className="mt-4 font-semibold mb-2">Habilidades</h4>
       <div className="flex flex-wrap gap-3">
-        {(abilities || []).map((ab, i) => (
+        {abilitiesArray.map((ab, i) => (
           <span key={i}>
-            {renderTooltip(ab.name, ab.desc, "bg-gray-600")}
+            {/* Garantimos que ab.name e ab.desc existem, caso a transformação seja de um objeto estranho */}
+            {renderTooltip(ab.name || 'Desconhecida', ab.desc || 'Sem descrição.', "bg-gray-600")}
           </span>
         ))}
       </div>

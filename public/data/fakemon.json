@@ -1578,6 +1578,27 @@
         "number": "021",
         "method": "Evolui com amizade máxima e Elemento da Lealdade",
         "image": "/images/spriglet.svg"
+      },
+      {
+        "id": 22,
+        "name": "Agerjack",
+        "number": "022",
+        "method": "Evolui com amizade máxima e Elemento da Honestidade",
+        "image": "/images/pyroak.svg"
+      },
+      {
+        "id": 23,
+        "name": "Crystarity",
+        "number": "023",
+        "method": "Evolui com amizade máxima e Elemento da Generosidade",
+        "image": "/images/spriglet.svg"
+      },
+      {
+        "id": 24,
+        "name": "Flowershy",
+        "number": "024",
+        "method": "Evolui com amizade máxima e Elemento da Bondade",
+        "image": "/images/pyroak.svg"
       }
     ],
     "base_stats": {
@@ -1816,7 +1837,7 @@
     "height_m": 1.8,
     "weight_kg": 95,
     "description": "O Agerjack é a forma manifestada do Elemento da Honestidade, evoluindo do Lipony através de um laço de amizade e o elemento da Honestidade. Ele se transforma em um pokémon imponente e musculoso, com o físico robusto de um Mudsdale. Sua crina e cauda são castanhas e douradas, trançadas com um aspecto que lembra palha. \n Seu corpo é sinônimo de trabalho duro: os pelos longos de suas patas estão frequentemente sujos de terra e lama, e sua principal arma são seus cascos, usados para coices e ataques terrestres devastadores. Sua marca se resolve em um padrão de solo rachado com um broto de maçã no centro. \n O Agerjack é o âncora e a voz da razão entre as Ponevoluções. \n Sua aura Fada/Solo pulsa em desaprovação quando detecta a desonestidade, agindo com visível irritação contra mentiras.",
-    "abilities": { "name": "Desastrado (Scrappy)", "desc": "Permite que os golpes atinjam pokémon do tipo Fantasma." },
+    "abilities": [{ "name": "Desastrado (Scrappy)", "desc": "Permite que os golpes atinjam pokémon do tipo Fantasma." }],
     "hidden_ability": { "name":"Desafiador (Defiant)", "desc":"Aumenta drasticamente o Ataque do Usuário quando os atributos são reduzidos." },
     "evolution_stage":2,
     "is_final_stage":true,
@@ -1881,8 +1902,7 @@
         "desc": "Pode diminuir o Ataque Especial do oponente."
       }
     ]
-  }
-  ,
+  },
   {
     "id": 23,
     "name": "Crystarity",
@@ -1893,10 +1913,10 @@
     ],
     "image": "/images/spriglet.svg",
     "entry": "Perfeccionista, o Crystarity evita agir se puder errar. Sua elegância não poderia ser manchada por erros. Isso pode ser visto tanto quanto ponto forte com também ponto fraco",
-    "height_m": 1.8,
-    "weight_kg": 95,
+    "height_m": 1.65,
+    "weight_kg": 75,
     "description": "O Crystarity é a manifestação do Elemento da Generosidade. Ele se transforma em um Unicórnio elegante, cuja pelagem, de cor branca ou azul-claro, é fria ao toque e densa, parecendo porcelana lapidada ou gelo. \n Seu chifre é a sua característica mais notável: um diamante puro e cristalino, esculpido e facetado para a perfeição, que amplifica sua magia Fada e Gelo. A crina e a cauda são volumosas e esculturais, com mechas em tons de violeta e azul-claro que parecem fios de seda congelada. \n O Crystarity personifica a busca pela perfeição e a Generosidade. Sua natureza o torna um especialista em beleza e joias: ele possui um instinto mágico para encontrar preciosidades e realçar a 'joia' de seus aliados em batalha. \n Sua generosidade se manifesta no campo ao usar sua magia para proteger, curar e melhorar seus parceiros. Em combate, ele preza pela elegância e pelo controle, preferindo imobilizar o oponente com status para evitar lutas desordenadas.",
-    "abilities": { "name": "Joalheiro (Gem Finder)", "desc": "Quando em campo, aumenta o maior stat do aliado (ou de si mesmo) em 1 estágio." },
+    "abilities": [{ "name": "Joalheiro (Gem Finder)", "desc": "Quando em campo, aumenta o maior stat do aliado (ou de si mesmo) em 1 estágio." }],
     "hidden_ability": { "name":"Perfeccionismo (Perfectionism)", "desc":"Aumenta a precisão de todos os movimentos." },
     "evolution_stage":2,
     "is_final_stage":true,
@@ -1947,6 +1967,76 @@
         "power":90,
         "accuracy":100,
         "desc": "Pode congelar o oponente."
+      },
+      {
+        "level": 60,
+        "name": "Moonblast",
+        "type":"Fairy",
+        "category":"special",
+        "power":95,
+        "accuracy":100,
+        "desc": "Pode diminuir o Ataque Especial do oponente."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Flowershy",
+    "number": "024",
+    "types": [
+      "Fairy",
+      "Grass"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Esse pokémon, por incrível que pareça, é sim capaz de fazer sons. Apenas são estremamente baixos devido a sua timidez.",
+    "height_m": 1.55,
+    "weight_kg": 70,
+    "description": "O Flowershy é a manifestação da Bondade, evoluindo do Lipony através de um laço de amizade e o Elemento da Bondade. Ele se transforma em um Pégaso esguio e delicado, com uma pelagem suave e coloração em tons de amarelo-claro. \n Suas asas são de penas macias, mas sua crina e cauda são adornadas com flores e brotos, frequentemente arranjados como uma coroa de flores, que florescem quando ele usa sua magia. Sua marca são as Três Borboletas, que se manifestam como Borboletas de flores.",
+    "abilities": [{ "name": "Curandeiro (Healer)", "desc": "Pode curar as condições negativas de um aliado." }],
+    "hidden_ability": { "name":"Triagem (Triage)", "desc":"Dá prioridade a ações restauradoras." },
+    "evolution_stage":2,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 118,
+      "atk": 58,
+      "def": 87,
+      "spa": 83,
+      "spd": 97,
+      "spe": 77
+    },
+    "moves": [
+      {
+        "level": "(Evo)",
+        "name": "Sleep Powder",
+        "type":"Grass",
+        "accuracy":75,
+        "desc": "Faz o oponente dormir."
+      },
+      {
+        "level": 30,
+        "name": "Synthesis",
+        "type": "Grass",
+        "desc": "O usuário recupera HP. A quantidade varia de acordo com o clima."
+      },
+      {
+        "level": 38,
+        "name": "Bonded Bloom",
+        "type":"Grass",
+        "desc": "Cura 50% do HP faltante do usuário e dos aliados."
+      },
+      {
+        "level": 45,
+        "name": "Leech Seed",
+        "type": "Grass",
+        "accuracy": 100,
+        "desc": "Drena os PV do oponente a cada turno."
+      },
+      {
+        "level": 53,
+        "name": "The Stare",
+        "type":"Fairy",
+        "accuracy": 100,
+        "desc": "Reduz o Ataque e Ataque Especial do alvo em 2 estágios. Se o Flowershy sofrer dano (exceto por status) no turno anterior, a redução de Ataque e Ataque Especial se torna de 3 estágios (ao invés de 2)."
       },
       {
         "level": 60,

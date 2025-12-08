@@ -7,11 +7,11 @@ export default function FakedleInput({ allFakemons, onGuess }) {
 
     // Filtra Fakémons baseado no termo de busca (máximo de 10 sugestões)
     const suggestions = useMemo(() => {
-        if (!searchTerm || searchTerm.length < 2) return [];
+        if (!searchTerm || searchTerm.length < 1) return [];
 
         return allFakemons
             .filter(f => f.name.toLowerCase().includes(searchTerm.toLowerCase()))
-            .slice(0, 10); // Limita a 10 sugestões
+            .slice(0, 5); // Limita a 5 sugestões
     }, [searchTerm, allFakemons]);
 
     // Função chamada ao clicar em "Tentar" ou selecionar uma sugestão

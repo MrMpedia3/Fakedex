@@ -2131,5 +2131,459 @@
         "desc": "Pode diminuir o Ataque Especial do oponente."
       }
     ]
+  },
+  {
+    "id": 26,
+    "name": "Canisco",
+    "number": "026",
+    "types": [
+      "Normal"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Canisco costuma ser um dos pokémon mais requisitado como companhia.",
+    "height_m": 0.5,
+    "weight_kg": 10,
+    "description": "Canisco é um Pokémon canino coberto por uma pelagem espessa, macia e extremamente agradável ao toque. Apesar de sua aparência de pelúcia, ele é naturalmente orientado para a força, o que se manifesta em seu Ataque ligeiramente superior. Ele é um filhote que busca atenção de forma mais vigorosa, latindo e convidando ao toque, mas ainda podendo ser um pouco medroso. \n Ele compartilha uma faixa (coleira) com Felifú, mas Canisco a usa como um símbolo de sua ligação com o Treinador, com um pequeno pingente em formato de osso.",
+    "abilities": [{ "name": "Fuga (Run Away)", "desc": "Permite uma fuga garantida de Pokémon selvagens." }],
+    "hidden_ability": { "name": "Estômago (Guts)", "desc": "Aumenta o Ataque se houver algum problema de status." },
+    "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":1,
+    "is_final_stage":false,
+    "evolutions": [
+    {
+      "id": 28,
+      "name": "Pibrulltus",
+      "number": "028",
+      "method": "Evolui no nível 16",
+      "image": "/images/pyroak.svg"
+    },
+    {
+      "id": 30,
+      "name": "Masteriffik",
+      "number": "030",
+      "method": "Evolui no nível 40",
+      "image": "/images/pyroak.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 47,
+      "atk": 58,
+      "def": 49,
+      "spa": 43,
+      "spd": 43,
+      "spe": 53
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type":"Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level": 1,
+        "name": "Leer",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui a Defesa do oponente."
+      },
+      {
+        "level": 6,
+        "name": "Sand Attack",
+        "type":"Ground",
+        "accuracy":100,
+        "desc": "Diminuia a Precisão do oponente."
+      },
+      {
+        "level": 10,
+        "name": "Quick Attack",
+        "type": "Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100,
+        "desc": "Usuário ataca primeiro."
+      },
+      {
+        "level": 14,
+        "name": "Headbutt",
+        "type":"Normal",
+        "category":"physical",
+        "power":70,
+        "accuracy":100,
+        "desc":"Pode estremecer o oponente."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Felifú",
+    "number": "027",
+    "types": [
+      "Normal"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Felifú costuma ser um dos pokémon mais requisitado como companhia.",
+    "height_m": 0.4,
+    "weight_kg": 8.8,
+    "description": "Felifú é um Pokémon felino esguio, cuja característica mais marcante é sua pelagem estranhamente áspera, descrita como 'fiapo de manga'. Felifú prefere demonstrar afeto de forma reservada, esfregando-se sutilmente e observando o ambiente antes de Canisco. \n O laço de rivalidade é forte com o Canisco, mas a tática de Felifú é mais estratégica. \n Ele compartilha uma faixa (coleira) com Canisco, mas Felifú a usa como um símbolo de sua admiração para com o Treinador, com um pequeno pingente em formato do rosto de um gato.",
+    "abilities": [{ "name": "Fuga (Run Away)", "desc": "Permite uma fuga garantida de Pokémon selvagens."  }],
+    "hidden_ability": { "name": "Infiltrador (Infiltrator)", "desc": "Atravessa a barreira do inimigo e ataca." },
+    "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":1,
+    "is_final_stage":false,
+    "evolutions": [
+    {
+      "id": 29,
+      "name": "Qitoxic",
+      "number": "029",
+      "method": "Evolui no nível 16",
+      "image": "/images/spriglet.svg"
+    },
+    {
+      "id": 31,
+      "name": "Elegato",
+      "number": "031",
+      "method": "Evolui no nível 40",
+      "image": "/images/spriglet.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 47,
+      "atk": 46,
+      "def": 43,
+      "spa": 59,
+      "spd": 51,
+      "spe": 47
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Scratch",
+        "type":"Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level": 1,
+        "name": "Growl",
+        "type":"Normal",
+        "accuracy": 100,
+        "desc": "Reduz o ataque do oponente."
+      },
+      {
+        "level": 6,
+        "name": "Hone Claws",
+        "type":"Dark",
+        "desc": "Aumenta o Ataque e Precisão do usuário."
+      },
+      {
+        "level": 10,
+        "name": "Feint Attack",
+        "type":"Dark",
+        "category":"physical",
+        "power":60,
+        "accuracy":"∞",
+        "desc": "Ignora Evasão e Precisão."
+      },
+      {
+        "level": 14,
+        "name": "Bite",
+        "type":"Dark",
+        "category":"physical",
+        "power":60,
+        "accuracy":100,
+        "desc": "Pode estremecer o oponente."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Pibrulltus",
+    "number": "028",
+    "types": [
+      "Fighting"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Por mais que possa parecer intimidador, esse pokémon é extremamente dócil com as pessoas. Principalmente com crianças.",
+    "height_m": 1.2,
+    "weight_kg": 50,
+    "description": "Pibrulltus é a manifestação da força e da lealdade canina em transição. Ele adota uma postura bípede, com o pelo macio de Canisco começando a endurecer, preparando-o para o confronto. Sua pelagem ganhou uma coloração mais escura, tipicamente marrom e branco, remetendo a raças de luta. A faixa (coleira) de seu estágio anterior se transformou em bandagens firmes que protegem suas mãos e punhos, prontas para o combate. O pingente de osso agora aparece estilhaçado, simbolizando a quebra de sua natureza puramente Normal. \n Este Pokémon adota a postura de um boxeador, mantendo uma guarda baixa e provocadora. Ele espera que o oponente ataque primeiro, confiando em sua resistência e na força devastadora de seu Ataque para contra-atacar. Sua lealdade é inabalável, e ele se torna o guardião natural do Treinador.",
+    "abilities": [{"name":"Intimidar (Intimidate)", "desc":"Reduz o atributo de Ataque do inimigo."},{"name":"Punho de Ferro (Iron Fist)", "desc":"Aumenta a potência dos golpes de soco."}],
+    "hidden_ability": { "name": "Abertura do Rival - Foco", "desc": "Se o oponente errar um ataque, revida instantaneamente e aumenta o Ataque do usuário." },
+    "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":2,
+    "is_final_stage":false,
+    "base_stats": {
+      "hp": 83,
+      "atk": 114,
+      "def": 68,
+      "spa": 74,
+      "spd": 93,
+      "spe": 37
+    },
+    "moves": [
+      {
+        "level": 16,
+        "name": "Drain Punch",
+        "type":"Fighting",
+        "category":"physical",
+        "power":75,
+        "accuracy":100,
+        "desc":"O usuário recupera metade dos pontos de vida infligidos ao oponente."
+      },
+      {
+        "level": 21,
+        "name": "Bulk Up",
+        "type":"Fighting",
+        "desc": "Aumenta O Ataque e Defesa do usuário."
+      },
+      {
+        "level": 25,
+        "name": "Close Combat",
+        "type": "Fighting",
+        "category":"physical",
+        "power":120,
+        "accuracy":100,
+        "desc": "Diminui a Defesa e Defesa Especial do usuário."
+      },
+      {
+        "level": 29,
+        "name": "Endure",
+        "type": "Normal",
+        "desc": "Sempre resta pelo menos 1 HP, mas pode falhar se usado consecutivamente."
+      },
+      {
+        "level": 33,
+        "name": "Reversal",
+        "type":"Fighting",
+        "category":"physical",
+        "accuracy":100,
+        "desc":"Quanto mais baixo o HP do usuário, maior o poder."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Qitoxic",
+    "number": "029",
+    "types": [
+      "Poison"
+    ],
+    "image": "/images/spriglet.svg",
+    "entry": "Por mais que não seja exatamente um pokémon ideal para se ter de companhia, fica adimirado com frequência por seu treinador, tentando demonstrar como pode.",
+    "height_m": 1.1,
+    "weight_kg": 37.7,
+    "description": "Qitoxic é a transição para a sutileza e a trapaça. O pelo 'fiapo de manga' de Felifú se tornou mais suave e macio, mas agora exibe uma coloração sutilmente roxeada, indicando sua tipagem Venenosa. Sua faixa se transformou em um cachecol que está constantemente molhado pelo veneno liberado de suas patas, o qual está sempre pingando. O pingente de gatinho evoluiu para uma caveira de gatinho, sinalizando sua natureza sombria e peçonhenta. \n Ele adota uma postura bípede, mas sua movimentação é fluida e voltada para a evasão. Assim como seu rival, Pibrulltus, Qitoxic também adota uma postura provocadora e de tramoia, esperando que o oponente perca a guarda. Ele confia em sua Velocidade e Ataque Especial para aplicar Veneno ou truques, utilizando suas patas para liberar o veneno nos ataques de contato.",
+    "abilities": [{"name":"Ponto de Veneno (Poison Point)", "desc":"O contato com o Pokémon pode envenenar o atacante."},{"name":"Técnico (Technician)", "desc":"Aumenta o poder dos golpes mais fracos do Pokémon."}],
+    "hidden_ability": { "name": "Abertura do Rival - Peçonha", "desc": "Se o oponente errar um ataque, aplica Veneno instantaneamente e aumenta o Ataque Especial do usuário." },
+    "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":2,
+    "is_final_stage":false,
+    "base_stats": {
+      "hp": 67,
+      "atk": 74,
+      "def": 93,
+      "spa": 114,
+      "spd": 68,
+      "spe": 53
+    },
+    "moves": [
+      {
+        "level": 16,
+        "name": "Clear Smog",
+        "type":"Poison",
+        "category":"special",
+        "power":50,
+        "desc":"Remove todas as mudanças de stats do alvo."
+      },
+      {
+        "level": 21,
+        "name": "Nasty Plot",
+        "type":"Dark",
+        "desc": "Aumenta drasticamente o Ataque Especial do Usuário."
+      },
+      {
+        "level": 25,
+        "name": "Sludge Bomb",
+        "type":"Poison",
+        "category":"special",
+        "power":90,
+        "accuracy":100,
+        "desc": "Pode envenenar o oponente."
+      },
+      {
+        "level": 29,
+        "name": "Substitute",
+        "type":"Normal",
+        "desc": "Usa HP para criar uma isca que recebe os golpes."
+      },
+      {
+        "level": 33,
+        "name": "Venoshock",
+        "type":"Poison",
+        "category":"special",
+        "power":65,
+        "accuracy":100,
+        "desc": "Causa o dobro de dano se o alvo estiver envenenado."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Masteriffik",
+    "number": "030",
+    "types": [
+      "Fighting",
+      "Ground"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Por mais que possa parecer intimidador, esse pokémon é extremamente dócil com as pessoas. Principalmente com crianças.",
+    "height_m": 1.9,
+    "weight_kg": 110,
+    "description": "Masteriffik é o ápice da disciplina e da lealdade. Seu pelo se tornou áspero e junto, como se estivesse coberto de barro e lama, simbolizando incontáveis horas de treinamento solo. Sua postura agora é a de um Mestre de Artes Marciais: calma, respeitosa, mas sempre pronto para o combate. As bandagens de suas mãos e uma nova faixa na cabeça estão igualmente sujas de terra, com o pingente de osso quebrado sujo firmemente amarrado atrás. \n Seu tipo Solo se manifesta em sua estabilidade inabalável, fazendo com que ele resista a qualquer golpe, mantendo-se firme como o chão. Ele confia na sua Defesa Especial para resistir aos golpes psíquicos do rival e responder com um golpe físico avassalador.",
+    "abilities": [{"name":"Intimidar (Intimidate)", "desc":"Reduz o atributo de Ataque do inimigo."},{"name":"Punho de Ferro (Iron Fist)", "desc":"Aumenta a potência dos golpes de soco."}],
+    "hidden_ability": { "name": "Abertura do Rival - Foco", "desc": "Se o oponente errar um ataque, revida instantaneamente e aumenta o Ataque do usuário." },
+    "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":3,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 109,
+      "atk": 134,
+      "def": 97,
+      "spa": 79,
+      "spd": 119,
+      "spe": 62
+    },
+    "moves": [
+      {
+        "level": 40,
+        "name": "Earthquake",
+        "type":"Ground",
+        "category":"physical",
+        "power":100,
+        "accuracy":100,
+        "desc": "O poder é dobrado se o oponente estiver enterrado por causa de Dig."
+      },
+      {
+        "level": 41,
+        "name": "Swords Dance",
+        "type":"Normal",
+        "desc": "Aumenta drasticamente o Ataque do Usuário."
+      },
+      {
+        "level": 48,
+        "name": "Heavy Slam",
+        "type": "Steel",
+        "category":"physical",
+        "accuracy":100,
+        "desc": "Quanto mais pesado o usuário, mas poderoso o ataque."
+      },
+      {
+        "level": 56,
+        "name": "Earthly Punishment",
+        "type": "Ground",
+        "category":"physical",
+        "power":90,
+        "accuracy":100,
+        "desc": "Causa dano dobrado se o alvo estiver com stats defensivos aumentados."
+      },
+      {
+        "level": 64,
+        "name": "Poison Jab",
+        "type":"Poison",
+        "category":"physical",
+        "power":80,
+        "accuracy":100,
+        "desc":"Pode envenenar o oponente."
+      },
+      {
+        "level":72,
+        "name": "Sucker Punch",
+        "type": "Dark",
+        "category":"physical",
+        "power":70,
+        "accuracy":100,
+        "desc": "Usuário ataca primeiro, mas só funciona se o oponente estiver preparando um ataque."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Elegato",
+    "number": "031",
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "image": "/images/spriglet.svg",
+    "entry": "Por mais que não seja exatamente um pokémon ideal para se ter de companhia, fica adimirado com frequência por seu treinador, tentando demonstrar como pode.",
+    "height_m": 1.7,
+    "weight_kg": 78.3,
+    "description": "Elegato é a forma final da sutiliza e manipulação. Sua pelagem é agora sedosa, macia e luxuosa, dando a aparência de que está vestindo uma roupa fina. O pelo hidrofóbico nas patas forma luvas finas sob as quais o veneno é liberado. Sua transformação Psíquica é marcada por uma joia (corrente de cabeça) que sustenta um pingente de relógio balançando na frente de seus olhos, servindo como foco para hipnose e ilusões. \n Ele se tornou o mestre das artimanhas. Sua alta Defesa permite que ele resista aos golpes físicos do Masteriffik, enquanto sua Velocidade e Ataque Especial garantem que ele utilize sua combinação de status Veneno/Psíquico.",
+    "abilities": [{"name":"Ponto de Veneno (Poison Point)", "desc":"O contato com o Pokémon pode envenenar o atacante."},{"name":"Técnico (Technician)", "desc":"Aumenta o poder dos golpes mais fracos do Pokémon."}],
+    "hidden_ability": { "name": "Abertura do Rival - Peçonha", "desc": "Se o oponente errar um ataque, aplica Veneno instantaneamente e aumenta o Ataque Especial do usuário." },
+    "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":3,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 79,
+      "atk": 79,
+      "def": 119,
+      "spa": 134,
+      "spd": 79,
+      "spe": 110
+    },
+    "moves": [
+      {
+        "level": 40,
+        "name": "Psychic",
+        "type":"Psychic",
+        "category":"special",
+        "power":90,
+        "accuracy":100,
+        "desc": "Pode diminuir a Defesa Especial do oponente."
+      },
+      {
+        "level": 41,
+        "name": "Calm Mind",
+        "type": "Psychic",
+        "desc": "Aumenta o Ataque Especial e Defesa Especial do usuário."
+      },
+      {
+        "level": 48,
+        "name": "Psyshock",
+        "type":"Psychic",
+        "category":"special",
+        "power":80,
+        "accuracy":100,
+        "desc": "Inflinge dano baseado na Defesa do oponente, não Defesa Especial."
+      },
+      {
+        "level": 29,
+        "name": "Meowparalysis",
+        "type":"Poison",
+        "accuracy":90,
+        "desc": "Escolhe um de três efeitos Status aleatórios: Envenenamento Severo, Sono ou Confusão."
+      },
+      {
+        "level": 64,
+        "name": "Focus Blast",
+        "type":"Fighting",
+        "category":"special",
+        "power":120,
+        "accuracy":70,
+        "desc": "Pode diminuir a Defesa Especial do oponente."
+      },
+      {
+        "level":72,
+        "name":"Toxic",
+        "type":"Poison",
+        "accuracy":90,
+        "desc":"Envenena gravemente o oponente."
+      }
+    ]
   }
 ]

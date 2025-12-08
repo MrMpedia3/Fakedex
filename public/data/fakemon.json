@@ -1599,6 +1599,13 @@
         "number": "024",
         "method": "Evolui com amizade máxima e Elemento da Bondade",
         "image": "/images/pyroak.svg"
+      },
+      {
+        "id": 25,
+        "name": "Pinkaos",
+        "number": "025",
+        "method": "Evolui com amizade máxima e Elemento do Riso",
+        "image": "/images/spriglet.svg"
       }
     ],
     "base_stats": {
@@ -2037,6 +2044,82 @@
         "type":"Fairy",
         "accuracy": 100,
         "desc": "Reduz o Ataque e Ataque Especial do alvo em 2 estágios. Se o Flowershy sofrer dano (exceto por status) no turno anterior, a redução de Ataque e Ataque Especial se torna de 3 estágios (ao invés de 2)."
+      },
+      {
+        "level": 60,
+        "name": "Moonblast",
+        "type":"Fairy",
+        "category":"special",
+        "power":95,
+        "accuracy":100,
+        "desc": "Pode diminuir o Ataque Especial do oponente."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Pinkaos",
+    "number": "025",
+    "types": [
+      "Fairy",
+      "Dark"
+    ],
+    "image": "/images/spriglet.svg",
+    "entry": "De todas as manifestações dos Elementos da Amizade, o Pinkaos é aquele que mais se percebe uma interpretação distorcida, podendo às vezes sendo violento apenas para conseguir uma risada.",
+    "height_m": 1.45,
+    "weight_kg": 65,
+    "description": "O Pinkaos é a manifestação do Elemento do Riso. Seu corpo é rosa, coberto de confetes e sprinkles que caem constantemente a cada salto, mas a aura Sombria causa brilhos e cores que piscam de forma caótica e imprevisível. \n Sua crina e cauda têm um volume icônico, mas são preenchidas com espirais de fumaça escura como um algodão doce sombrio, que se movem de forma independente. Sua marca são os Três Balões onde um deles está estourando e liberando fumaça escura, simbolizando a quebra da ordem. \n Vivendo de acordo com as regras ilógicas do seu próprio caos, o que o conecta ao lado Sombrio da imprevisibilidade. Seu riso pode ser tanto alegre quanto destrutivo.",
+    "abilities": [{ "name": "Brincalçaho (Prankster)", "desc": "Dá prioridade a uma mudança de status.." }],
+    "hidden_ability": { "name":"Sentido da Pinkie (Pinkie Sense)", "desc":"Pode anular um golpe Super Efetivo além de aumentar a Velocidade do usuário." },
+    "evolution_stage":2,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 89,
+      "atk": 97,
+      "def": 73,
+      "spa": 91,
+      "spd": 95,
+      "spe": 88
+    },
+    "moves": [
+      {
+        "level": "(Evo)",
+        "name": "Parting Shot",
+        "type":"Ice",
+        "desc": "Reduz o Ataque e o Ataque Especial do oponente e então troca de Pokémon."
+      },
+      {
+        "level": 30,
+        "name": "Play Rough",
+        "type":"Fairy",
+        "category":"physical",
+        "power":90,
+        "accuracy":90,
+        "desc": "Pode diminuir o Ataque do oponente."
+      },
+      {
+        "level": 38,
+        "name": "Dark Pulse",
+        "type":"Dark",
+        "category":"special",
+        "power":80,
+        "accuracy":100,
+        "desc": "Pode estremecer o oponente."
+      },
+      {
+        "level": 45,
+        "name": "Partyblast",
+        "type": "Fairy",
+        "category":"special",
+        "power":120,
+        "accuracy":60,
+        "desc": "Pode causar um efeito de status aleatório. Se o alvo já tiver um efeito, dobra o poder."
+      },
+      {
+        "level": 53,
+        "name": "Metronome",
+        "type":"Normal",
+        "desc": "Usuário realiza quase qualquer movimento do jogo de forma aleatória."
       },
       {
         "level": 60,

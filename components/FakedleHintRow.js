@@ -89,7 +89,7 @@ const ArrowIndicator = ({ hint, value, unit }) => {
 export default function FakedleHintRow({ guessedFakemon, hints }) {
     if (!hints || !guessedFakemon) return null;
 
-    const imageUrl = guessedFakemon.image || `/images/${guessedFakemon.number}.png`; 
+    const imageUrl = guessedFakemon.image;
     const guessTypes = guessedFakemon.types || [];
     
     return (

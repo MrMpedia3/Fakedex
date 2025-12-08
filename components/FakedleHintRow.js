@@ -1,27 +1,30 @@
+// FakedleHintRow.js
+
 import React from 'react';
 
 // ----------------------------------------------------------------------
-// ColorBox (CORRIGIDO: Exibe SIM/NÃO junto com ✅/❌ no caso isBoolean)
+// ColorBox (Lógica de status/cor unificada)
 // ----------------------------------------------------------------------
 const ColorBox = ({ status, content, isType, isBoolean }) => {
     let colorClass = 'bg-gray-400 dark:bg-gray-600'; 
     let symbol = content;
     
+    // O status será: 'correct', 'partial' ou 'incorrect'
+    
     if (status === 'correct') {
         colorClass = 'bg-green-500'; 
-        // Se for um booleano (Final), mostra o texto ("SIM"/"NÃO") seguido por ✅
         symbol = isBoolean ? `${content} ✅` : content; 
     } else if (status === 'partial') {
+        // Cor para "perto" (yellow)
         colorClass = 'bg-yellow-500'; 
-        symbol = isType ? content : '🟨';
-    } else if (status === 'incorrect') {
+        symbol = content;
+    } else if (status === 'incorrect') { 
         colorClass = 'bg-red-500'; 
         
-        // Se for booleano (Final), mostra o texto seguido por ❌
         if (isBoolean) {
             symbol = `${content} ❌`; 
         } else {
-            // Para Altura/Peso/Estágio, mantém o conteúdo combinado (valor + seta)
+            // Para Altura/Peso/Estágio, o conteúdo (valor + seta) já está aqui
             symbol = content; 
         }
     }
@@ -38,13 +41,20 @@ const ColorBox = ({ status, content, isType, isBoolean }) => {
 };
 
 // ----------------------------------------------------------------------
-// ArrowIndicator (Garante a seta no erro e o valor no acerto)
+// ArrowIndicator (Extrai o status e a direção do objeto)
 // ----------------------------------------------------------------------
-const ArrowIndicator = ({ direction, value, unit }) => {
-    let symbol = '—'; 
-    let status = 'incorrect'; 
+const ArrowIndicator = ({ hint, value, unit }) => {
     
-    // 1. Formatação do Valor
+    // 1. Determinação do Status e Direção
+    const isObjectHint = typeof hint === 'object' && hint !== null;
+
+    // Extrai status e direction do objeto, ou assume que a string é o valor (Fallback)
+    const direction = isObjectHint ? hint.direction : hint;
+    const finalStatus = isObjectHint ? hint.status : hint; 
+    
+    let symbol = '—'; 
+    
+    // 2. Formatação do Valor
     let displayValue;
     if (unit === "") {
         displayValue = Math.floor(value).toString(); 
@@ -52,31 +62,29 @@ const ArrowIndicator = ({ direction, value, unit }) => {
         displayValue = value.toFixed(1); 
     }
 
-    // 2. Determinação da Seta e Status
+    // 3. Determinação da Seta/Símbolo
     if (direction === 'up') {
         symbol = '⬆️'; 
-        status = 'incorrect';
     } else if (direction === 'down') {
         symbol = '⬇️'; 
-        status = 'incorrect';
     } else if (direction === 'correct') {
         symbol = '✅'; 
-        status = 'correct';
     }
-
-    // 3. CONTEÚDO COMBINADO (Valor + Unidade + Símbolo)
+    
+    // 4. Conteúdo Combinado (Valor + Unidade + Símbolo)
     const combinedContent = `${displayValue}${unit ? ' ' + unit : ''} ${symbol}`; 
     
     return (
         <div className="flex flex-col items-center w-full"> 
-            <ColorBox status={status} content={combinedContent} isBoolean={false} />
+            {/* O ColorBox usa o status e o combinedContent para exibir a cor e o valor/seta */}
+            <ColorBox status={finalStatus} content={combinedContent} isBoolean={false} />
         </div>
     );
 };
 
 
 // ----------------------------------------------------------------------
-// FakedleHintRow (Estrutura Principal)
+// FakedleHintRow (Chamadas dos componentes)
 // ----------------------------------------------------------------------
 export default function FakedleHintRow({ guessedFakemon, hints }) {
     if (!hints || !guessedFakemon) return null;
@@ -87,7 +95,7 @@ export default function FakedleHintRow({ guessedFakemon, hints }) {
     return (
         <div className="p-3 border rounded-xl flex items-center bg-white dark:bg-gray-700 shadow-lg transition-all duration-300">
             
-            {/* 1. Nome e Imagem do Fakémon Adivinhado */}
+            {/* 1. Nome e Imagem do Fakémon Adivinhado (Inalterado) */}
             <div className="flex items-center w-1/3 space-x-3 pr-4">
                 <img
                     src={imageUrl} 
@@ -103,13 +111,12 @@ export default function FakedleHintRow({ guessedFakemon, hints }) {
             {/* 2. DICAS / FEEDBACK */}
             <div className="flex flex-1 items-center gap-2 text-center">
                 
-                {/* Tipo 1 */}
+                {/* Tipo 1 e 2 (Inalterados) */}
                 <div className="flex flex-col items-center flex-1 min-w-0">
                     <span className="text-xs text-gray-500 dark:text-gray-400">Tipo 1</span>
                     <ColorBox status={hints.type1} content={guessTypes[0] || '—'} isType={true} />
                 </div>
                 
-                {/* Tipo 2 */}
                 <div className="flex flex-col items-center flex-1 min-w-0">
                     <span className="text-xs text-gray-500 dark:text-gray-400">Tipo 2</span>
                     {guessTypes.length > 1 ? (
@@ -119,29 +126,29 @@ export default function FakedleHintRow({ guessedFakemon, hints }) {
                     )}
                 </div>
 
-                {/* Altura */}
+                {/* Altura - USANDO HINT (OBJETO) */}
                 <div className="flex flex-col items-center flex-1 min-w-0">
                     <span className="text-xs text-gray-500 dark:text-gray-400">Altura</span>
-                    <ArrowIndicator direction={hints.height} value={guessedFakemon.height_m || 0} unit="m" />
+                    <ArrowIndicator hint={hints.height} value={guessedFakemon.height_m || 0} unit="m" />
                 </div>
                 
-                {/* Peso */}
+                {/* Peso - USANDO HINT (OBJETO) */}
                 <div className="flex flex-col items-center flex-1 min-w-0">
                     <span className="text-xs text-gray-500 dark:text-gray-400">Peso</span>
-                    <ArrowIndicator direction={hints.weight} value={guessedFakemon.weight_kg || 0} unit="kg" />
+                    <ArrowIndicator hint={hints.weight} value={guessedFakemon.weight_kg || 0} unit="kg" />
                 </div>
 
-                {/* Estágio Evolutivo */}
+                {/* Estágio Evolutivo - USANDO HINT (OBJETO) */}
                 <div className="flex flex-col items-center flex-1 min-w-0">
                     <span className="text-xs text-gray-500 dark:text-gray-400">Estágio</span>
                     <ArrowIndicator 
-                        direction={hints.stage} 
+                        hint={hints.stage} 
                         value={guessedFakemon.evolution_stage || 1} 
                         unit="" 
                     />
                 </div>
                 
-                {/* Linha Final - AGORA COM SIM/NÃO E ACERTO/ERRO EXPLÍCITO */}
+                {/* Linha Final (Inalterado) */}
                 <div className="flex flex-col items-center flex-1 min-w-0">
                     <span className="text-xs text-gray-500 dark:text-gray-400">É Final?</span>
                     <ColorBox 

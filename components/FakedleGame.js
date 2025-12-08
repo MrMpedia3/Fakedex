@@ -38,45 +38,73 @@ const generateHints = (target, guess) => {
         hints.type2 = targetTypes.length > 1 ? 'incorrect' : 'partial';
     }
 
-    // 2. COMPARAÇÃO DE ALTURA (Setas)
+    // 2. COMPARAÇÃO DE ALTURA (Corrigido para retornar Objeto Status/Direction)
     const targetHeight = target.height_m || 0;
     const guessHeight = guess.height_m || 0;
-    const HEIGHT_TOLERANCE = 0.1; 
+    // NOVA TOLERÂNCIA: Quase zero para 'correct' (exclusividade)
+    const HEIGHT_TOLERANCE_CORRECT = 0.001; 
+    const HEIGHT_TOLERANCE_PARTIAL = 0.5;   // 50 cm para 'partial'
 
-    if (Math.abs(guessHeight - targetHeight) <= HEIGHT_TOLERANCE) {
-        hints.height = 'correct'; 
-    } else if (guessHeight > targetHeight) {
-        hints.height = 'down'; // Se o chute é MAIOR, precisa ir para BAIXO
+    let heightStatus = 'incorrect';
+    let heightDirection = '—'; 
+
+    if (Math.abs(guessHeight - targetHeight) <= HEIGHT_TOLERANCE_CORRECT) {
+        heightStatus = 'correct';
+        heightDirection = 'correct'; // ✅
+    } else if (Math.abs(guessHeight - targetHeight) <= HEIGHT_TOLERANCE_PARTIAL) {
+        heightStatus = 'partial'; // Amarelo
+        heightDirection = guessHeight > targetHeight ? 'down' : 'up';
     } else {
-        hints.height = 'up'; // Se o chute é MENOR, precisa ir para CIMA
+        heightStatus = 'incorrect'; // Vermelho
+        heightDirection = guessHeight > targetHeight ? 'down' : 'up';
     }
+
+    // Retorna um objeto para consistência com o Peso
+    hints.height = { status: heightStatus, direction: heightDirection };
 
     // 3. COMPARAÇÃO DE PESO (Setas)
     const targetWeight = target.weight_kg || 0;
     const guessWeight = guess.weight_kg || 0;
-    const WEIGHT_TOLERANCE = 5; 
+    const WEIGHT_TOLERANCE_CORRECT = 0.5;
+    const WEIGHT_TOLERANCE_PARTIAL = 1.0;
 
-    if (Math.abs(guessWeight - targetWeight) <= WEIGHT_TOLERANCE) {
-        hints.weight = 'correct'; 
-    } else if (guessWeight > targetWeight) {
-        hints.weight = 'down'; // Se o chute é MAIS PESADO, precisa ir para BAIXO
+    let weightStatus = 'incorrect';
+    let weightDirection = '—'; // Default para '—' se for 'correct'
+
+    if (Math.abs(guessWeight - targetWeight) <= WEIGHT_TOLERANCE_CORRECT) {
+        weightStatus = 'correct';
+        weightDirection = 'correct'
+    } else if (Math.abs(guessWeight - targetWeight) <= WEIGHT_TOLERANCE_PARTIAL) {
+        weightStatus = 'partial';
+        weightDirection = guessWeight > targetWeight ? 'down' : 'up';
     } else {
-        hints.weight = 'up'; // Se o chute é MAIS LEVE, precisa ir para CIMA
+        weightStatus = 'incorrect';
+        weightDirection = guessWeight > targetWeight ? 'down' : 'up';
     }
 
-    // 4. COMPARAÇÃO DE ESTÁGIO EVOLUTIVO (CORRIGIDO PARA SETAS)
+    // Retorna um objeto que o ArrowIndicator possa desestruturar
+    hints.weight = { 
+        status: weightStatus, 
+        direction: weightDirection 
+    };
+
+    // 4. COMPARAÇÃO DE ESTÁGIO EVOLUTIVO (Corrigido para retornar Objeto Status/Direction)
     const targetStage = target.evolution_stage || 1; 
     const guessStage = guess.evolution_stage || 1;
 
+    let stageStatus = 'incorrect';
+    let stageDirection = '—'; 
+
     if (guessStage === targetStage) {
-        hints.stage = 'correct';
-    } else if (guessStage < targetStage) {
-        // Se o palpite é um estágio MENOR (ex: 1), e o alvo é MAIOR (ex: 3), a seta aponta para CIMA.
-        hints.stage = 'up'; 
+        stageStatus = 'correct';
+        stageDirection = 'correct'; // ✅
     } else {
-        // Se o palpite é um estágio MAIOR (ex: 3), e o alvo é MENOR (ex: 1), a seta aponta para BAIXO.
-        hints.stage = 'down'; 
+        stageDirection = guessStage < targetStage ? 'up' : 'down';
+        stageStatus = 'incorrect';
     }
+
+    // Retorna um objeto para consistência com Altura e Peso
+    hints.stage = { status: stageStatus, direction: stageDirection };
 
     // 5. COMPARAÇÃO DE "LINHA FINAL"
     const targetIsFinal = target.is_final_stage === true;

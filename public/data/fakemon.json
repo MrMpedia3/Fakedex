@@ -451,7 +451,7 @@
     "description": "O Morteorex é o ápice da linha de Fogo/Pedra. Seu corpo inteiro é revestido por placas de escama de rocha ígnea, que parecem se empilhar, com pequenos espaços quase invisíveis entre elas. O Morteorex é bípede e imponente. Nesses espaços, há um brilho constante de fogo interno, indicando que a base de suas escamas está perpetuamente aquecida a uma cor alaranjada, embora a cor externa permaneça escura. \n Ele prefere elevações e picos rochosos para manter vigilância sobre seu vasto território. Sua cauda, agora massiva e coberta por espetos de rocha ígnea, funciona como um tripé de suporte na hora do disparo e como uma clava devastadora em combate corpo a corpo. \n O Morteorex é calmo, estoico e imperturbável, tendo dominado completamente a impulsividade de seus estágios anteriores. Quando dormindo, ele se confunde perfeitamente com uma pilha de rochas, mas acordado, ele se assemelha a um vulcão ambulante. \n Sua habilidade primária é a Artilharia: o Morteorex canaliza sua explosão interna (controlada com maestria) para lançar suas próprias escamas de rocha ígnea — um ato completamente voluntário e indolor. Esse é o poder por trás de seu Movimento Assinatura, Bombardeio Meteórico, um ataque poderoso onde ele lança escamas flamejantes que explodem no impacto, espalhando magma e chamas na zona alvo. \n Apesar de sua baixa mobilidade (sacrificada pela blindagem), ele retém a capacidade de propulsão do Misseorite. Embora raramente use, a ideia de um Morteorex se lançando em alta velocidade contra um alvo é um lembrete do potencial destrutivo que o mundo deveria agradecer por sua natureza mais calma.",
     "abilities": [{ "name": "Cabeça de Pedra (Rock Head)", "desc": "Previne qualquer dano de recuo causado pelos próprios movimentos do Pokémon." }],
     "hidden_ability": { "name": "Propulsor Cinético (Knetic Thruster)", "desc": "Aumenta a Velocidade do Pokémon em 1 estágio após ele usar um movimento que faz contato físico." },
-    "evolution_stage":1,
+    "evolution_stage":3,
     "is_final_stage":true,
     "base_stats": {
       "hp": 95,
@@ -706,7 +706,7 @@
     "description": "O Sklypsea é o estágio final da linha, uma máquina de alta velocidade que representa o domínio do Eclipse Total e da furtividade. Seu corpo é longo, hidrodinâmico e aerodinâmico, fluindo suavemente de um peitoral robusto para uma cauda longa e fina, que ainda funciona como uma hélice de propulsão extremamente poderosa e eficiente. Suas nadadeiras evoluíram para asas longas e rígidas, permitindo-lhe voar com graça e silêncio. \n Sua blindagem de escamas é completamente preta na base, mas translúcida no topo. Quando contra a luz, as escamas geram um contorno brilhante ao redor do corpo, simulando a Aura Corona visível durante um eclipse. Sua coroa mantém as pontas brancas e luminosas do Shynarine. Ele é um mestre da locomoção em todos os ambientes, sendo encontrado nos pontos mais fundos do oceano e acima das nuvens. \n O Slypsea é um Pokémon solitário, silencioso e ágil. A insegurança de seus estágios anteriores se transformou em uma preferência por isolamento. Embora não seja rude, ele é reservado e exige que seu espaço seja respeitado. É extremamente difícil de ser avistado devido à sua natureza reclusa e sua impressionante capacidade de se mover sem som. \n Seu Movimento Assinatura, Manobra Sombria, é uma tática que explora seu design e tipagem: o Sklypsea voa em direção a uma fonte de luz, usando seu corpo para formar uma sombra instantânea e, quando a luz retorna, ele desapareceu, pegando o oponente de surpresa. Graças à sua coloração e furtividade, essa manobra funciona mesmo na ausência de fontes de luz fortes.",
     "abilities": [{ "name": "Propulsão Acelerada (Accelerated Thrust)", "desc": "Aumenta a Evasão do Pokémon em 1 estágio após ele usar um movimento de Cura ou Status." }],
     "hidden_ability": { "name": "Penumbra (Umbral Veil)", "desc": "O Pokémon é imune a movimentos do tipo Não-Contato quando o clima está definido como Noite/Sombrio." },
-    "evolution_stage":1,
+    "evolution_stage":3,
     "is_final_stage":true,
     "base_stats": {
       "hp": 85,
@@ -1870,6 +1870,83 @@
         "name": "Iron Defense",
         "type":"Steel",
         "desc": "Aumenta drasticamente a Defesa do Usuário."
+      },
+      {
+        "level": 60,
+        "name": "Moonblast",
+        "type":"Fairy",
+        "category":"special",
+        "power":95,
+        "accuracy":100,
+        "desc": "Pode diminuir o Ataque Especial do oponente."
+      }
+    ]
+  }
+  ,
+  {
+    "id": 23,
+    "name": "Crystarity",
+    "number": "023",
+    "types": [
+      "Fairy",
+      "Ice"
+    ],
+    "image": "/images/spriglet.svg",
+    "entry": "Perfeccionista, o Crystarity evita agir se puder errar. Sua elegância não poderia ser manchada por erros. Isso pode ser visto tanto quanto ponto forte com também ponto fraco",
+    "height_m": 1.8,
+    "weight_kg": 95,
+    "description": "O Crystarity é a manifestação do Elemento da Generosidade. Ele se transforma em um Unicórnio elegante, cuja pelagem, de cor branca ou azul-claro, é fria ao toque e densa, parecendo porcelana lapidada ou gelo. \n Seu chifre é a sua característica mais notável: um diamante puro e cristalino, esculpido e facetado para a perfeição, que amplifica sua magia Fada e Gelo. A crina e a cauda são volumosas e esculturais, com mechas em tons de violeta e azul-claro que parecem fios de seda congelada. \n O Crystarity personifica a busca pela perfeição e a Generosidade. Sua natureza o torna um especialista em beleza e joias: ele possui um instinto mágico para encontrar preciosidades e realçar a 'joia' de seus aliados em batalha. \n Sua generosidade se manifesta no campo ao usar sua magia para proteger, curar e melhorar seus parceiros. Em combate, ele preza pela elegância e pelo controle, preferindo imobilizar o oponente com status para evitar lutas desordenadas.",
+    "abilities": { "name": "Joalheiro (Gem Finder)", "desc": "Quando em campo, aumenta o maior stat do aliado (ou de si mesmo) em 1 estágio." },
+    "hidden_ability": { "name":"Perfeccionismo (Perfectionism)", "desc":"Aumenta a precisão de todos os movimentos." },
+    "evolution_stage":2,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 85,
+      "atk": 60,
+      "def": 106,
+      "spa": 92,
+      "spd": 137,
+      "spe": 70
+    },
+    "moves": [
+      {
+        "level": "(Evo)",
+        "name": "Icy Wind",
+        "type":"Ice",
+        "category":"special",
+        "power":55,
+        "accuracy":95,
+        "desc": "Diminui a Velocidade do oponente."
+      },
+      {
+        "level": 30,
+        "name": "Dazzling Gleam",
+        "type":"Fairy",
+        "category":"special",
+        "power":80,
+        "accuracy":100,
+        "desc": "Acerto todos os oponentes adjacentes."
+      },
+      {
+        "level": 38,
+        "name": "Generous Shimmer",
+        "type":"Fairy",
+        "desc": "Remove efeitos negativos e aumenta a Defesa Especial da equipe."
+      },
+      {
+        "level": 45,
+        "name": "Calm Mind",
+        "type": "Psychic",
+        "desc": "Aumenta o Ataque Especial e Defesa Especial do usuário."
+      },
+      {
+        "level": 53,
+        "name": "Ice Beam",
+        "type":"Ice",
+        "category":"special",
+        "power":90,
+        "accuracy":100,
+        "desc": "Pode congelar o oponente."
       },
       {
         "level": 60,

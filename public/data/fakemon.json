@@ -2069,7 +2069,7 @@
     "height_m": 1.45,
     "weight_kg": 65,
     "description": "O Pinkaos é a manifestação do Elemento do Riso. Seu corpo é rosa, coberto de confetes e sprinkles que caem constantemente a cada salto, mas a aura Sombria causa brilhos e cores que piscam de forma caótica e imprevisível. \n Sua crina e cauda têm um volume icônico, mas são preenchidas com espirais de fumaça escura como um algodão doce sombrio, que se movem de forma independente. Sua marca são os Três Balões onde um deles está estourando e liberando fumaça escura, simbolizando a quebra da ordem. \n Vivendo de acordo com as regras ilógicas do seu próprio caos, o que o conecta ao lado Sombrio da imprevisibilidade. Seu riso pode ser tanto alegre quanto destrutivo.",
-    "abilities": [{ "name": "Brincalçaho (Prankster)", "desc": "Dá prioridade a uma mudança de status.." }],
+    "abilities": [{ "name": "Brincalçaho (Prankster)", "desc": "Dá prioridade a uma mudança de status." }],
     "hidden_ability": { "name":"Sentido da Pinkie (Pinkie Sense)", "desc":"Pode anular um golpe Super Efetivo além de aumentar a Velocidade do usuário." },
     "evolution_stage":2,
     "is_final_stage":true,
@@ -2315,6 +2315,15 @@
     "hidden_ability": { "name": "Abertura do Rival - Foco", "desc": "Se o oponente errar um ataque, revida instantaneamente e aumenta o Ataque do usuário." },
     "evolution_display_type": "SEQUENTIAL",
     "evolution_stage":2,
+    "evolutions":[
+      {
+      "id": 30,
+      "name": "Masteriffik",
+      "number": "030",
+      "method": "Evolui no nível 40",
+      "image": "/images/pyroak.svg"
+    }
+    ],
     "is_final_stage":false,
     "base_stats": {
       "hp": 83,
@@ -2382,6 +2391,15 @@
     "evolution_display_type": "SEQUENTIAL",
     "evolution_stage":2,
     "is_final_stage":false,
+    "evolutions":[
+      {
+      "id": 31,
+      "name": "Elegato",
+      "number": "031",
+      "method": "Evolui no nível 40",
+      "image": "/images/spriglet.svg"
+    }
+    ],
     "base_stats": {
       "hp": 67,
       "atk": 74,
@@ -2440,7 +2458,7 @@
       "Ground"
     ],
     "image": "/images/pyroak.svg",
-    "entry": "Por mais que possa parecer intimidador, esse pokémon é extremamente dócil com as pessoas. Principalmente com crianças.",
+    "entry": "Grande, paciente e leal, esse pokémon não gosta de ficar na pokébola, preferindo olhar por seu treinador de forma constante e próxima.",
     "height_m": 1.9,
     "weight_kg": 110,
     "description": "Masteriffik é o ápice da disciplina e da lealdade. Seu pelo se tornou áspero e junto, como se estivesse coberto de barro e lama, simbolizando incontáveis horas de treinamento solo. Sua postura agora é a de um Mestre de Artes Marciais: calma, respeitosa, mas sempre pronto para o combate. As bandagens de suas mãos e uma nova faixa na cabeça estão igualmente sujas de terra, com o pingente de osso quebrado sujo firmemente amarrado atrás. \n Seu tipo Solo se manifesta em sua estabilidade inabalável, fazendo com que ele resista a qualquer golpe, mantendo-se firme como o chão. Ele confia na sua Defesa Especial para resistir aos golpes psíquicos do rival e responder com um golpe físico avassalador.",
@@ -2519,7 +2537,7 @@
       "Psychic"
     ],
     "image": "/images/spriglet.svg",
-    "entry": "Por mais que não seja exatamente um pokémon ideal para se ter de companhia, fica adimirado com frequência por seu treinador, tentando demonstrar como pode.",
+    "entry": "Charmoso, elegante e com um ar de superioridade, requer atenção constante. Se não a tiver, pode acabar hipnotizando as pessoas para isso, menos o treinador, este o Elegato parece ter receio de decepcionar.",
     "height_m": 1.7,
     "weight_kg": 78.3,
     "description": "Elegato é a forma final da sutiliza e manipulação. Sua pelagem é agora sedosa, macia e luxuosa, dando a aparência de que está vestindo uma roupa fina. O pelo hidrofóbico nas patas forma luvas finas sob as quais o veneno é liberado. Sua transformação Psíquica é marcada por uma joia (corrente de cabeça) que sustenta um pingente de relógio balançando na frente de seus olhos, servindo como foco para hipnose e ilusões. \n Ele se tornou o mestre das artimanhas. Sua alta Defesa permite que ele resista aos golpes físicos do Masteriffik, enquanto sua Velocidade e Ataque Especial garantem que ele utilize sua combinação de status Veneno/Psíquico.",
@@ -2583,6 +2601,303 @@
         "type":"Poison",
         "accuracy":90,
         "desc":"Envenena gravemente o oponente."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Anenemo",
+    "number": "032",
+    "types": [
+      "Water",
+      "Poison"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Um pokémon bem tranquilo a princípio, mas com uma toxina que pode causar paralisia em quem venha a se aventurar próximo demais.",
+    "height_m": 0.9,
+    "weight_kg": 24,
+    "description": "Anenemo é um pokémon que se assemelha a uma anêmona do mar com uma aparência charmosa e enganosa. Sua base corporal é de uma cor pálida, quase branca, mas a beleza reside nas suas pontas: seus 'tentáculos' formam uma espécie de cabelo flutuante e luxuoso de um tom laranja forte e vibrante. \n É um Pokémon passivo e calmo, geralmente encontrado fixo a rochas submersas ou no recife, onde passa a maior parte do tempo 'na boa'. Contudo, Anenemo não recua quando confrontado. Sua defesa é baseada puramente na toxina liberada por contato direto com seus tentáculos, punindo predadores. \n ",
+    "abilities": [{"name":"Ponto de Veneno (Poison Point)", "desc":"O contato com o Pokémon pode envenenar o atacante."},{"name":"Vazamento Líquido (Liquid Ooze)", "desc":"Causa dano aos atacantes usando qualquer movimento de drenagem."}],
+    "hidden_ability": { "name": "Regenerador (Regenerator)", "desc": "Restaura um pouco de HP ao ser retirado da batalha." },
+    "evolution_stage":1,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 99,
+      "atk": 53,
+      "def": 93,
+      "spa": 114,
+      "spd": 127,
+      "spe": 8
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Water Gun",
+        "type":"Water",
+        "category":"special",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level": 1,
+        "name": "Acid",
+        "type": "Poison",
+        "category":"special",
+        "power":40,
+        "accuracy":100,
+        "desc": "Pode diminuir a Defesa Especial do oponente."
+      },
+      {
+        "level": 5,
+        "name": "Withdraw",
+        "type":"Water",
+        "desc": "Aumenta a Defesa do usuário."
+      },
+      {
+        "level": 10,
+        "name": "Clear Smog",
+        "type":"Poison",
+        "category":"special",
+        "power":50,
+        "desc":"Remove todas as mudanças de stats do alvo."
+      },
+      {
+        "level": 15,
+        "name": "Venoshock",
+        "type":"Poison",
+        "category":"special",
+        "power":65,
+        "accuracy":100,
+        "desc": "Causa o dobro de dano se o alvo estiver envenenado."
+      },
+      {
+        "level":20,
+        "name":"Toxic",
+        "type":"Poison",
+        "accuracy":90,
+        "desc":"Envenena gravemente o oponente."
+      },
+      {
+        "level":25,
+        "name":"Sludge Wave",
+        "type":"Poison",
+        "category":"special",
+        "power":95,
+        "accuracy":90,
+        "desc":"Pode envenenar o oponente."
+      },
+      {
+        "level":30,
+        "name": "Scald",
+        "type":"Water",
+        "category":"special",
+        "power":80,
+        "accuracy":100,
+        "desc": "Pode causar queimadura no oponente."
+      },
+      {
+        "level":35,
+        "name": "Recover",
+        "type":"Normal",
+        "desc": "Usuário recupera metade de seu HP."
+      },
+      {
+        "level":40,
+        "name": "Haze",
+        "type":"Ice",
+        "desc": "Redefine todas as mudanças de stats."
+      },
+      {
+        "level":45,
+        "name": "Thunder Wave",
+        "type": "Electric",
+        "accuracy":90,
+        "desc": "Paralisa o oponente."
+      },
+      {
+        "level":50,
+        "name": "Hydro Pump",
+        "type":"Water",
+        "category":"special",
+        "power":120,
+        "accuracy":80
+      },
+      {
+        "level":55,
+        "name": "Volt Switch",
+        "type":"Electric",
+        "category":"special",
+        "power":70,
+        "accuracy":80,
+        "desc":"O usuário deve trocar com outro pokémon após o ataque."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Arlequish",
+    "number": "033",
+    "types": [
+      "Water"
+    ],
+    "image": "/images/spriglet.svg",
+    "entry": "Carismático e brincalhão, crianças adoram brincar com o Aelerquish quando vão à praia.",
+    "height_m": 0.3,
+    "weight_kg": 2,
+    "description": "Arlequish é um Pokémon aquático com uma aparência cômica, predominando as cores laranja e branco, que o ajudam a se camuflar entre os tentáculos de Anenemo. Sua característica visual mais marcante é o rosto branco com manchas vermelhas que imitam a maquiagem de palhaço, conferindo-lhe uma natureza divertida e carismática. \n Este Pokémon é conhecido por ser extremamente amigável e sociável, muitas vezes sendo o primeiro a iniciar contato com outros Pokémon e humanos, para aplicar truque divertidos. No entanto, Arlequish é muito arisco; se a aproximação for brusca, ele usa sua alta velocidade para fugir, reforçando a natureza evasiva. \n Em seu habitat, Arlequish é um protetor diligente: ele cumpre sua parte da simbiose usando jatos d'água e sua natação constante para limpar e evitar que os tentáculos de Anenemo se enrolem, garantindo a saúde de seu parceiro.",
+    "abilities": [{"name":"Véu d'Água (Water Veil)", "desc":"Previne o pokémon de dicar queimado."}],
+    "hidden_ability": { "name": "Brincalçaho (Prankster)", "desc": "Dá prioridade a uma mudança de status." },
+    "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":1,
+    "is_final_stage":false,
+    "evolutions":[{
+      "id": 34,
+      "name": "Voabrante",
+      "number": "034",
+      "method": "Evolui no nível 30",
+      "image": "/images/spriglet.svg"
+    }],
+    "base_stats": {
+      "hp": 43,
+      "atk": 67,
+      "def": 42,
+      "spa": 40,
+      "spd": 47,
+      "spe": 78
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Peck",
+        "type":"Flying",
+        "category":"physical",
+        "power":35,
+        "accuracy":100
+      },
+      {
+        "level": 1,
+        "name": "Water Gun",
+        "type":"Water",
+        "category":"special",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level": 4,
+        "name": "Leer",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui a Defesa do oponente."
+      },
+      {
+        "level": 8,
+        "name": "Taunt",
+        "type":"Dark",
+        "desc":"O alvo só pode usar movimentos de ataque."
+      },
+      {
+        "level": 12,
+        "name": "Aqua Jet",
+        "type":"Water",
+        "category":"physical",
+        "power":40,
+        "accuracy":100,
+        "desc": "Usuário ataca primeiro."
+      },
+      {
+        "level":16,
+        "name":"Flail",
+        "type":"Normal",
+        "category":"physical",
+        "accuracy":100,
+        "desc":"Quanto menor o HP do usuário, maior o poder."
+      },
+      {
+        "level":20,
+        "name":"Encore",
+        "type":"Normal",
+        "desc":"Força o oponente a repetir seu último movimento por mais 3 turnos."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Voabrante",
+    "number": "034",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Apesar de sua evolução, Voabrante mantém sua natureza arisca e brincalhona. Ele usa sua velocidade superior tanto na água quanto no ar para pregar peças e distrair predadores.",
+    "height_m": 1.1,
+    "weight_kg": 18.2,
+    "description": "Voabrante é a evolução do Arlequish, ganhando a tipagem Voadora e uma impressionante exibição de cores. Seu corpo mantém as listras básicas de laranja e branco, mas quando ele salta e plana sob a luz do sol, suas nadadeiras e escamas laterais cintilam com cores intensas, como azul, verde e amarelo. Sua cabeça é adornada com uma estrutura óssea ou de pele que se assemelha a uma máscara expressiva, conferindo-lhe uma aparência teatral e astuta. \n Seu método de locomoção é a planagem – ele se impulsiona para fora da água com suas poderosas nadadeiras, deslizando sobre as ondas para patrulhar o recife.",
+    "abilities": [{"name":"Véu d'Água (Water Veil)", "desc":"Previne o pokémon de dicar queimado."}],
+    "hidden_ability": { "name": "Brincalçaho (Prankster)", "desc": "Dá prioridade a uma mudança de status." },
+    "evolution_stage":2,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 73,
+      "atk": 111,
+      "def": 77,
+      "spa": 67,
+      "spd": 77,
+      "spe": 123
+    },
+    "moves": [
+      {
+        "level": 30,
+        "name": "Brave Bird",
+        "type":"Flying",
+        "category":"physical",
+        "power":120,
+        "accuracy":100,
+        "desc": "Usuário recebe dano de recuo."
+      },
+      {
+        "level": 34,
+        "name": "Aqua Tail",
+        "type": "Water",
+        "category":"physical",
+        "power":90,
+        "accuracy":90
+      },
+      {
+        "level": 38,
+        "name": "Tailwind",
+        "type":"Flying",
+        "desc": "Dobra a Velocidade por 4 turnos."
+      },
+      {
+        "level": 42,
+        "name": "U-Turn",
+        "type":"Bug",
+        "category":"physical",
+        "power":70,
+        "accuracy":100,
+        "desc": "O usuário troca de lugar imediatamente após atacar."
+      },
+      {
+        "level": 46,
+        "name": "Quiver Dance",
+        "type":"Bug",
+        "desc": "Aumenta o Ataque Especial, a Defesa Especial e a Velocidade do usuário."
+      },
+      {
+        "level":50,
+        "name": "Acrobatics",
+        "type":"Flying",
+        "category":"physical",
+        "power":55,
+        "accuracy":100,
+        "desc": "Mais forte quando o usuário não está segurando um item."
+      },
+      {
+        "level":54,
+        "name":"Defog",
+        "type":"Flying",
+        "desc":"Reduz a evasão do oponente e dissipa a névoa."
       }
     ]
   }

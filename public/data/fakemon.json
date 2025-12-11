@@ -826,7 +826,7 @@
         "name": "Sand Attack",
         "type":"Ground",
         "accuracy":100,
-        "desc": "Diminuia a Precisão do oponente."
+        "desc": "Diminui a Precisão do oponente."
       },
       {
         "level": 7,
@@ -2898,6 +2898,257 @@
         "name":"Defog",
         "type":"Flying",
         "desc":"Reduz a evasão do oponente e dissipa a névoa."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Marionyx",
+    "number": "035",
+    "types": [
+      "Water"
+    ],
+    "image": "/images/spriglet.svg",
+    "entry": "Em praias onde o Marionyx é presente, recomenda-se tomar cuidado onde se pisa para não levar uma mordida no pé.",
+    "height_m": 0.8,
+    "weight_kg": 9,
+    "description": "Marionyx é um pokémon com uma estrutura de crocodilo bípede. Sua coloração é perfeitamente adaptada ao seu habitat costeiro: possui um corpo em tons de amarelo-areia com a barriga branca, permitindo que se camufle com maestria nas margens da praia. Ele possui um focinho longo e mandíbulas poderosas, e sua cauda é musculosa, sendo essencial para a propulsão na água. \n É um predador solitário de emboscada. Marionyx costuma deitar-se na areia, esperando o momento oportuno, ou caçar em águas rasas, onde sua coloração o torna quase invisível. Sua dieta consiste em peixes menores, sendo um predador natural de Pokémon como Arlequish. \n Marionyx não é territorial e geralmente evita confrontos diretos, preferindo atacar de bote. No entanto, se for atrapalhado ou tiver sua presa roubada, ele se torna visivelmente estressado e reagirá com agressividade, usando sua mandíbula para dominar a situação.",
+    "abilities": [{ "name": "Mandíbula Forte (Strong Jaw)", "desc": "Aumenta o poder dos golpes de mordida." }],
+    "hidden_ability": { "name": "Véu de Areia (Sand Veil)", "desc": "Aumenta a evasão do Pokémon em tempestades de areia." },
+    "evolution_display_type": "SEQUENTIAL",
+    "evolution_stage":1,
+    "is_final_stage":false,
+    "evolutions": [
+    {
+      "id": 36,
+      "name": "Suchochedo",
+      "number": "036",
+      "method": "Evolui no nível 18",
+      "image": "/images/spriglet.svg"
+    },
+    {
+      "id": 37,
+      "name": "Spinoral",
+      "number": "037",
+      "method": "Evolui no nível 38",
+      "image": "/images/spriglet.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 50,
+      "atk": 65,
+      "def": 60,
+      "spa": 35,
+      "spd": 50,
+      "spe": 60
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Bite",
+        "type":"Dark",
+        "category":"physical",
+        "power":60,
+        "accuracy":100,
+        "desc": "Pode estremecer o oponente."
+      },
+      {
+        "level": 1,
+        "name": "Water Gun",
+        "type":"Water",
+        "category":"special",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level": 6,
+        "name": "Sand Attack",
+        "type":"Ground",
+        "accuracy":100,
+        "desc": "Diminuia a Precisão do oponente."
+      },
+      {
+        "level": 10,
+        "name": "Leer",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui a Defesa do oponente."
+      },
+      {
+        "level": 14,
+        "name": "Focus Energy",
+        "type":"Normal",
+        "desc": "Aumenta a chance de crítico."
+      },
+      {
+        "level": 17,
+        "name": "Crunch",
+        "type":"Dark",
+        "category":"physical",
+        "power":80,
+        "accuracy":100,
+        "desc":"Pode diminuir a Defesa do oponente."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Sochochedo",
+    "number": "036",
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "image": "/images/Misseorite.png",
+    "entry": "Um pokémon grande. Passa a maior parte do tempo dentro d'água parado. Ainda assim, pode dar investidas muito rápidas.",
+    "height_m": 1.9,
+    "weight_kg": 100,
+    "description": "O Pokémon adquire a tipagem Pedra, e sua pele passa do amarelo-areia para um cinza-ardósia sutil, indicando a mineralização em curso. \n A tipagem Pedra se manifesta em seu corpo pela formação de pequenas placas e incrustações rochosas nas costas e laterais, semelhantes a cracas e ostras que se fixam em rochedos costeiros. Devido ao aumento do peso, ele adota uma postura quadrúpede na terra e se torna lento fora d'água, embora mantenha uma propulsão potente e rapidez nas águas rasas. \n O Suchochedo é surpreendentemente sociável e tranquilo, permitindo que outras criaturas marinhas habitem seu entorno. Sua única agressividade está ligada à fome, momento em que abandona sua quietude para realizar botes poderosos. Ele passa longos períodos estático e submerso na areia das águas mornas, um hábito que estimula a mineralização gradual que culminará na formação do recife de corais em sua evolução final.",
+    "abilities": [{ "name": "Mandíbula Forte (Strong Jaw)", "desc": "Aumenta o poder dos golpes de mordida."},{"name":"Armadura de Conchas (Shell Armor)", "desc":"O pokémon fica protegido contra ataques críticos."}],
+    "hidden_ability": { "name": "Rocha Sólida (Solid Rock)", "desc": "Diminui o dano recebido de ataques super-efetivos." },
+    "evolution_stage":2,
+    "is_final_stage":false,
+    "evolutions": [
+    {
+      "id": 37,
+      "name": "Spinoral",
+      "number": "037",
+      "method": "Evolui no nível 38",
+      "image": "/images/spriglet.svg"
+    }
+  ],
+    "base_stats": {
+      "hp": 78,
+      "atk": 95,
+      "def": 85,
+      "spa": 45,
+      "spd": 85,
+      "spe": 37
+    },
+    "moves": [
+      {
+        "level": 18,
+        "name": "Rock Tomb",
+        "type":"Rock",
+        "category":"physical",
+        "power": 60,
+        "accuracy": 95,
+        "desc": "Diminui a Velocidade do oponente."
+      },
+      {
+        "level": 23,
+        "name": "Rock Polish",
+        "type":"Rock",
+        "desc": "Aumenta drasticamente a Velocidade do usuário."
+      },
+      {
+        "level": 28,
+        "name": "Liquidation",
+        "type":"Water",
+        "category":"physical",
+        "power":85,
+        "accuracy":100,
+        "desc": "Pode diminuir a Defesa do oponente."
+      },
+      {
+        "level": 33,
+        "name": "Ice Fang",
+        "type":"Ice",
+        "category":"physical",
+        "power":65,
+        "accuracy":95,
+        "desc": "Pode estremecer e/ou congelar o oponente."
+      },
+      {
+        "level": 35,
+        "name": "Iron Defense",
+        "type":"Steel",
+        "desc": "Aumenta drasticamente a Defesa do Usuário."
+      },
+      {
+        "level": 37,
+        "name": "Stone Edge",
+        "type":"Rock",
+        "category":"physical",
+        "power":100,
+        "accuracy":80,
+        "desc": "Alta taxa de acerto crítico."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Spinoral",
+    "number": "037",
+    "types": [
+      "Water",
+      "Rock"
+    ],
+    "image": "/images/spriglet.svg",
+    "entry": "Algumas pessoas acreditam que existe, em algum lugar, uma grande barreira de recife de corais que na verdade seria o maior Spinoral que já existiu.",
+    "height_m": 2.7,
+    "weight_kg": 310,
+    "description": "Spinoral é a forma final e imponente da linha, um colosso de Pedra/Água. O corpo, completamente mineralizado e acinzentado, é um muro natural, cuja aparência (lisa ou coberta de cracas) varia de acordo com o tempo que o Pokémon passa em repouso. \n A característica mais notável é sua vela dorsal, um recife de corais totalmente crescido e vivo, firmemente fundido às suas espinhas. Este recife atrai e abriga um ecossistema de Pokémon menores, fornecendo energia sustentável ao Spinoral e aliviando a necessidade de caça. O Spinoral é profundamente ligado à vela; embora ela possa se regenerar, ele sente dor se o ecossistema for danificado em batalha. \n Em terra, o Spinoral é extremamente lento, com pouco interesse em deixar a água, pois prioriza a saúde do seu recife. Contudo, na água, ele se move com surpreendente agilidade usando sua cauda larga e poderosa para propulsão. \n O Spinoral é passivo, sociável e passa a maior parte do tempo vagueando ou descansando. Sua natureza defensiva é acionada apenas quando seu descanso é perturbado ou quando outros Pokémon maiores ameaçam a integridade do seu ecossistema dorsal, momento em que ele usa seu imenso peso e mandíbula para dominar a situação.",
+    "abilities": [{ "name": "Mandíbula Forte (Strong Jaw)", "desc": "Aumenta o poder dos golpes de mordida."},{"name":"Armadura de Conchas (Shell Armor)", "desc":"O pokémon fica protegido contra ataques críticos."}],
+    "hidden_ability": { "name": "Rocha Sólida (Solid Rock)", "desc": "Diminui o dano recebido de ataques super-efetivos." },
+    "evolution_stage":3,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 105,
+      "atk": 120,
+      "def": 125,
+      "spa": 60,
+      "spd": 105,
+      "spe": 25
+    },
+    "moves": [
+      {
+        "level": 38,
+        "name": "Jaw Lock",
+        "type":"Dark",
+        "category":"physical",
+        "power":80,
+        "accuracy":100,
+        "desc": "Impede o oponente de trocar de pokémon."
+      },
+      {
+        "level": 45,
+        "name": "Scale Shot",
+        "type":"Dragon",
+        "category":"physical",
+        "power":25,
+        "accuracy":90,
+        "desc": "Ataca de 2 a 5 vezes por turno. Aumenta a Velocidade do usuário, mas diminui sua Defesa."
+      },
+      {
+        "level": 52,
+        "name": "Giga Impact",
+        "type":"Normal",
+        "category":"physical",
+        "power":150,
+        "accuracy":90,
+        "desc": "O usuário deverá recarregar no próximo turno."
+      },
+      {
+        "level": 60,
+        "name": "Shore Up",
+        "type":"Ground",
+        "desc": "O usuário recupera até metade de seus pontos de vida máximos. A recuperação de pontos de vida é ainda maior durante uma tempestade de areia."
+      },
+      {
+        "level": 67,
+        "name": "Crabhammer",
+        "type":"Water",
+        "category":"physical",
+        "power":100,
+        "accuracy":90,
+        "desc": "Alta taxa de acerto crítico."
+      },
+      {
+        "level": 70,
+        "name": "Curse",
+        "type":"Ghost",
+        "desc": "Fantasmas perdem 50% do HP máximo e amaldiçoam o oponente; unidades não-fantasma aumentam o Ataque e a Defesa, mas diminuem a Velocidade."
       }
     ]
   }

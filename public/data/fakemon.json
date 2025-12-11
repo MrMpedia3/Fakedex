@@ -1336,7 +1336,7 @@
       "name": "Caratox",
       "number": "017",
       "method": "Evolui no nível 10",
-      "image": "/images/pyroak.svg"
+      "image": "/images/Caratox (placeholder).png"
     },
     {
       "id": 18,
@@ -1396,7 +1396,7 @@
       "Bug",
       "Poison"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Caratox (placeholder).png",
     "entry": "Coberto por uma carapaça rígida, esse pokémon é constantemente confundido com sedimentos do terreno",
     "height_m": 0.7,
     "weight_kg": 15,
@@ -1591,7 +1591,7 @@
         "name": "Crystarity",
         "number": "023",
         "method": "Evolui com amizade máxima e Elemento da Generosidade",
-        "image": "/images/spriglet.svg"
+        "image": "/images/Crystarity (placeholder).png"
       },
       {
         "id": 24,
@@ -1918,7 +1918,7 @@
       "Fairy",
       "Ice"
     ],
-    "image": "/images/spriglet.svg",
+    "image": "/images/Crystarity (placeholder).png",
     "entry": "Perfeccionista, o Crystarity evita agir se puder errar. Sua elegância não poderia ser manchada por erros. Isso pode ser visto tanto quanto ponto forte com também ponto fraco",
     "height_m": 1.65,
     "weight_kg": 75,
@@ -2239,7 +2239,7 @@
       "name": "Qitoxic",
       "number": "029",
       "method": "Evolui no nível 16",
-      "image": "/images/spriglet.svg"
+      "image": "/images/Qitoxic (placeholder).png"
     },
     {
       "id": 31,
@@ -2381,7 +2381,7 @@
     "types": [
       "Poison"
     ],
-    "image": "/images/spriglet.svg",
+    "image": "/images/Qitoxic (placeholder).png",
     "entry": "Por mais que não seja exatamente um pokémon ideal para se ter de companhia, fica adimirado com frequência por seu treinador, tentando demonstrar como pode.",
     "height_m": 1.1,
     "weight_kg": 37.7,
@@ -2612,7 +2612,7 @@
       "Water",
       "Poison"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Anenemo (placeholder).png",
     "entry": "Um pokémon bem tranquilo a princípio, mas com uma toxina que pode causar paralisia em quem venha a se aventurar próximo demais.",
     "height_m": 0.9,
     "weight_kg": 24,
@@ -2755,7 +2755,7 @@
       "name": "Voabrante",
       "number": "034",
       "method": "Evolui no nível 30",
-      "image": "/images/spriglet.svg"
+      "image": "/images/Voabrante (placeholder).png"
     }],
     "base_stats": {
       "hp": 43,
@@ -2828,7 +2828,7 @@
       "Water",
       "Flying"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Voabrante (placeholder).png",
     "entry": "Apesar de sua evolução, Voabrante mantém sua natureza arisca e brincalhona. Ele usa sua velocidade superior tanto na água quanto no ar para pregar peças e distrair predadores.",
     "height_m": 1.1,
     "weight_kg": 18.2,

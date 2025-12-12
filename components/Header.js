@@ -28,7 +28,6 @@ export default function Header() {
         <Link href="/fakedle" passHref>
           <button
             className="
-              // CORREÇÃO: Reduzindo o padding vertical (py-1) para diminuir a altura do botão
               p-2 sm:px-3 sm:py-1 rounded-full font-bold transition duration-300
               bg-white text-red-600 hover:bg-gray-200 
               dark:bg-gray-100 dark:text-green-600 dark:hover:bg-gray-300
@@ -37,6 +36,22 @@ export default function Header() {
           >
             <span className="text-lg">🎮</span> 
             <span className="hidden sm:inline">Fakédle</span>
+          </button>
+        </Link>
+        
+        {/* ⚔️ NOVO BOTÃO DE COMPARADOR ⚔️ */}
+        <Link href="/comparar" passHref>
+          <button
+            className="
+              p-2 sm:px-3 sm:py-1 rounded-full font-bold transition duration-300
+              // Estilo ligeiramente diferente para destacar a nova funcionalidade
+              bg-yellow-400 text-gray-800 hover:bg-yellow-500
+              dark:bg-yellow-400 dark:text-gray-800 dark:hover:bg-yellow-500
+              flex items-center justify-center gap-1
+            "
+          >
+            <span className="text-lg">⚔️</span> 
+            <span className="hidden sm:inline">Comparar</span>
           </button>
         </Link>
         

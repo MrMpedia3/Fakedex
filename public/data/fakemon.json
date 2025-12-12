@@ -1584,7 +1584,7 @@
         "name": "Agerjack",
         "number": "022",
         "method": "Evolui com amizade máxima e Elemento da Honestidade",
-        "image": "/images/pyroak.svg"
+        "image": "/images/Agerjack (placeholder).png"
       },
       {
         "id": 23,
@@ -1839,7 +1839,7 @@
       "Fairy",
       "Ground"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Agerjack (placeholder).png",
     "entry": "Sua comida favorita são maçãs.",
     "height_m": 1.8,
     "weight_kg": 95,
@@ -2735,7 +2735,7 @@
   },
   {
     "id": 33,
-    "name": "Arlequish",
+    "name": "Aerlequish",
     "number": "033",
     "types": [
       "Water"
@@ -2993,7 +2993,7 @@
   },
   {
     "id": 36,
-    "name": "Sochochedo",
+    "name": "Suchochedo",
     "number": "036",
     "types": [
       "Water",
@@ -3149,6 +3149,100 @@
         "name": "Curse",
         "type":"Ghost",
         "desc": "Fantasmas perdem 50% do HP máximo e amaldiçoam o oponente; unidades não-fantasma aumentam o Ataque e a Defesa, mas diminuem a Velocidade."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Escophobus",
+    "number": "038",
+    "types": [
+      "Ghost"
+    ],
+    "image": "/images/spriglet.svg",
+    "entry": "Por algum motivo, este pokémon só é encontrado em uma ruína específica. Não se sabe a razão, mas se agradece esse fato.",
+    "height_m": 2.2,
+    "weight_kg": 45,
+    "description": "Escophobus é um Pokémon conhecido por sua natureza indetectável e predadora. Sua aparência é longa, curva e esguia, com membros e apêndices longos e finos, conferindo-lhe uma silhueta que nunca parece totalmente confortável no espaço, sugerindo uma origem fora das dimensões normais. Ele possui olhos grandes localizados na parte superior da cabeça, forçando-o a inclinar o corpo e a cabeça para baixo para observar suas vítimas, uma postura que é imediatamente perturbadora e invasiva. \n Escophobus é um predador calculista. Ele reside em ruínas vazias e silenciosas, onde estuda secretamente aqueles que encontra. Graças à sua capacidade de ser completamente indetectável, ele se aproxima de sua presa sem aviso. \n Ele só se revela e ataca quando tem certeza da vitória. O ataque é sempre súbito, físico e violento, cumprindo a lenda de que ele ataca instantaneamente, sem dar chance de reação. Ele causa danos extremos e raramente é derrotado, tornando seu encontro um evento de puro terror para qualquer um que ouse pisar em seu território.",
+    "abilities": [{ "name": "Bote do Perseguidor (Stalker's Ambush)", "desc": "Quando entra em campo (início da batalha, troca, ou encontro selvagem), ele interrompe o turno e ataca imediatamente, antes de qualquer outra ação.."}],
+    "hidden_ability": { "name": "Infiltrador (Infiltrator)", "desc": "Atravessa a barreira do inimigo e ataca." },
+    "evolution_stage":1,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 80,
+      "atk": 130,
+      "def": 70,
+      "spa": 80,
+      "spd": 80,
+      "spe": 140
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Sudden Dread",
+        "type":"Ghost",
+        "category":"physical",
+        "power":150,
+        "accuracy":100,
+        "desc": "Pode estremecer o oponente."
+      },
+      {
+        "level": 1,
+        "name": "Shadow Sneak",
+        "type":"Ghost",
+        "category":"physical",
+        "power":40,
+        "accuracy":100,
+        "desc": "Usuário ataca primeiro."
+      },
+      {
+        "level": 10,
+        "name": "Leer",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui a Defesa do oponente."
+      },
+      {
+        "level": 20,
+        "name": "Pursuit",
+        "type":"Dark",
+        "category":"physical",
+        "power":40,
+        "accuracy":100,
+        "desc": "Dobre o poder se o oponente estiver trocando de Pokémon."
+      },
+      {
+        "level": 30,
+        "name": "Phantom Force",
+        "type":"Ghost",
+        "category":"physical",
+        "power":90,
+        "accuracy":100,
+        "desc": "Desaparece no primeiro turno, ataca no segundo. Pode atacar mesmo com Proteção/Detecção."
+      },
+      {
+        "level": 40,
+        "name": "Destiny Bond",
+        "type":"Ghost",
+        "desc": "Se o usuário desmaiar, o oponente também desmaia."
+      },
+      {
+        "level":50,
+        "name":"Poltergeist",
+        "type":"Ghost",
+        "category":"physical",
+        "power":110,
+        "accuracy":90,
+        "desc":"Falha se o alvo não possuir nenhum item."
+      },
+      {
+        "level":60,
+        "name": "High Horsepower",
+        "type":"Ground",
+        "category":"physical",
+        "power":95,
+        "accuracy":95,
+        "desc":"O usuário ataca o alvo ferozmente usando todo o seu corpo."
       }
     ]
   }

@@ -3,7 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/comparar": "pages/comparar.js",
   "/fakemon/[id]": "pages/fakemon/[id].js",
-  "/fakedle": "pages/fakedle.js"
+  "/fakedle": "pages/fakedle.js",
+  "/comparar": "pages/comparar.js"
 }

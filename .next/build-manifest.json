@@ -32,10 +32,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/comparar.js"
     ],
-    "/fakemon/[id]": [
+    "/fakedle": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/fakemon/[id].js"
+      "static/chunks/pages/fakedle.js"
     ]
   },
   "ampFirstPages": []

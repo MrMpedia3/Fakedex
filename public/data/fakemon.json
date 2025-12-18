@@ -2741,7 +2741,7 @@
       "Water"
     ],
     "image": "/images/spriglet.svg",
-    "entry": "Carismático e brincalhão, crianças adoram brincar com o Aelerquish quando vão à praia.",
+    "entry": "Carismático e brincalhão, crianças adoram brincar com o Aerlequish quando vão à praia.",
     "height_m": 0.3,
     "weight_kg": 2,
     "description": "Arlequish é um Pokémon aquático com uma aparência cômica, predominando as cores laranja e branco, que o ajudam a se camuflar entre os tentáculos de Anenemo. Sua característica visual mais marcante é o rosto branco com manchas vermelhas que imitam a maquiagem de palhaço, conferindo-lhe uma natureza divertida e carismática. \n Este Pokémon é conhecido por ser extremamente amigável e sociável, muitas vezes sendo o primeiro a iniciar contato com outros Pokémon e humanos, para aplicar truque divertidos. No entanto, Arlequish é muito arisco; se a aproximação for brusca, ele usa sua alta velocidade para fugir, reforçando a natureza evasiva. \n Em seu habitat, Arlequish é um protetor diligente: ele cumpre sua parte da simbiose usando jatos d'água e sua natação constante para limpar e evitar que os tentáculos de Anenemo se enrolem, garantindo a saúde de seu parceiro.",
@@ -2933,7 +2933,7 @@
       "method": "Evolui no nível 38",
       "image": "/images/spriglet.svg"
     }
-  ],
+    ],
     "base_stats": {
       "hp": 50,
       "atk": 65,
@@ -2999,7 +2999,7 @@
       "Water",
       "Rock"
     ],
-    "image": "/images/Misseorite.png",
+    "image": "/images/spriglet.svg",
     "entry": "Um pokémon grande. Passa a maior parte do tempo dentro d'água parado. Ainda assim, pode dar investidas muito rápidas.",
     "height_m": 1.9,
     "weight_kg": 100,
@@ -3016,7 +3016,7 @@
       "method": "Evolui no nível 38",
       "image": "/images/spriglet.svg"
     }
-  ],
+    ],
     "base_stats": {
       "hp": 78,
       "atk": 95,

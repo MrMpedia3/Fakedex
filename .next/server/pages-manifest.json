@@ -4,6 +4,5 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/fakemon/[id]": "pages/fakemon/[id].js",
-  "/fakedle": "pages/fakedle.js",
-  "/comparar": "pages/comparar.js"
+  "/fakedle": "pages/fakedle.js"
 }

@@ -27,15 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/comparar": [
+    "/fakemon/[id]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/comparar.js"
-    ],
-    "/fakedle": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/fakedle.js"
+      "static/chunks/pages/fakemon/[id].js"
     ]
   },
   "ampFirstPages": []

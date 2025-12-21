@@ -545,7 +545,7 @@
       "name": "Sklypsea",
       "number": "009",
       "method": "Evolui no nível 40",
-      "image": "/images/pyroak.svg"
+      "image": "/images/Sklypsea (placeholder).png"
     }
   ],
     "base_stats": {
@@ -627,7 +627,7 @@
       "name": "Sklypsea",
       "number": "009",
       "method": "Evolui no nível 40",
-      "image": "/images/pyroak.svg"
+      "image": "/images/Sklypsea (placeholder).png"
     }
   ],
     "base_stats": {
@@ -699,7 +699,7 @@
       "Water",
       "Dark"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Sklypsea (placeholder).png",
     "entry": "O Sklypsea é um dos pokémon mais raros de se encontrar visto seu comportamento isolacionista e capacidades de locomoção sem iguais.",
     "height_m": 1.8,
     "weight_kg": 135,
@@ -955,10 +955,10 @@
     "evolutions": [
     {
       "id": 13,
-      "name": "Wahimpeckt",
+      "name": "Washimpeckt",
       "number": "013",
       "method": "Evolui no nível 18",
-      "image": "/images/pyroak.svg"
+      "image": "/images/Washimpeckt (placeholder).png"
     }
   ],
     "base_stats": {
@@ -1036,7 +1036,7 @@
       "Flying",
       "Fighting"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Washimpeckt (placeholder).png",
     "entry": "Poucos pokémon são capazes de causar tanto medo nos outros quanto o Washimpeckt causa nos outros moradores da Rota 1, apenas com um olhar de relance. Dizem que até mesmo o destemido Saberatus o evita.",
     "height_m": 1.8,
     "weight_kg": 35,
@@ -1570,7 +1570,7 @@
         "name": "Twilux",
         "number": "020",
         "method": "Evolui com amizade máxima e Elemento da Magia",
-        "image": "/images/pyroak.svg"
+        "image": "/images/Twilux (placeholder).png"
       },
       {
         "id": 21,
@@ -1682,7 +1682,7 @@
       "Fairy",
       "Psychic"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Twilux (placeholder).png",
     "entry": "Este pokémon tem um comportamento único, sendo metédico e organizado, mas com certas manias difíceis de se lidar.",
     "height_m": 1.7,
     "weight_kg": 95,
@@ -2246,7 +2246,7 @@
       "name": "Elegato",
       "number": "031",
       "method": "Evolui no nível 40",
-      "image": "/images/spriglet.svg"
+      "image": "/images/Elegato (placeholder).png"
     }
   ],
     "base_stats": {
@@ -2306,7 +2306,7 @@
     "types": [
       "Fighting"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Pibrulltus (placeholder).png",
     "entry": "Por mais que possa parecer intimidador, esse pokémon é extremamente dócil com as pessoas. Principalmente com crianças.",
     "height_m": 1.2,
     "weight_kg": 50,
@@ -2397,7 +2397,7 @@
       "name": "Elegato",
       "number": "031",
       "method": "Evolui no nível 40",
-      "image": "/images/spriglet.svg"
+      "image": "/images/Elegato (placeholder).png"
     }
     ],
     "base_stats": {
@@ -2536,7 +2536,7 @@
       "Poison",
       "Psychic"
     ],
-    "image": "/images/spriglet.svg",
+    "image": "/images/Elegato (placeholder).png",
     "entry": "Charmoso, elegante e com um ar de superioridade, requer atenção constante. Se não a tiver, pode acabar hipnotizando as pessoas para isso, menos o treinador, este o Elegato parece ter receio de decepcionar.",
     "height_m": 1.7,
     "weight_kg": 78.3,
@@ -3243,6 +3243,194 @@
         "power":95,
         "accuracy":95,
         "desc":"O usuário ataca o alvo ferozmente usando todo o seu corpo."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Livwatr",
+    "number": "039",
+    "types": [
+      "Water"
+    ],
+    "image": "/images/spriglet.svg",
+    "entry": "Mesmo com uma aparência de filhote, a maioria dos Livwatr que se é possível encontrar são pelo menos centenários.",
+    "height_m": 0.3,
+    "weight_kg": 1.2,
+    "description": "O Livwatr possui uma estética que remete a um embrião marinho protegido por uma redoma de pureza. Seu corpo externo é uma esfera de substância gelatinosa e completamente translúcida, assemelhando-se a uma gota de água que mantém sua forma mesmo sob a pressão esmagadora das profundezas. \n No centro dessa esfera reside seu núcleo vital: uma pequena massa biológica de tons pastéis onde se pode ver claramente seu rosto. O Livwatr está quase sempre com uma expressão de sono profundo, com os olhos suavemente fechados e um sorriso sereno, transmitindo uma paz inabalável. \n Diferente de outros Pokémon, o Livwatr não teme a passagem do tempo. Quando seu corpo físico atinge um limite de cansaço ou dano, suas células se reorganizam, fazendo-o encolher e retornar ao seu estado inicial de 'pólipo' ou embrião. Ele não perde totalmente a consciência ao reiniciar o ciclo, mas suas memórias de vidas passadas tornam-se nubladas. Para um Livwatr, ter vivido mil anos é como lembrar de um longo sonho do qual ele acabou de acordar. \n É um Pokémon extremamente passivo. Ele flutua nas correntes abissais, acordando brevemente apenas para se alimentar de nutrientes microscópicos ou para interações lúdicas ocasionais. \n Embora biologicamente imortal, ele é vulnerável. Por ser pequeno e lento, muitos acabam sendo presas de Pokémon maiores ou sucumbindo a doenças raras antes de conseguirem completar o processo de rejuvenescimento.",
+    "abilities": [{ "name": "Reversão Onírica (Dream Reversion)", "desc": "Quando o HP do Pokémon cai para 25% ou menos ao fim de um turno, ele entra em um estado de dormência profunda. No início do próximo turno, ele recupera 100% de HP e PP, limpa todas as alterações de atributos e condições de status, mas é forçado a dormir por 3 turnos fixos."}],
+    "hidden_ability": { "name": "Comatoso (Comatose)", "desc": "O Pokémon está sempre dormindo, mas ainda pode atacar." },
+    "evolution_stage":1,
+    "is_final_stage":false,
+    "evolution_display_type":"SEQUENTIAL",
+    "evolutions":[{
+      "id": 40,
+      "name": "Eternalom",
+      "number": "040",
+      "method": "Evolui ao segurar o item Capsula de Éon ao subir de nível tendo vida crítica.",
+      "image": "/images/pyroak.svg" 
+    }],
+    "base_stats": {
+      "hp": 90,
+      "atk": 14,
+      "def": 75,
+      "spa": 45,
+      "spd": 90,
+      "spe": 10
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Water Sport",
+        "type":"Water",
+        "desc": "Diminui o poder dos golpes do tipo Fogo."
+      },
+      {
+        "level": 1,
+        "name": "Water Gun",
+        "type":"Water",
+        "category":"special",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level": 5,
+        "name": "Withdraw",
+        "type":"Water",
+        "desc": "Aumenta a Defesa do usuário."
+      },
+      {
+        "level": 12,
+        "name": "Aqua Ring",
+        "type":"Water",
+        "desc": "Restaura um pouco de HP a cada turno."
+      },
+      {
+        "level": 18,
+        "name": "Sleep Talk",
+        "type":"Normal",
+        "desc": "O usuário realiza um de seus próprios movimentos enquanto dorme."
+      },
+      {
+        "level": 25,
+        "name": "Bubble Beam",
+        "type":"Water",
+        "category":"special",
+        "power":65,
+        "accuracy":100,
+        "desc": "Pode diminuir a velocidade do oponente."
+      },
+      {
+        "level":32,
+        "name":"Recover",
+        "type":"Normal",
+        "desc": "Usuário recupera metade de seu HP."
+      },
+      {
+        "level":38,
+        "name": "Amnesia",
+        "type":"Psychic",
+        "desc":"Aumenta drasticamente a Defesa Especial do Usuário."
+      },
+      {
+        "level":45,
+        "name":"Brine",
+        "type":"Water",
+        "category":"special",
+        "power":65,
+        "accuracy":100,
+        "desc":"O poder dobra se o HP do oponente for inferior a 50%."
+      },
+      {
+        "level":52,
+        "name": "Haze",
+        "type":"Ice",
+        "desc": "Redefine todas as mudanças de stats."
+      },
+      {
+        "level":60,
+        "name": "Hydro Pump",
+        "type":"Water",
+        "category":"special",
+        "power":120,
+        "accuracy":80
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Eternalom",
+    "number": "040",
+    "types": [
+      "Water"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Eternalom é conhecido por encontrar mergulhadores e Pokémon perdidos em labirintos submersos, escoltando-os silenciosamente até a superfície.",
+    "height_m": 3.6,
+    "weight_kg": 310,
+    "description": "Eternalom deixa de ser um embrião protegido para se tornar uma entidade única e imponente. Seu corpo não é mais translúcido, mas possui uma opacidade cerúlea que lembra porcelana antiga. O rosto, antes escondido no núcleo, agora é parte integrante de sua estrutura frontal, exibindo olhos grandes, sábios e permanentemente abertos. \n Sua característica mais marcante é a imensa massa de tentáculos brancos que pende de sua base. Visualmente, assemelham-se a uma longa e densa barba de ancião, que flutua majestosamente conforme ele se desloca. Pequenos sulcos e rugas ao redor de sua face dão pistas de que o tempo finalmente começou a agir sobre ele, conferindo-lhe um ar de seriedade e autoridade benevolente. \n O Eternalom é uma das criaturas mais raras e respeitadas dos oceanos. Ao contrário de sua forma anterior, ele não flutua ao sabor do destino; ele nada com propósito e consciência. Nas profundezas onde a luz do sol nunca chega, o Eternalom emite um brilho pulsante e reconfortante. \n Existe uma aura de hospitalidade ao seu redor. Relatos de antigos exploradores dizem que, ao encontrar alguém em perigo ou despreparado nas ruínas oceânicas, o Eternalom se aproxima e, de seus tentáculos, oferece itens úteis perdidos pelo mar há séculos. Diz-se que ele consegue sentir se uma pessoa é digna ou se está em extrema necessidade. \n Ao parar de reiniciar seu ciclo de vida, ele finalmente conseguiu unificar as memórias de todos os seus ciclos passados. Ele é um arquivo vivo da história dos mares, embora se comunique apenas através de um silêncio profundo e empático.",
+    "abilities": [{ "name": "Presente do Sábio (Sage's Gift)", "desc": "Em batalhas (especialmente duplas), se o aliado perder ou não tiver um item, transfere o seu próprio item para ele no final do turno. Além disso, impede que os aliados sejam afetados por redução de Precisão ou Confusão."}],
+    "hidden_ability": { "name": "Comatoso (Comatose)", "desc": "O Pokémon está sempre dormindo, mas ainda pode atacar." },
+    "evolution_stage":2,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 125,
+      "atk": 40,
+      "def": 105,
+      "spa": 106,
+      "spd": 150,
+      "spe": 60
+    },
+    "moves": [
+      {
+        "level": "(Evo)",
+        "name": "Origin Pulse",
+        "type":"Water",
+        "category":"special",
+        "power":110,
+        "accuracy":85,
+        "desc": "Atinge todos os oponentes adjacentes."
+      },
+      {
+        "level": 1,
+        "name": "Life Dew",
+        "type":"Water",
+        "desc":"O usuário e seus companheiros de equipe recuperam HP."
+      },
+      {
+        "level": 1,
+        "name": "Helping Hand",
+        "type":"Normal",
+        "desc":"Em Batalhas em Dupla, aumenta o poder do movimento do parceiro."
+      },
+      {
+        "level": 65,
+        "name": "Mirror Coat",
+        "type":"Psychic",
+        "category":"special",
+        "accuracy":100,
+        "desc": "Ao ser atingido por um Ataque Especial, o usuário contra-ataca com o dobro do poder."
+      },
+      {
+        "level": 72,
+        "name": "Hydro Steam",
+        "type":"Water",
+        "category":"special",
+        "power":80,
+        "accuracy":100,
+        "desc": "A potência aumenta sob luz solar intensa."
+      },
+      {
+        "level": 80,
+        "name": "Calm Mind",
+        "type": "Psychic",
+        "desc": "Aumenta o Ataque Especial e Defesa Especial do usuário."
+      },
+      {
+        "level": 90,
+        "name": "Ocean's Wisdom",
+        "type":"Water",
+        "desc": "Protege a equipe de golpes críticos e cura 1/4 do HP de todos os aliados."
       }
     ]
   }

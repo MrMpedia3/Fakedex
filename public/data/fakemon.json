@@ -3549,11 +3549,11 @@
       "Flying"
     ],
     "image": "/images/spriglet.svg",
-    "entry": "Eternalom é conhecido por encontrar mergulhadores e Pokémon perdidos em labirintos submersos, escoltando-os silenciosamente até a superfície.",
+    "entry": "Dizem que a marca vermelha em seu rosto é sensível, podendo deixar o pokémon agitado e até agressivo ao toque.",
     "height_m": 1.15,
     "weight_kg": 18.5,
     "description": "com uma plumagem densa em tons de roxo profundo e preto. Sua silhueta é marcada por uma cauda longa e uma 'capa' de penas no pescoço que se abre violentamente durante seus espasmos, revelando padrões amarelos que brilham como eletricidade pura. \n Uma fenda profunda e irregular nasce em seu bico e sobe pela lateral do rosto até atravessar o olho, funcionando como uma cicatriz de energia. Essa rachadura brilha em um vermelho incandescente sempre que o Pokémon está prestes a atacar ou quando seus instintos agressivos afloram. \n Ele é definido por seus tiques e movimentos imprevisíveis. Mesmo sendo um pássaro de porte nobre, ele sofre espasmos constantes que o fazem virar a cabeça ou eriçar as penas subitamente, o que confunde os predadores e torna seus ataques impossíveis de prever. \n Embora seja extremamente impulsivo e agressivo com estranhos, ele possui uma conexão inquebrável com seu treinador. Ele demonstra afeto de formas peculiares, como dando pequenos choques de provocação ou roubando objetos, mas protege seu dono com uma fúria cega diante de qualquer perigo. \n Habita florestas densas onde pode se camuflar entre as sombras roxas da vegetação. É um Pokémon raro de se encontrar, geralmente visto apenas por lampejos de luz vermelha e o som de estalos elétricos ecoando entre as árvores durante a noite.",
-    "abilities": [{ "name": "Presente do Sábio (Sage's Gift)", "desc": "Em batalhas (especialmente duplas), se o aliado perder ou não tiver um item, transfere o seu próprio item para ele no final do turno. Além disso, impede que os aliados sejam afetados por redução de Precisão ou Confusão."}],
+    "abilities": [{ "name": "Estática (Static)", "desc": "O contato com o Pokémon pode causar paralisia."}, {"name": "Espasmo (Spasm)", "desc":"Os movimentos erráticos e tiques nervosos do Pokémon dificultam que o oponente o acerte."}],
     "hidden_ability": { "name":"Desafiador (Defiant)", "desc":"Aumenta drasticamente o Ataque do Usuário quando os atributos são reduzidos." },
     "evolution_stage":2,
     "is_final_stage":true,
@@ -3621,6 +3621,142 @@
         "name": "Chaotic Outbreak",
         "type":"Electric",
         "desc": "O usuário entra em surto, aumentando seu Ataque Especial e Velocidade, mas fica confuso."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Empence",
+    "number": "043",
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Um ótimo companheiro para o dia a dia, o Empence tenta sempre se provar útil. Mas passa por muito estresse ao se cobrar demais.",
+    "height_m": 1,
+    "weight_kg": 15,
+    "description": "Empence é um pequeno monstrinho de silhueta simples e postura ereta. Longe de ser um lutador musculoso, ele possui um corpo de formas suaves, mas firmes. Ele tem um pescoço curto e visível que dá mobilidade à sua cabeça, conferindo-lhe um ar de atenção constante a tudo o que o seu treinador comanda. \n O rosto é dominado por olhos grandes que brilham com uma vontade genuína de acertar. Não há agressividade em seu semblante, apenas uma seriedade fofa de quem está levando o treinamento muito a sério. Quando ele falha, seus olhos se estreitam e ele morde o lábio (ou faz uma expressão de esforço), focando toda a sua energia na próxima tentativa. \n Ao contrário de Pokémon que já nascem poderosos, a força do Empence é visualmente progressiva. Quando ele erra e a frustração bate, sua cor (originalmente um bege ou cinza fosco) começa a ganhar um tom mais vívido e saturado, e uma aura sutil começa a vibrar ao redor de seus membros, sinalizando que ele está se esforçando o dobro para compensar a falha. \n O Empence é o parceiro ideal para treinadores que valorizam a jornada e não apenas o resultado. Ele não é forte por natureza, mas sua lealdade o impede de desistir. Se ele perde uma luta sem cometer erros, ele entra em um estado reflexivo, tentando entender o que faltou, o que o torna um Pokémon extremamente inteligente emocionalmente.",
+    "abilities": [{ "name": "Frustração Crescente (Growing Frustration)", "desc": "Sempre que o Pokémon não consegue executar um movimento devido à baixa precisão, condições de status ou efeitos de proteção do oponente, seu Ataque, Ataque Especial, Defesa, Defesa Especial e sua taxa de acertos críticos aumentam. Todos os bônus são redefinidos após o Pokémon desferir um golpe crítico."}, {"name":"Foco Interior (Inner Focus)", "desc":"O pokémon fica protegido de estremecer."}],
+    "hidden_ability": { "name":"Obrigação (Duty Bound)", "desc":"Sempre que o Pokémon acerta um movimento que possui precisão inferior a 100%, ele recupera um pouco de seu HP e cura suas condições de status não voláteis." },
+    "evolution_stage":1,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 92,
+      "atk": 67,
+      "def": 56,
+      "spa": 43,
+      "spd": 61,
+      "spe": 96
+    },
+    "moves": [
+      {
+        "level": "1",
+        "name": "Pound",
+        "type":"Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level": 1,
+        "name": "Leer",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui a Defesa do oponente."
+      },
+      {
+        "level": 5,
+        "name": "Focus Energy",
+        "type":"Normal",
+        "desc": "Aumenta a chance de crítico."
+      },
+      {
+        "level": 9,
+        "name": "Low Kick",
+        "type":"Fighting",
+        "category":"physical",
+        "accuracy":"100",
+        "desc":"Quanto mais pesado o oponente, mais forte o ataque."
+      },
+      {
+        "level": 12,
+        "name": "Slam",
+        "type":"Normal",
+        "category":"physical",
+        "power":80,
+        "accuracy":75
+      },
+      {
+        "level": 17,
+        "name": "Low Sweep",
+        "type": "Fighting",
+        "category":"physical",
+        "power":65,
+        "accuracy":100,
+        "desc": "Diminui a Velocidade do oponente."
+      },
+      {
+        "level": 22,
+        "name": "Circle Throw",
+        "type":"Fighting",
+        "category":"physical",
+        "power":60,
+        "accuracy":90,
+        "desc": "Em batalhas, o oponente troca de Pokémon. Na natureza, o Pokémon foge."
+      },
+      {
+        "level":28,
+        "name":"Focus Punch",
+        "type":"Fighting",
+        "category":"physical",
+        "power":150,
+        "accuracy":100,
+        "desc":"Se o usuário for atingido antes de atacar, ele recua em vez de atacar."
+      },
+      {
+        "level":34,
+        "name": "Body Slam",
+        "type":"Normal",
+        "category":"physical",
+        "power":85,
+        "accuracy":100,
+        "desc": "Pode paralisar o oponente."
+      },
+      {
+        "level":40,
+        "name": "Sky Drop",
+        "type":"Flying",
+        "category":"physical",
+        "power":60,
+        "accuracy":100,
+        "desc":"No primeiro turno, lança o oponente para o ar e, no segundo, o solta."
+      },
+      {
+        "level":45,
+        "name":"Dynamic Punch",
+        "type":"Fighting",
+        "category":"physical",
+        "power":100,
+        "accuracy":50,
+        "desc": "Confunde o Oponente."
+      },
+      {
+        "level":52,
+        "name":"Heavy Slam",
+        "type": "Steel",
+        "category":"physical",
+        "accuracy":100,
+        "desc": "Quanto mais pesado o usuário, mas poderoso o ataque."
+      },
+      {
+        "level":60,
+        "name": "Last Resort",
+        "type":"Normal",
+        "category":"physical",
+        "power":140,
+        "accuracy":100,
+        "desc": "Pode apenas ser usado depois que todos os outros movimentos tenham sido usados."
       }
     ]
   }

@@ -35,7 +35,7 @@ export default function FakemonAbilities({ abilities, hidden_ability }) {
         {abilitiesArray.map((ab, i) => (
           <span key={i}>
             {/* Garantimos que ab.name e ab.desc existem, caso a transformação seja de um objeto estranho */}
-            {renderTooltip(ab.name || 'Desconhecida', ab.desc || 'Sem descrição.', "bg-gray-600")}
+            {renderTooltip(ab.name || 'Desconhecida', ab.desc || 'Sem descrição.', "bg-gray-400", "dark:bg-gray-600")}
           </span>
         ))}
       </div>
@@ -47,7 +47,7 @@ export default function FakemonAbilities({ abilities, hidden_ability }) {
             Habilidade Oculta
           </h4>
           <div className="flex flex-wrap gap-3">
-            {renderTooltip(hidden_ability.name, hidden_ability.desc, "bg-purple-600")}
+            {renderTooltip(hidden_ability.name, hidden_ability.desc, "bg-purple-400", "dark:bg-purple-600")}
           </div>
         </>
       )}

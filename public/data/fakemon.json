@@ -1144,7 +1144,7 @@
       "name": "Saberatus",
       "number": "015",
       "method": "Evolui no nível 20",
-      "image": "/images/pyroak.svg"
+      "image": "/images/Saberatus (placeholder).png"
     }
   ],
     "base_stats": {
@@ -1233,7 +1233,7 @@
       "Normal",
       "Steel"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Saberatus (placeholder).png",
     "entry": "Este pokémon é dificil de se encontrar na natureza, o que é um alívio para pessoas e outros pokémon.",
     "height_m": 0.8,
     "weight_kg": 25,
@@ -1577,7 +1577,7 @@
         "name": "Rainboost",
         "number": "021",
         "method": "Evolui com amizade máxima e Elemento da Lealdade",
-        "image": "/images/spriglet.svg"
+        "image": "/images/Rainboost (placeholder).png"
       },
       {
         "id": 22,
@@ -1598,14 +1598,14 @@
         "name": "Flowershy",
         "number": "024",
         "method": "Evolui com amizade máxima e Elemento da Bondade",
-        "image": "/images/pyroak.svg"
+        "image": "/images/Flowershy (placeholder).png"
       },
       {
         "id": 25,
         "name": "Pinkaos",
         "number": "025",
         "method": "Evolui com amizade máxima e Elemento do Riso",
-        "image": "/images/spriglet.svg"
+        "image": "/images/Pinkaos (placeholder).png"
       }
     ],
     "base_stats": {
@@ -1758,7 +1758,7 @@
       "Fairy",
       "Electric"
     ],
-    "image": "/images/spriglet.svg",
+    "image": "/images/Rainboost (placeholder).png",
     "entry": "Seus cascos conseguem interagir com nuvens como se fossem estruturas sólidas.",
     "height_m": 1.6,
     "weight_kg": 80,
@@ -1994,7 +1994,7 @@
       "Fairy",
       "Grass"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Flowershy (placeholder).png",
     "entry": "Esse pokémon, por incrível que pareça, é sim capaz de fazer sons. Apenas são estremamente baixos devido a sua timidez.",
     "height_m": 1.55,
     "weight_kg": 70,
@@ -2064,7 +2064,7 @@
       "Fairy",
       "Dark"
     ],
-    "image": "/images/spriglet.svg",
+    "image": "/images/Pinkaos (placeholder).png",
     "entry": "De todas as manifestações dos Elementos da Amizade, o Pinkaos é aquele que mais se percebe uma interpretação distorcida, podendo às vezes sendo violento apenas para conseguir uma risada.",
     "height_m": 1.45,
     "weight_kg": 65,
@@ -3268,7 +3268,7 @@
       "name": "Eternalom",
       "number": "040",
       "method": "Evolui ao segurar o item Capsula de Éon ao subir de nível tendo vida crítica.",
-      "image": "/images/pyroak.svg" 
+      "image": "/images/Eternalom (placeholder).png" 
     }],
     "base_stats": {
       "hp": 90,
@@ -3364,7 +3364,7 @@
     "types": [
       "Water"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Eternalom (placeholder).png",
     "entry": "Eternalom é conhecido por encontrar mergulhadores e Pokémon perdidos em labirintos submersos, escoltando-os silenciosamente até a superfície.",
     "height_m": 3.6,
     "weight_kg": 310,

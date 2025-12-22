@@ -1,9 +1,9 @@
 // utils/matchupCalculator.js (VERSÃO CORRIGIDA)
 
-import { typeChart } from './TypeChartData'; 
+import { TypeChart } from './TypeChartData'; 
 
-// Adiciona a camada de segurança: se typeChart falhar na importação, usamos um objeto vazio
-const CHART_DATA = typeChart || {}; 
+// Adiciona a camada de segurança: se TypeChart falhar na importação, usamos um objeto vazio
+const CHART_DATA = TypeChart || {}; 
 
 const ALL_ATTACKING_TYPES = Object.keys(CHART_DATA); // Agora seguro
 

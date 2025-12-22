@@ -1,6 +1,6 @@
-import { typeChart, allTypes } from './TypeChartData'; 
+import { TypeChart, allTypes } from './TypeChartData'; 
 
-const CHART_DATA = typeChart;
+const CHART_DATA = TypeChart;
 const ALL_TYPES = allTypes;
 
 // Função auxiliar para padronizar strings de tipo para Title Case (ex: 'ghost' -> 'Ghost')

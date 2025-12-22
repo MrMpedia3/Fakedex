@@ -1,4 +1,4 @@
-export const typeChart = {
+export const TypeChart = {
   // ATACANTE: { DEFENSOR: FATOR_DE_DANO }
   Normal: {
     Rock: 0.5,
@@ -159,7 +159,7 @@ export const typeChart = {
   }
 };
 
-export const allTypes = Object.keys(typeChart);
+export const allTypes = Object.keys(TypeChart);
 
 // Mapeamento para exibição no front-end
 export const effectivenessLabels = {

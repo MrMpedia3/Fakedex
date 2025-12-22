@@ -2069,7 +2069,7 @@
     "height_m": 1.45,
     "weight_kg": 65,
     "description": "O Pinkaos é a manifestação do Elemento do Riso. Seu corpo é rosa, coberto de confetes e sprinkles que caem constantemente a cada salto, mas a aura Sombria causa brilhos e cores que piscam de forma caótica e imprevisível. \n Sua crina e cauda têm um volume icônico, mas são preenchidas com espirais de fumaça escura como um algodão doce sombrio, que se movem de forma independente. Sua marca são os Três Balões onde um deles está estourando e liberando fumaça escura, simbolizando a quebra da ordem. \n Vivendo de acordo com as regras ilógicas do seu próprio caos, o que o conecta ao lado Sombrio da imprevisibilidade. Seu riso pode ser tanto alegre quanto destrutivo.",
-    "abilities": [{ "name": "Brincalçaho (Prankster)", "desc": "Dá prioridade a uma mudança de status." }],
+    "abilities": [{ "name": "Brincalhão (Prankster)", "desc": "Dá prioridade a uma mudança de status." }],
     "hidden_ability": { "name":"Sentido da Pinkie (Pinkie Sense)", "desc":"Pode anular um golpe Super Efetivo além de aumentar a Velocidade do usuário." },
     "evolution_stage":2,
     "is_final_stage":true,
@@ -2746,7 +2746,7 @@
     "weight_kg": 2,
     "description": "Arlequish é um Pokémon aquático com uma aparência cômica, predominando as cores laranja e branco, que o ajudam a se camuflar entre os tentáculos de Anenemo. Sua característica visual mais marcante é o rosto branco com manchas vermelhas que imitam a maquiagem de palhaço, conferindo-lhe uma natureza divertida e carismática. \n Este Pokémon é conhecido por ser extremamente amigável e sociável, muitas vezes sendo o primeiro a iniciar contato com outros Pokémon e humanos, para aplicar truque divertidos. No entanto, Arlequish é muito arisco; se a aproximação for brusca, ele usa sua alta velocidade para fugir, reforçando a natureza evasiva. \n Em seu habitat, Arlequish é um protetor diligente: ele cumpre sua parte da simbiose usando jatos d'água e sua natação constante para limpar e evitar que os tentáculos de Anenemo se enrolem, garantindo a saúde de seu parceiro.",
     "abilities": [{"name":"Véu d'Água (Water Veil)", "desc":"Previne o pokémon de dicar queimado."}],
-    "hidden_ability": { "name": "Brincalçaho (Prankster)", "desc": "Dá prioridade a uma mudança de status." },
+    "hidden_ability": { "name": "Brincalhão (Prankster)", "desc": "Dá prioridade a uma mudança de status." },
     "evolution_display_type": "SEQUENTIAL",
     "evolution_stage":1,
     "is_final_stage":false,
@@ -2834,7 +2834,7 @@
     "weight_kg": 18.2,
     "description": "Voabrante é a evolução do Arlequish, ganhando a tipagem Voadora e uma impressionante exibição de cores. Seu corpo mantém as listras básicas de laranja e branco, mas quando ele salta e plana sob a luz do sol, suas nadadeiras e escamas laterais cintilam com cores intensas, como azul, verde e amarelo. Sua cabeça é adornada com uma estrutura óssea ou de pele que se assemelha a uma máscara expressiva, conferindo-lhe uma aparência teatral e astuta. \n Seu método de locomoção é a planagem – ele se impulsiona para fora da água com suas poderosas nadadeiras, deslizando sobre as ondas para patrulhar o recife.",
     "abilities": [{"name":"Véu d'Água (Water Veil)", "desc":"Previne o pokémon de dicar queimado."}],
-    "hidden_ability": { "name": "Brincalçaho (Prankster)", "desc": "Dá prioridade a uma mudança de status." },
+    "hidden_ability": { "name": "Brincalhão (Prankster)", "desc": "Dá prioridade a uma mudança de status." },
     "evolution_stage":2,
     "is_final_stage":true,
     "base_stats": {
@@ -3431,6 +3431,196 @@
         "name": "Ocean's Wisdom",
         "type":"Water",
         "desc": "Protege a equipe de golpes críticos e cura 1/4 do HP de todos os aliados."
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Zapecker",
+    "number": "041",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Não é recomendado para treinadores novatos. O Zapecker pode ser extremamente teimoso e até atacar treinadores inexperientes.",
+    "height_m": 0.5,
+    "weight_kg": 2.5,
+    "description": "Zapecker é um pássaro de pequeno porte, mas com uma paleta de cores urbana e elétrica. Seu corpo é predominantemente roxo vibrante, com as pontas das asas e cauda em preto sólido. O peito e o rosto exibem um branco puro, fazendo com que seus grandes olhos amarelos se destaquem como faróis ligados. \n Seu bico preto possui uma pequena rachadura no lado esquerdo, causada pelo excesso de voltagem que ele descarrega. Zapecker sofre de tiques nervosos constantes: ele pisca um olho de cada vez, move a cabeça em espasmos rápidos e se pica involuntariamente, liberando pequenas faíscas azuis. \n Ele é o mestre do sumiço. Devido à sua hiperatividade extrema, ele nunca para quieto. Se um treinador desviar o olhar por um segundo, o Zapecker já terá percorrido metros de distância apenas por puro impulso. Zapecker é conhecido como o 'perturbador das florestas temperadas'. Ele não é territorial, mas é viciado em reações. Ele adora provocar humanos e outros Pokémon dando choques leves, perseguindo-os por entre as árvores ou dando pequenos chutes nas costas dos desavisados para ver se eles revidam. \n Apesar de ser irritante, ele tenta interagir. Para o Zapecker, dar uma bicada elétrica em alguém é um sinal de confiança e um convite para brincar ou lutar. Treinadores de Zapecker costumam andar com luvas isolantes e muitos curativos.",
+    "abilities": [{ "name": "Estática (Static)", "desc": "O contato com o Pokémon pode causar paralisia."}, {"name": "Espasmo (Spasm)", "desc":"Os movimentos erráticos e tiques nervosos do Pokémon dificultam que o oponente o acerte."}],
+    "hidden_ability": { "name": "Brincalhão (Prankster)", "desc": "Dá prioridade a uma mudança de status." },
+    "evolution_stage":1,
+    "is_final_stage":false,
+    "evolution_display_type":"SEQUENTIAL",
+    "evolutions":[{
+      "id": 42,
+      "name": "Kirayzee",
+      "number": "042",
+      "method": "Evolui no nível 30",
+      "image": "/images/spriglet.svg" 
+    }],
+    "base_stats": {
+      "hp": 45,
+      "atk": 35,
+      "def": 42,
+      "spa": 82,
+      "spd": 45,
+      "spe": 95
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Peck",
+        "type":"Flying",
+        "category":"physical",
+        "power":35,
+        "accuracy":100
+      },
+      {
+        "level": 1,
+        "name": "Thunder Shock",
+        "type": "Electric",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "desc": "Pode paralisar o oponente."
+      },
+      {
+        "level": 5,
+        "name": "Leer",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui a Defesa do oponente."
+      },
+      {
+        "level": 9,
+        "name": "Charge",
+        "type":"Electric",
+        "desc": "Aumenta a Defesa Especial do usuário e o poder do próximo movimento Elétrico."
+      },
+      {
+        "level": 13,
+        "name": "Quick Attack",
+        "type": "Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100,
+        "desc": "Usuário ataca primeiro."
+      },
+      {
+        "level": 17,
+        "name": "Shock Wave",
+        "type":"Electric",
+        "category":"special",
+        "power":60,
+        "accuracy":"∞",
+        "desc": "Ignora Evasão e Precisão."
+      },
+      {
+        "level":21,
+        "name":"Thunder Wave",
+        "type": "Electric",
+        "accuracy":90,
+        "desc": "Paralisa o oponente."
+      },
+      {
+        "level":25,
+        "name": "Taunt",
+        "type":"Dark",
+        "desc":"O alvo só pode usar movimentos de ataque."
+      },
+      {
+        "level":29,
+        "name":"Volt Switch",
+        "type":"Electric",
+        "category":"special",
+        "power":70,
+        "accuracy":80,
+        "desc":"O usuário deve trocar com outro pokémon após o ataque."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Kirayzee",
+    "number": "042",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "image": "/images/spriglet.svg",
+    "entry": "Eternalom é conhecido por encontrar mergulhadores e Pokémon perdidos em labirintos submersos, escoltando-os silenciosamente até a superfície.",
+    "height_m": 1.15,
+    "weight_kg": 18.5,
+    "description": "com uma plumagem densa em tons de roxo profundo e preto. Sua silhueta é marcada por uma cauda longa e uma 'capa' de penas no pescoço que se abre violentamente durante seus espasmos, revelando padrões amarelos que brilham como eletricidade pura. \n Uma fenda profunda e irregular nasce em seu bico e sobe pela lateral do rosto até atravessar o olho, funcionando como uma cicatriz de energia. Essa rachadura brilha em um vermelho incandescente sempre que o Pokémon está prestes a atacar ou quando seus instintos agressivos afloram. \n Ele é definido por seus tiques e movimentos imprevisíveis. Mesmo sendo um pássaro de porte nobre, ele sofre espasmos constantes que o fazem virar a cabeça ou eriçar as penas subitamente, o que confunde os predadores e torna seus ataques impossíveis de prever. \n Embora seja extremamente impulsivo e agressivo com estranhos, ele possui uma conexão inquebrável com seu treinador. Ele demonstra afeto de formas peculiares, como dando pequenos choques de provocação ou roubando objetos, mas protege seu dono com uma fúria cega diante de qualquer perigo. \n Habita florestas densas onde pode se camuflar entre as sombras roxas da vegetação. É um Pokémon raro de se encontrar, geralmente visto apenas por lampejos de luz vermelha e o som de estalos elétricos ecoando entre as árvores durante a noite.",
+    "abilities": [{ "name": "Presente do Sábio (Sage's Gift)", "desc": "Em batalhas (especialmente duplas), se o aliado perder ou não tiver um item, transfere o seu próprio item para ele no final do turno. Além disso, impede que os aliados sejam afetados por redução de Precisão ou Confusão."}],
+    "hidden_ability": { "name":"Desafiador (Defiant)", "desc":"Aumenta drasticamente o Ataque do Usuário quando os atributos são reduzidos." },
+    "evolution_stage":2,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 75,
+      "atk": 55,
+      "def": 70,
+      "spa": 130,
+      "spd": 75,
+      "spe": 120
+    },
+    "moves": [
+      {
+        "level": "32",
+        "name": "Air Slash",
+        "type":"Flying",
+        "category":"special",
+        "power":75,
+        "accuracy":95,
+        "desc": "Pode estremecer o oponente."
+      },
+      {
+        "level": 36,
+        "name": "Discharge",
+        "type":"Electric",
+        "category":"special",
+        "power":80,
+        "accuracy":100,
+        "desc": "Pode paralisar o oponente."
+      },
+      {
+        "level": 41,
+        "name": "Roost",
+        "type":"Flying",
+        "desc":"O usuário recupera metade de seus pontos de vida máximos e perde temporariamente o tipo Voador."
+      },
+      {
+        "level": 45,
+        "name": "Electro Ball",
+        "type":"Electric",
+        "category":"special",
+        "accuracy":"100",
+        "desc":"Quando mais rápido o usuário, mais forte o golpe."
+      },
+      {
+        "level": 50,
+        "name": "Hurricane",
+        "type":"Flying",
+        "category":"special",
+        "power":110,
+        "accuracy":70,
+        "desc": "Pode confundir o oponente."
+      },
+      {
+        "level": 55,
+        "name": "Thunder",
+        "type": "Electric",
+        "category":"special",
+        "power":110,
+        "accuracy":70,
+        "desc": "Pode paralisar o oponente."
+      },
+      {
+        "level": 62,
+        "name": "Chaotic Outbreak",
+        "type":"Electric",
+        "desc": "O usuário entra em surto, aumentando seu Ataque Especial e Velocidade, mas fica confuso."
       }
     ]
   }

@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { typeChart, allTypes, effectivenessLabels } from '../../../utils/typeChartData';
+import { TypeChart, allTypes, effectivenessLabels } from '../../../utils/TypeChartData';
 
 /**
  * Calcula a efetividade defensiva do Fakémon contra todos os tipos.
@@ -20,7 +20,7 @@ const calculateDefenseEffectiveness = (types) => {
 
         // Itera sobre cada tipo defensivo do Fakémon (máx. 2)
         types.forEach(defendingType => {
-            const chartEntry = typeChart[attackingType];
+            const chartEntry = TypeChart[attackingType];
             
             // LÓGICA DE CÁLCULO
             const damageFactor = (chartEntry && chartEntry[defendingType] !== undefined)

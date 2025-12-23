@@ -3759,5 +3759,247 @@
         "desc": "Pode apenas ser usado depois que todos os outros movimentos tenham sido usados."
       }
     ]
+  },
+  {
+    "id": 44,
+    "name": "Recrulpa",
+    "number": "044",
+    "types": [
+      "Grass"
+    ],
+    "image": "/images/spriglet.svg",
+    "entry": "É comum encontrá-los em jardins públicos sendo repreendidos por suas evoluções. Quando tropeçam e caem, costumam ficar rolando de um lado para o outro até que alguém os coloque de pé novamente.",
+    "height_m": 0.3,
+    "weight_kg": 5.2,
+    "description": "Recrulpa possui um corpo esférico e macio de coloração verde-claro, sustentado por pés curtos e arredondados que dificultam corridas em alta velocidade. No topo de sua cabeça, cresce uma roseta de folhas rígidas e curtas dispostas em formato de 'ninho'. Essas folhas ainda não possuem o fio de corte metálico, apresentando bordas amareladas e uma textura que lembra o couro. \n Este Pokémon vive em um estado de constante distração e brincadeira. Por serem a fase infantil de uma linha altamente disciplinada, os Recrulpa são frequentemente vistos em 'grupos de treinamento' liderados por suas evoluções. No entanto, enquanto os tutores tentam ensinar táticas de defesa, os Recrulpa geralmente se dispersam para observar insetos ou brincar de rolar em declives. \n Por ser incapaz de lutar seriamente, sua principal defesa é o ato de se encolher. Ao recolher os pés, ele aponta suas folhas superiores para o agressor. Embora frágeis, essas folhas possuem pontas agudas que podem causar pequenos arranhões. Curiosamente, os padrões de listras escuras vistos em suas formas evoluídas originam-se aqui: são cicatrizes de dobras e feridas sofridas durante essa fase brincalhona, que se tornam marcas permanentes e endurecidas após a evolução. \n Sua biologia é naturalmente resistente a energias instáveis. Recrulpa parece ignorar completamente as propriedades do terreno onde pisa, tratando solos complexos como se fossem grama comum.",
+    "abilities": [{ "name": "Solo Sagrado (Hallowed Ground)", "desc": "O Pokémon purifica o solo onde pisa. Isso anula os efeitos de Terrenos para todos no campo e o torna imune a armadilhas de entrada, como Spikes."}, {"name":"Alheio (Oblivious)","desc":"O Pokémon é tão distraído que não pode ser provocado ou atraído, além de ser imune a intimidações."}],
+    "hidden_ability": { "name": "Filtro de Ar (Air Filter)", "desc": "Ao entrar em batalha, o Pokémon processa as impurezas da atmosfera. Isso reduz a duração de Climas ativos e remove névoas e barreiras do campo adversário."},
+    "evolution_stage":1,
+    "is_final_stage":false,
+    "evolution_display_type":"SEQUENTIAL",
+    "evolutions":[
+      {
+      "id": 45,
+      "name": "Cadetalo",
+      "number": "045",
+      "method": "Evolui no nível 18.",
+      "image": "/images/spriglet.svg" 
+      },{
+        "id": 46,
+        "name": "Sanjonore",
+        "number": "046",
+        "method": "Evolui no nível 38.",
+        "image": "/images/spriglet.svg" 
+      }
+    ],
+    "base_stats": {
+      "hp": 55,
+      "atk": 20,
+      "def": 45,
+      "spa": 25,
+      "spd": 45,
+      "spe": 32
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Splash",
+        "type":"Normal",
+        "desc": "Faz NADA."
+      },
+      {
+        "level": 1,
+        "name": "Play Nice",
+        "type":"Normal",
+        "desc":"Diminui o Ataque do oponente. Sempre acerta."
+      },
+      {
+        "level": 4,
+        "name": "Withdraw",
+        "type":"Water",
+        "desc": "Aumenta a Defesa do usuário."
+      },
+      {
+        "level": 8,
+        "name": "Leafage",
+        "type":"Grass",
+        "category":"physical",
+        "power":40,
+        "accuracy":100,
+        "desc": "Acerta o oponente com folhas."
+      },
+      {
+        "level": 12,
+        "name": "Aromatherapy",
+        "type": "Grass",
+        "desc": "Cura todos os problemas de status do seu grupo."
+      },
+      {
+        "level": 15,
+        "name": "Helping Hand",
+        "type":"Normal",
+        "desc":"Em Batalhas em Dupla, aumenta o poder do movimento do parceiro."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Cadetalo",
+    "number": "045",
+    "types": [
+      "Grass"
+    ],
+    "image": "/images/spriglet.svg",
+    "entry": "Quando um Recrulpa se perde do grupo, Cadetalo entra em pânico e agita sua folha freneticamente para sinalizar o caminho de volta. Se o pequeno não obedece, ele costuma sentar no chão e suspirar profundamente de frustração.",
+    "height_m": 0.7,
+    "weight_kg": 28.6,
+    "description": "O Cadetalo mantém o formato de corpo arredondado e liso de sua pré-evolução, mas em uma escala maior e em um tom de verde mais escuro e maduro. As diversas folhas que formavam o 'ninho' em sua cabeça foram reduzidas drasticamente deixando apenas o necessário para sua nova função. A característica mais marcante é o desenvolvimento de pequenas mãos arredondadas, que ele utiliza para empunhar sua própria folha mais longa e rígida como se fosse uma espada de treino. Suas marcas tigradas agora são mais nítidas, representando o histórico de seus esforços e exercícios. \n Cadetalo vive a fase da 'adolescência disciplinada'. Ele possui um forte desejo de ser visto como digno, honrado e eficiente, espelhando-se em seus superiores. No entanto, essa seriedade é frequentemente testada pela sua responsabilidade de cuidar dos Recrulpas. Cadetalo leva sua missão de proteção muito a sério, agindo como um guardião para Pokémon mais fracos e tentando afastar baderneiros. Apesar do esforço, ele ainda é jovem; o estresse de tentar ser um líder perfeito muitas vezes o deixa frustrado, especialmente quando sua autoridade é ignorada pelos menores. \n Em combate, ele utiliza sua folha única como um sabre vegetal. Embora a folha ainda seja feita de fibras orgânicas, ela é surpreendentemente resistente e flexível, permitindo que o Cadetalo apare golpes e desferir cortes precisos. Quando confrontado por oponentes muito maiores, sua fachada de 'soldado destemido' pode fraquejar, revelando que ele ainda está em processo de construção de sua coragem. \n Assim como sua forma anterior, Cadetalo possui uma conexão intrínseca com a pureza do solo. Ele utiliza sua presença para estabilizar energias de terreno, batendo sua espada no chão para reforçar sua posição.",
+    "abilities": [{ "name": "Solo Sagrado (Hallowed Ground)", "desc": "O Pokémon purifica o solo onde pisa. Isso anula os efeitos de Terrenos para todos no campo e o torna imune a armadilhas de entrada, como Spikes."}, {"name":"Guarda Amiga (Friend Guard)", "desc":"Reduz o dano causado a aliados."}],
+    "hidden_ability": { "name": "Filtro de Ar (Air Filter)", "desc": "Ao entrar em batalha, o Pokémon processa as impurezas da atmosfera. Isso reduz a duração de Climas ativos e remove névoas e barreiras do campo adversário."},
+    "evolution_stage":2,
+    "is_final_stage":false,
+    "evolution_display_type":"SEQUENTIAL",
+    "evolutions":[
+      {
+        "id": 46,
+        "name": "Sanjonore",
+        "number": "046",
+        "method": "Evolui no nível 38.",
+        "image": "/images/spriglet.svg" 
+      }
+    ],
+    "base_stats": {
+      "hp": 90,
+      "atk": 85,
+      "def": 85,
+      "spa": 42,
+      "spd": 80,
+      "spe": 35
+    },
+    "moves": [
+      {
+        "level": 18,
+        "name": "Razor Leaf",
+        "type": "Grass",
+        "category": "physical",
+        "power": 55,
+        "accuracy": 95,
+        "desc": "Alta taxa de acerto crítico."
+      },
+      {
+        "level": 20,
+        "name": "Focus Energy",
+        "type":"Normal",
+        "desc": "Aumenta a chance de crítico."
+      },
+      {
+        "level": 23,
+        "name": "Leaf Tornado",
+        "type":"Grass",
+        "category":"special",
+        "power":65,
+        "accuracy":90,
+        "desc": "Pode diminuir a Precisão do oponente."
+      },
+      {
+        "level": 27,
+        "name": "Leaf Blade",
+        "type":"Grass",
+        "category":"physical",
+        "power":90,
+        "accuracy":100,
+        "desc": "Alta taxa de acerto crítico."
+      },
+      {
+        "level": 31,
+        "name": "Wide Guard",
+        "type": "Rock",
+        "desc": "Protege a equipe do usuário contra ataques com múltiplos alvos."
+      },
+      {
+        "level": 34,
+        "name": "Body Slam",
+        "type":"Normal",
+        "category":"physical",
+        "power":85,
+        "accuracy":100,
+        "desc": "Pode paralisar o oponente."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Sanjonore",
+    "number": "046",
+    "types": [
+      "Grass",
+      "Steel"
+    ],
+    "image": "/images/spriglet.svg",
+    "entry": "Dono de uma paciência estoica, Sanjonore ignora o caos causado pelos Recrulpas ao seu redor, focando apenas em neutralizar ameaças reais. Sua 'pena' no topo do capacete vibra quando ele detecta injustiças por perto.",
+    "height_m": 1.2,
+    "weight_kg": 95,
+    "description": "Sanjonore possui um corpo esférico totalmente blindado por folhas de aço verde-escuro, com cicatrizes de forja que contam a história de inúmeros treinos. No topo de sua armadura, uma única folha pequena e fina balança como a pluma de um elmo real. Em uma das mãos redondas, ele empunha uma espada-de-são-jorge perfeitamente rígida; na outra, uma folha da variante, larga e indestrutível, que serve como seu escudo oficial. \n Ele é a personificação da honra. Como um mentor para os Cadetalos, ele ensina através do exemplo, mantendo a calma enquanto seus aprendizes perdem a paciência com os novatos. Sanjonore é conhecido por ficar parado por horas, observando o horizonte; muitos pensam que ele está meditando, mas ele está apenas aproveitando o silêncio que os Recrulpas raramente permitem. \n Seu foco não é a agressão, mas a neutralização. Ele utiliza seu escudo para absorver impactos e sua espada para desarmar oponentes. Ele acredita que a verdadeira vitória é terminar uma batalha sem que nenhum lado sofra danos desnecessários.",
+    "abilities": [{ "name": "Solo Sagrado (Hallowed Ground)", "desc": "O Pokémon purifica o solo onde pisa. Isso anula os efeitos de Terrenos para todos no campo e o torna imune a armadilhas de entrada, como Spikes."}, {"name":"Filtro (Filter)", "desc":"Reduz o dano de ataques super-efetivos recebidos."}],
+    "hidden_ability": { "name": "Alma de Guerreiro (Warrior's Soul)", "desc": "Aumenta o Ataque do Pokémon sempre que ele é atingido por um movimento do tipo Sombrio."},
+    "evolution_stage":3,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 90,
+      "atk": 115,
+      "def": 105,
+      "spa": 74,
+      "spd": 95,
+      "spe": 35
+    },
+    "moves": [
+      {
+        "level": 38,
+        "name": "Smart Strike",
+        "type":"Steel",
+        "category":"physical",
+        "power":70,
+        "desc": "O usuário perfura o oponente. Esse ataque nunca erra."
+      },
+      {
+        "level": 40,
+        "name":"Defog",
+        "type":"Flying",
+        "desc":"Reduz a evasão do oponente e dissipa a névoa."
+      },
+      {
+        "level": 42,
+        "name": "Solar Blade",
+        "type":"Grass",
+        "category":"physical",
+        "power":125,
+        "accuracy":100,
+        "desc": "Investe no primeiro turno, ataca no segundo."
+      },
+      {
+        "level": 48,
+        "name": "Iron Head",
+        "type":"Steel",
+        "category":"physical",
+        "power":80,
+        "accuracy":100,
+        "desc":"Pode estremecer o oponente."
+      },
+      {
+        "level": 55,
+        "name": "Sainted Strike",
+        "type": "Steel",
+        "category":"physical",
+        "power":85,
+        "accuracy":100,
+        "desc": "O usuário desfere um corte purificador que força a neutralidade no ambiente. Este movimento remove todos os efeitos de clima e todos os terrenos ativos no campo. Causa o dobro de dano em oponentes do tipo Dragão."
+      },
+      {
+        "level": 62,
+        "name": "Haze",
+        "type":"Ice",
+        "desc": "Redefine todas as mudanças de stats."
+      }
+    ]
   }
 ]

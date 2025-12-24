@@ -4001,5 +4001,211 @@
         "desc": "Redefine todas as mudanças de stats."
       }
     ]
+  },
+  {
+    "id": 47,
+    "name": "Ardil",
+    "number": "047",
+    "types": [
+      "Bug"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "A mancha em seu abdome induz um forte sentimento de proteção em outros Pokémon. Observa-se frequentemente que predadores naturais, interrompem ataques ao avistarem a face assustada de Ardil, permitindo que o inseto escape ou até mesmo roube o alimento do agressor.",
+    "height_m": 0.4,
+    "weight_kg": 1.2,
+    "description": "O Ardil é um Pokémon de tipo Inseto, comumente encontrado em áreas urbanas, como sótãos de casas, vigas de mercados e jardins tranquilos. Sua coloração é composta por tons pálidos de bege e cinza-poeira, o que o torna quase invisível em cantos de construções. A característica mais marcante de sua fisiologia são suas pernas desproporcionalmente longas e finas, que tremem em um ritmo irregular. Esse tremor não é apenas um sinal de fragilidade, mas uma resposta física constante ao equilíbrio precário que ele mantém sobre suas próprias teias elásticas. \n Seu abdome arredondado ostenta marcas naturais estáticas que formam uma face expressiva de terror, com olhos arregalados e uma boca em choque. O Ardil utiliza essa 'carinha assustada' como sua principal defesa: ao ser confrontado por um predador, como o Canisco, ele vira seu abdome para o agressor, induzindo um sentimento de hesitação ou piedade que interrompe o ataque. \n Diferente de outros insetos, o Ardil é um artesão meticuloso. Ele gasta horas produzindo seda em seu abdome para então, com o auxílio de suas patas que funcionam como pinças de precisão, tecer nós complexos que alternam entre propriedades elásticas e pegajosas. Ele utiliza esse 'campo minado' de fios para pescar frutas e itens de transeuntes distraídos, guardando tudo em sua bolseda — uma bolsa de seda resistente que ele carrega consigo. \n Embora seja um 'ladrão' oportunista, o Ardil não possui maldade; ele busca apenas a subsistência com o menor gasto de energia possível. Sua personalidade é cautelosa e observadora, preferindo a vitória estratégica através do cansaço do oponente do que o confronto direto, o qual ele evita a todo custo devido à sua constituição física frágil.",
+    "abilities": [{ "name": "Piedade (Mercy Veil)", "desc": "A aparência frágil do Pokémon faz o oponente hesitar. Pode fazer com que ataques dirigidos a este Pokémon falhem no primeiro turno em que entra na batalha."}],
+    "hidden_ability": { "name": "Engenharia de Nós (Knot Mastery)", "desc": "O Pokémon domina a técnica de tecer nós. Garante prioridade a movimentos que reduzem status e permite roubar o item do oponente ao usar tais golpes." },
+    "evolution_stage":1,
+    "is_final_stage":false,
+    "evolution_display_type":"SEQUENTIAL",
+    "evolutions":[{
+      "id": 48,
+      "name": "Ardinós",
+      "number": "048",
+      "method": "Evolui a partir do nível 22 segurando o item Loot Sack.",
+      "image": "/images/spriglet.svg" 
+    }],
+    "base_stats": {
+      "hp": 52,
+      "atk": 23,
+      "def": 58,
+      "spa": 67,
+      "spd": 66,
+      "spe": 48
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "String Shot",
+        "type":"Bug",
+        "accuracy":95,
+        "desc": "Diminui a Velocidade do oponente."
+      },
+      {
+        "level": 1,
+        "name": "Astonish",
+        "type": "Ghost",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 100,
+        "desc": "Pode estremecer o oponente."
+      },
+      {
+        "level": 5,
+        "name": "Fairy Wind",
+        "type":"Fairy",
+        "category":"special",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level": 9,
+        "name": "Knot Trap",
+        "type":"Bug",
+        "desc": "Se o oponente for mais rápido, sua Velocidade cai. Se for mais lento, não pode ser substituído."
+      },
+      {
+        "level": 13,
+        "name": "Struggle Bug",
+        "type": "Bug",
+        "category":"special",
+        "power":50,
+        "accuracy":100,
+        "desc": "Diminui o Ataque Especial do oponente."
+      },
+      {
+        "level": 17,
+        "name": "Thief",
+        "type":"Dark",
+        "category":"physical",
+        "power":60,
+        "accuracy":100,
+        "desc": "Rouba o item que o oponente estiver segurando."
+      },
+      {
+        "level":21,
+        "name":"Spider Web",
+        "type": "Bug",
+        "desc": "Oponente não pode trocar de pokémon."
+      },
+      {
+        "level":25,
+        "name": "Electroweb",
+        "type":"Electric",
+        "category":"special",
+        "power":55,
+        "accuracy":95,
+        "desc":"Diminui a Velocidade do oponente."
+      },
+      {
+        "level":30,
+        "name":"Bounce",
+        "type":"Flying",
+        "category":"physical",
+        "power":85,
+        "accuracy":85,
+        "desc":"Pula no primeiro turno e ataca no segundo. Pode paralisar o oponente."
+      },
+      {
+        "level":35,
+        "name":"Sticky Web",
+        "type":"Bug",
+        "desc":"Reduz a Velocidade do oponente ao entrar em batalha."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Ardinós",
+    "number": "048",
+    "types": [
+      "Bug"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Ardinós é o companheiro definitivo dos grandes estilistas da região. Enquanto o treinador desenha, o Pokémon e sua equipe tecem tecidos de seda elástica que nenhuma máquina humana consegue replicar. É dito que as roupas mais caras e resistentes do mundo foram costuradas dentro de um Ateliê Ardil, embora o Pokémon exija uma porcentagem generosa de frutas frescas como pagamento pelo serviço.",
+    "height_m": 2.45,
+    "weight_kg": 18.5,
+    "description": "O Ardinós é um Pokémon de tipo Inseto, imponente e robusto de movimentos calculados. Diferente de sua pré-evolução, ele abandonou o tremor defensivo e adquiriu uma postura firme e estável. Sua característica mais impressionante é o abdome, que parece ter o dobro do tamanho normal. Isso ocorre porque a parte superior é coberta por uma estrutura complexa de seda endurecida — o Ateliê Ardil. \n Neste ateliê, uma pequena colônia de Ardils trabalha incansavelmente. Enquanto o Ardinós se move ou luta, os pequenos ajudantes processam seda em alta velocidade, entregando fios prontos e 'munição' tática para as patas dianteiras do líder. Essa cooperação permite que o Ardinós execute manobras impossíveis para uma aranha solitária, como o 'Arremesso de Ladino', onde ele dispara um Ardil preso a um cabo de seda para roubar um item e recolhê-lo em segundos. \n Sua inteligência é voltada para a antecipação. O Ardinós raramente entra em um local sem que seus ajudantes já tenham começado a preparar armadilhas de contato nos arredores. Na natureza, ele é o centro de uma rede logística que provê segurança e alimento para todos os membros do ateliê.",
+    "abilities": [{ "name": "Armadilha de Contato (Snare Set)", "desc": "Oponentes que atingem este Pokémon com movimentos de contato são laçados, tendo sua Velocidade reduzida e sendo impedidos de fugir."}],
+    "hidden_ability": { "name":"Linha de Montagem (Assembly Line)", "desc":"Ao usar movimentos de status ou de assinatura, espalha automaticamente uma camada de teia pegajosa no campo adversário." },
+    "evolution_stage":2,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 92,
+      "atk": 74,
+      "def": 96,
+      "spa": 83,
+      "spd": 87,
+      "spe": 52
+    },
+    "moves": [
+      {
+        "level": "(Evo)",
+        "name": "Knot Trap",
+        "type":"Bug",
+        "desc": "Se o oponente for mais rápido, sua Velocidade cai. Se for mais lento, não pode ser substituído."
+      },
+      {
+        "level": "(Evo)",
+        "name": "Rogue Toss",
+        "type":"Bug",
+        "category":"physical",
+        "power":62,
+        "accuracy":100,
+        "desc": "Rouba o item que o oponente estiver segurando. Se já estiver segurando um item, aumenta o poder do ataque."
+      },
+      {
+        "level": "(Evo)",
+        "name": "Rototiller",
+        "type":"Ground",
+        "desc":"Aumenta o Ataque e o Ataque Especial de Pokémon do tipo Grama."
+      },
+      {
+        "level": 23,
+        "name": "Pounce",
+        "type":"Bug",
+        "category":"physical",
+        "power":50,
+        "accuracy":100,
+        "desc":"Diminui a Velocidade do oponente."
+      },
+      {
+        "level": 26,
+        "name": "Helping Hand",
+        "type":"Normal",
+        "desc":"Em Batalhas em Dupla, aumenta o poder do movimento do parceiro."
+      },
+      {
+        "level": 31,
+        "name": "Bug Buzz",
+        "type": "Bug",
+        "category":"special",
+        "power":90,
+        "accuracy":100,
+        "desc": "Pode diminuir a Defesa Especial do oponente."
+      },
+      {
+        "level": 37,
+        "name": "Wide Guard",
+        "type": "Rock",
+        "desc": "Protege a equipe do usuário contra ataques com múltiplos alvos."
+      },
+      {
+        "level": 44,
+        "name": "Cotton Spore",
+        "type": "Grass",
+        "desc": "Reduz drasticamente a Velocidade do oponente."
+      },
+      {
+        "level": 52,
+        "name": "Skitter Smack",
+        "type": "Bug",
+        "category":"physical",
+        "power":70,
+        "accuracy":90,
+        "desc": "Diminui o Ataque Especial do oponente."
+      }
+    ]
   }
 ]

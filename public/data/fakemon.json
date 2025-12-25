@@ -3632,7 +3632,7 @@
       "Normal",
       "Fighting"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Empence (placeholder).png",
     "entry": "Um ótimo companheiro para o dia a dia, o Empence tenta sempre se provar útil. Mas passa por muito estresse ao se cobrar demais.",
     "height_m": 1,
     "weight_kg": 15,
@@ -4205,6 +4205,321 @@
         "power":70,
         "accuracy":90,
         "desc": "Diminui o Ataque Especial do oponente."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Bhrathum",
+    "number": "049",
+    "types": [
+      "Dragon"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "A vida de um Bhrathum é definida por uma caminhada contínua. Ao atingir a maturidade, ele sente um chamado instintivo para buscar um local de repouso final, ignorando qualquer barreira física em seu caminho. Raramente peregrinam sozinhos; é comum ver Pokémon de outras espécies escoltando-os em sinal de gratidão e respeito.",
+    "height_m": 1.6,
+    "weight_kg": 280,
+    "description": "O Bhrathum é um pokémon de grande porte e postura baixa, com um corpo robusto que evoca a imagem de um monumento antigo. Sua pele tem uma textura que lembra argila seca, apresentando rachaduras e fissuras profundas que se tornam mais evidentes conforme ele envelhece. Suas cores variam entre o cinza-azulado pálido e o lavanda acinzentado, conferindo-lhe uma aparência melancólica e atemporal. \n Embora possua olhos funcionais, seu olhar parece sempre fixo no horizonte, focado em seu destino. Ele emite um som grave e retumbante, áspero como o atrito de pedras, porém custoso e raramente utilizado. \n Sua principal característica biológica é a descamação: ele solta lascas de pele seca durante sua jornada, que são coletadas por humanos como amuletos de sabedoria e experiência. \n Apesar de sua natureza indiferente e silenciosa, o Bhrathum possui uma vontade inabalável. Ele não ataca deliberadamente, mas usará seu peso colossal para mover qualquer obstáculo que impeça sua progressão. Treinadores que decidem acompanhar um Bhrathum devem estar preparados para uma jornada de paciência, aprendendo a respeitar o ritmo lento e o propósito solene deste Pokémon, que valoriza a companhia silenciosa acima de qualquer comando.",
+    "abilities": [{ "name": "Vontade Inabalável (Unstopable Will)", "desc": "A determinação do Pokémon o torna impossível de ser movido. Ele não recua e não pode ser forçado a sair da batalha por movimentos de outros Pokémon."},{"name":"Pele Craquelada (Cracked Shell)","desc":"Quando o Pokémon é atingido por um movimento físico, sua armadura se quebra. Isso reduz sua Defesa, mas aumenta drasticamente sua Velocidade."}],
+    "hidden_ability": { "name": "Presença Ancestral (Elder Presence)", "desc": "A aura solene do Pokémon intimida o oponente, mitigando a força de ataques diretos e dificultando a aplicação de efeitos secundários."},
+    "evolution_stage":1,
+    "is_final_stage":false,
+    "evolution_display_type":"BRANCHING",
+    "evolutions":[
+      {
+        "id": 50,
+        "name": "Bhrathumba",
+        "number": "050",
+        "method": "Evolui no nível 50 com felicidade baixa.",
+        "image": "/images/spriglet.svg" 
+      },
+      {
+        "id": 51,
+        "name": "Bhrathundra",
+        "number": "051",
+        "method": "Evolui no nível 50 com felicidade alta.",
+        "image": "/images/spriglet.svg" 
+      }
+    ],
+    "base_stats": {
+      "hp": 70,
+      "atk": 52,
+      "def": 85,
+      "spa": 30,
+      "spd": 54,
+      "spe": 15
+    },
+    "moves": [
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type": "Normal",
+        "category": "physical",
+        "power": 40,
+        "accuracy": 100
+      },
+      {
+        "level": 1,
+        "name": "Leer",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui a Defesa do oponente."
+      },
+      {
+        "level": 6,
+        "name": "Mud-Slap",
+        "type":"Ground",
+        "category":"special",
+        "power":20,
+        "accuracy":100,
+        "desc":"Diminui a Precisão do oponente."
+      },
+      {
+        "level": 12,
+        "name": "Ancient Power",
+        "type":"Rock",
+        "category":"special",
+        "power":60,
+        "accuracy":100,
+        "desc": "Pode aumentar todos os stats do usuário de uma vez."
+      },
+      {
+        "level": 18,
+        "name": "Bulldoze",
+        "type": "Ground",
+        "category":"physical",
+        "power":60,
+        "accuracy":100,
+        "desc": "Diminui a Velocidade do oponente."
+      },
+      {
+        "level": 24,
+        "name": "Dragon Breath",
+        "type":"Dragon",
+        "category":"special",
+        "power":60,
+        "accuracy":100,
+        "desc": "Pode paralisar o oponente."
+      },
+      {
+        "level":30,
+        "name": "Stomping Tantrum",
+        "type":"Ground",
+        "category":"physical",
+        "power":75,
+        "accuracy":100,
+        "desc":"Movido pela frustração, o usuário ataca o alvo. Se o movimento anterior do usuário falhou, o poder deste movimento dobra."
+      },
+      {
+        "level":36,
+        "name": "Breaking Swipe",
+        "type":"Dragon",
+        "category":"physical",
+        "power":60,
+        "accuracy":100,
+        "desc":"Atinge vários oponentes e reduz o Ataque deles."
+      },
+      {
+        "level":42,
+        "name": "Iron Defense",
+        "type":"Steel",
+        "desc": "Aumenta drasticamente a Defesa do Usuário."
+      },
+      {
+        "level":48,
+        "name":"Curse",
+        "type":"Ghost",
+        "desc": "Fantasmas perdem 50% do HP máximo e amaldiçoam o oponente; unidades não-fantasma aumentam o Ataque e a Defesa, mas diminuem a Velocidade."
+      },
+      {
+        "level":54,
+        "name":"Dragon Tail",
+        "type":"Dragon",
+        "category":"physical",
+        "power":60,
+        "accuracy":90,
+        "desc": "Em batalhas, o oponente troca de Pokémon. Na natureza, o Pokémon foge."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Bhrathumba",
+    "number": "050",
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Muitas vezes confundido com uma ossada antiga em vales rochosos, Bhrathumba permanece estático por décadas, sem propósito ou direção. Ele e qualquer outro osso são basicamente a mesma coisa até que algo o desperte, revelando o rancor de uma peregrinação que falhou.",
+    "height_m": 2.4,
+    "weight_kg": 65,
+    "description": "O Bhrathumba é um pokémon esquelético que surge quando o Bhrathum não consegue atingir seu objetivo final. Ao contrário de sua forma anterior, ele abandonou completamente a pesada casca de argila e a carne exausta, restando apenas uma estrutura óssea mantida coesa por uma aura fantasmagórica purpúra. Suas patas dianteiras se transformaram em asas imensas e ósseas, permitindo-lhe pairar de forma instável e silenciosa. \n Este Pokémon é a representação pura do rancor e do sentimento de 'incompleto'. Como evoluiu sem o apoio de companheiros ou a satisfação do dever cumprido, ele não possui mais um motivo para peregrinar ou agir por conta própria. Sua presença é frequentemente associada a lendas urbanas de vales rochosos, onde ele se camufla perfeitamente entre restos mortais comuns por não emitir aura enquanto está 'adormecido'. \n No convívio com o treinador, o Bhrathumba é definido como um Pokémon 'perdido'. Ele obedece aos comandos de forma mecânica e desprovida de entusiasmo, não por lealdade profunda, mas por ter perdido seu norte interno. O treinador deve estar preparado para lidar com uma criatura fria e silenciosa, que parece habitar um vazio existencial permanente, agindo apenas porque foi instruída a fazê-lo.",
+    "abilities": [{ "name": "Ainda Não... (Not Yet...)", "desc": "O Pokémon se recusa a aceitar o fim ou a abandonar sua posição. Ele pode ignorar ordens de retirada ou persistir na batalha mesmo após sofrer danos graves."},{"name":"Corpo Amaldiçoado (Cursed Body)","desc":"Pode desativar um movimento usado no Pokémon."}],
+    "hidden_ability": { "name": "Infiltrador (Infiltrator)", "desc": "Atravessa a barreira do inimigo e ataca." },
+    "evolution_stage":2,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 62,
+      "atk": 114,
+      "def": 43,
+      "spa": 107,
+      "spd": 101,
+      "spe": 108
+    },
+    "moves": [
+      {
+        "level": "(Evo)",
+        "name": "Phantom Force",
+        "type":"Ghost",
+        "category":"physical",
+        "power":90,
+        "accuracy":100,
+        "desc": "Desaparece no primeiro turno, ataca no segundo. Pode atacar mesmo com Proteção/Detecção."
+      },
+      {
+        "level": 52,
+        "name": "Air Slash",
+        "type":"Flying",
+        "category":"special",
+        "power":75,
+        "accuracy":95,
+        "desc": "Pode estremecer o oponente."
+      },
+      {
+        "level": 55,
+        "name": "Shadow Ball",
+        "type":"Ghost",
+        "category":"special",
+        "power":80,
+        "accuracy":100,
+        "desc":"Pode diminuir a Defesa Especial do oponente."
+      },
+      {
+        "level": 59,
+        "name": "Dragon Pulse",
+        "type":"Dragon",
+        "category":"special",
+        "power":85,
+        "accuracy":100
+      },
+      {
+        "level": 64,
+        "name": "Destiny Bond",
+        "type":"Ghost",
+        "desc": "Se o usuário desmaiar, o oponente também desmaia."
+      },
+      {
+        "level": 70,
+        "name": "Dragon Claw",
+        "type": "Dragon",
+        "category":"physical",
+        "power":80,
+        "accuracy":100
+      },
+      {
+        "level": 78,
+        "name": "Memento",
+        "type": "Dark",
+        "desc": "Usuário desmaia. Diminui drasticamente o Ataque e Ataque Especial do oponente."
+      },
+      {
+        "level": 85,
+        "name": "Outrage",
+        "type":"Dragon",
+        "category":"physical",
+        "power":120,
+        "accuracy":100,
+        "desc": "Usuário ataca 2-3 turnos mas então fica confuso."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Bhrathundra",
+    "number": "051",
+    "types": [
+      "Dragon",
+      "Ice"
+    ],
+    "image": "/images/pyroak.svg",
+    "entry": "Dizem que, se você avistar um Bhrathundra longe das montanhas, é um sinal para buscar velhos amigos e resolver conflitos antigos, pois ele mesmo viaja longas distâncias apenas para visitar aqueles que o ajudaram no passado.",
+    "height_m": 3.5,
+    "weight_kg": 412.7,
+    "description": "O Bhrathundra é um pokémon majestoso adaptado para os climas mais extremos do mundo. Seu corpo é uma combinação única de texturas: enquanto sua pele inferior é fria e lisa como o gelo mais puro — capaz de congelar superfícies ao toque —, toda a sua parte superior é coberta por uma pelagem branca e densa que lembra a neve fresca. Esse 'casaco' natural é extremamente macio e retém um calor surpreendente, servindo de refúgio para pequenos Pokémon e treinadores durante nevascas. \n Diferente de suas formas anteriores, o Bhrathundra possui um canto potente e melódico. Esse grito de vitória não serve para intimidar, mas para inspirar; ouvi-lo em meio a uma batalha ou tempestade devolve a força de vontade àqueles que estão prestes a desistir. Sua perseverança é lendária. \n No convívio com seu treinador, ele se mostra um parceiro de lealdade inabalável. Ele frequentemente se recusa a abandonar o campo de batalha, não por teimosia cega, mas por um profundo senso de dever e proteção, mantendo-se como um escudo vivo até que a situação esteja segura.",
+    "abilities": [{ "name": "Ainda Não... (Not Yet...)", "desc": "O Pokémon se recusa a aceitar o fim ou a abandonar sua posição. Ele pode ignorar ordens de retirada ou persistir na batalha mesmo após sofrer danos graves."},{"name":"Casaco de Neve (Snow Cloak)","desc":"Aumenta a capacidade de evasão em tempestades de granizo."}],
+    "hidden_ability": { "name": "Ímpeto Nevado (Slush Rush)", "desc": "Aumenta a velocidade do pokémon em tempestades de granizo." },
+    "evolution_stage":2,
+    "is_final_stage":true,
+    "base_stats": {
+      "hp": 106,
+      "atk": 94,
+      "def": 83,
+      "spa": 101,
+      "spd": 87,
+      "spe": 64
+    },
+    "moves": [
+      {
+        "level": "(Evo)",
+        "name": "Ice Beam",
+        "type":"Ice",
+        "category":"special",
+        "power":90,
+        "accuracy":100,
+        "desc": "Pode congelar o oponente."
+      },
+      {
+        "level": 52,
+        "name": "Hyper Voice",
+        "type":"Normal",
+        "category":"special",
+        "power":90,
+        "accuracy":100
+      },
+      {
+        "level": 55,
+        "name": "Freeze-Dry",
+        "type":"Ice",
+        "category":"special",
+        "power":70,
+        "accuracy":100,
+        "desc":"Pode congelar o oponente. Super-efetivo contra pokémon do tipo água."
+      },
+      {
+        "level": 60,
+        "name": "Dragon Pulse",
+        "type":"Dragon",
+        "category":"special",
+        "power":85,
+        "accuracy":100
+      },
+      {
+        "level": 65,
+        "name": "Snowscape",
+        "type":"Ice",
+        "desc": "Aumenta a Defesa de Pokémon do tipo Gelo por 5 turnos e inicia uma nevasca."
+      },
+      {
+        "level": 72,
+        "name": "Roost",
+        "type":"Flying",
+        "desc":"O usuário recupera metade de seus pontos de vida máximos e perde temporariamente o tipo Voador."
+      },
+      {
+        "level": 78,
+        "name": "Blizzard",
+        "type": "Ice",
+        "category":"special",
+        "power":110,
+        "accuracy":70,
+        "desc": "Pode confundir o oponente."
+      },
+      {
+        "level": 85,
+        "name": "Dragon Cheer",
+        "type":"Dragon",
+        "desc": "Aumenta drasticamente a chance de crítico."
       }
     ]
   }

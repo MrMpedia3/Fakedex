@@ -1,5 +1,3 @@
-// components/fakemon/tabs/FakemonEvolutionChain.js (NOVO)
-
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useCallback, Fragment } from "react";

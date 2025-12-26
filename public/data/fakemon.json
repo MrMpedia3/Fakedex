@@ -23,13 +23,6 @@
       "number": "002",
       "method": "Evolui no nível 16",
       "image": "/images/Cellaraffe.png"
-    },
-    {
-      "id": 3,
-      "name": "Girarborarge",
-      "number": "003",
-      "method": "Evolui no nível 36",
-      "image": "/images/Girarborarge.png"
     }
   ],
     "base_stats": {
@@ -280,13 +273,6 @@
       "number": "005",
       "method": "Evolui no nível 16",
       "image": "/images/Misseorite.png"
-    },
-    {
-      "id": 6,
-      "name": "Morteorex",
-      "number": "006",
-      "method": "Evolui no nível 36",
-      "image": "/images/pyroak.svg"
     }
   ],
     "base_stats": {
@@ -539,13 +525,6 @@
       "number": "008",
       "method": "Evolui no nível 16",
       "image": "/images/pyroak.svg"
-    },
-    {
-      "id": 9,
-      "name": "Sklypsea",
-      "number": "009",
-      "method": "Evolui no nível 40",
-      "image": "/images/Sklypsea (placeholder).png"
     }
   ],
     "base_stats": {
@@ -1337,13 +1316,6 @@
       "number": "017",
       "method": "Evolui no nível 10",
       "image": "/images/Caratox (placeholder).png"
-    },
-    {
-      "id": 18,
-      "name": "Slacratox",
-      "number": "018",
-      "method": "Evolui no nível 17",
-      "image": "/images/pyroak.svg"
     }
   ],
     "base_stats": {
@@ -2156,13 +2128,6 @@
       "number": "028",
       "method": "Evolui no nível 16",
       "image": "/images/pyroak.svg"
-    },
-    {
-      "id": 30,
-      "name": "Masteriffik",
-      "number": "030",
-      "method": "Evolui no nível 40",
-      "image": "/images/pyroak.svg"
     }
   ],
     "base_stats": {
@@ -2240,13 +2205,6 @@
       "number": "029",
       "method": "Evolui no nível 16",
       "image": "/images/Qitoxic (placeholder).png"
-    },
-    {
-      "id": 31,
-      "name": "Elegato",
-      "number": "031",
-      "method": "Evolui no nível 40",
-      "image": "/images/Elegato (placeholder).png"
     }
   ],
     "base_stats": {
@@ -2924,13 +2882,6 @@
       "name": "Suchochedo",
       "number": "036",
       "method": "Evolui no nível 18",
-      "image": "/images/spriglet.svg"
-    },
-    {
-      "id": 37,
-      "name": "Spinoral",
-      "number": "037",
-      "method": "Evolui no nível 38",
       "image": "/images/spriglet.svg"
     }
     ],
@@ -3784,12 +3735,6 @@
       "number": "045",
       "method": "Evolui no nível 18.",
       "image": "/images/spriglet.svg" 
-      },{
-        "id": 46,
-        "name": "Sanjonore",
-        "number": "046",
-        "method": "Evolui no nível 38.",
-        "image": "/images/spriglet.svg" 
       }
     ],
     "base_stats": {
@@ -4520,6 +4465,439 @@
         "name": "Dragon Cheer",
         "type":"Dragon",
         "desc": "Aumenta drasticamente a chance de crítico."
+      }
+    ]
+  },
+  {
+    "id":52,
+    "name":"Fotonon",
+    "number":"052",
+    "types":[
+      "Psychic"
+    ],
+    "image":"/images/spriglet.svg",
+    "entry":"Extremamente protetor com seu prisma, este Pokémon se recusa a deixar que estranhos o toquem. Dizem que a pureza das formas geométricas que ele cria reflete a clareza de seus pensamentos e a alegria que sente ao projetar algo novo.",
+    "height_m":0.5,
+    "weight_kg":5.5,
+    "description":"O Fotonon é um Pokémon pequeno e de aparência elegante, com uma silhueta que lembra uma criança em vestes cerimoniais. Seu corpo é majoritariamente branco fosco, com detalhes em ciano profundo nas articulações. Seus olhos são grandes e expressivos, demonstrando uma curiosidade constante pelo mundo. \n O traço mais marcante é o seu Cristal de Luz: uma pedra multifacetada e flutuante que, quando o Pokémon está em repouso, ele carrega cuidadosamente com as duas mãos, protegendo-o como se fosse um tesouro. Quando decide usar seus poderes, o cristal flutua acima de sua cabeça, girando lentamente enquanto refrata a luz ao redor. \n Nativo de cadeias montanhosas ricas em minérios, o Fotonon passa o dia observando as formações rochosas e as cavernas de cristal. Ele é um aprendiz nato: usa seus poderes psíquicos para 'imprimir' luz sólida através de seu prisma, criando réplicas luminosas de cristais e pedras que encontra pelo caminho. \n Diferente de suas evoluções, o Fotonon é extremamente dócil e lúdico. Ele não se importa se suas criações são assimétricas ou efêmeras; ele se diverte criando bolas de luz para chutar ou cubos de montar para escalar. É um Pokémon prestativo: se encontrar um viajante em dificuldade, pode usar sua mente para criar um banquinho ou uma pequena plataforma de luz para ajudá-lo a descansar.",
+    "abilities":[{"name":"Iluminação (Illuminate)","desc":"Aumenta a probabilidade de encontrar Pokémon selvagens."}],
+    "hidden_ability":{"name":"Analítico (Analytic)","desc":"Aumenta o poder do movimento quando o Pokémon se move por último."},
+    "evolution_stage":1,
+    "is_final_stage":false,
+    "evolution_display_type":"SEQUENTIAL",
+    "evolutions":[
+      {
+        "id":53,
+        "number":"053",
+        "name":"Vishaktec",
+        "method":"Evolui no nível 16.",
+        "image": "/images/pyroak.svg"
+      }
+    ],
+    "base_stats":{
+      "hp":42,
+      "atk":23,
+      "def":44,
+      "spa":56,
+      "spd":47,
+      "spe":53
+    },
+    "moves":[
+      {
+        "level":1,
+        "name":"Pound",
+        "type":"Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100
+      },
+      {
+        "level":1,
+        "name":"Confusion",
+        "type":"Psychic",
+        "category":"special",
+        "power":50,
+        "accuracy":100,
+        "desc":"Pode confundir o oponente."
+      },
+      {
+        "level":4,
+        "name":"Flash",
+        "type":"Normal",
+        "desc":"Diminui a Precisão do oponente."
+      },
+      {
+        "level":8,
+        "name":"Telekinesis",
+        "type":"Psychic",
+        "desc": "Ignora a Evasão do oponente por três turnos e concede imunidade a dano Terrestre."
+      },
+      {
+        "level":12,
+        "name":"Light Screen",
+        "type":"Psychic",
+        "desc":"Reduz pela metade o dano recebido de ataques especiais por 5 turnos."
+      },
+      {
+        "level":15,
+        "name":"Swift",
+        "type":"Normal",
+        "category":"special",
+        "power":60,
+        "accuracy":"∞",
+        "desc":"Ignora Evasão e Precisão."
+      }
+    ]
+  },
+  {
+    "id":53,
+    "name":"Vishaktec",
+    "number":"053",
+    "types":[
+      "Psychic"
+    ],
+    "image":"/images/spriglet.svg",
+    "entry":"Este Pokémon vive um constante dilema estético. Ele viaja entre metrópoles e florestas virgens, tentando decidir se a perfeição reside na ordem absoluta da tecnologia ou na beleza imperfeita da natureza.",
+    "height_m":1.1,
+    "weight_kg":28.4,
+    "description":"O corpo do Vishaktec é um prodígio da adaptação psíquica. Sua pele desenvolveu uma textura sintética, uma 'vestimenta orgânica' que é, na verdade, uma extensão de seu sistema nervoso. Essa membrana lisa protege seus órgãos internos e ajuda a isolar a energia estática que ele gera ao processar cálculos complexos. \n O coração do Vishaktec não apenas bombeia sangue, mas serve como um gerador de fótons. Essa energia é enviada para os três cristais orbitais que flutuam ao redor de sua cabeça. Estes cristais agem como processadores externos: eles giram em altíssima velocidade para triangular a luz e estabilizar as projeções psíquicas. Graças à velocidade de rotação e à proteção de um campo magnético mental, é virtualmente impossível atingir ou quebrar esses cristais durante um combate. \n O Vishaktec é conhecido por sua natureza contemplativa e silenciosa. Ao contrário do Fotonon, ele raramente brinca. Sua vida é uma busca por referências. Ele é frequentemente visto imóvel em jardins ou praças públicas, observando por horas a proporção das pétalas de uma flor ou o ângulo de um arranha-céu. Embora suas estruturas de luz sólida tenham se tornado muito mais complexas, elas ainda possuem um limite de tempo. Uma ponte criada por um Vishaktec pode suportar toneladas, mas desaparecerá sem aviso assim que a concentração do Pokémon oscilar. \n Por causa disso, Vishaktec e humanos vivem uma relação de mentoria mútua. Eles são comuns em escritórios de engenharia e arquitetura avançada, onde atuam como maquetistas. O Vishaktec projeta uma versão em tamanho real do que os humanos planejam, permitindo que os engenheiros vejam erros de cálculo antes da obra começar. Em troca, o Pokémon aprende sobre as leis da física e da estética humana, o que o ajuda a decidir seu caminho evolutivo.",
+    "abilities":[{"name":"Olhos Compostos (Compoud Eyes)","desc":"Aumenta a precisão do pokémon."}],
+    "hidden_ability":{"name":"Analítico (Analytic)","desc":"Aumenta o poder do movimento quando o Pokémon se move por último."},
+    "evolution_stage":2,
+    "is_final_stage":false,
+    "evolution_display_type":"BRANCHING",
+    "evolutions":[
+      {
+        "id":54,
+        "number":"054",
+        "name":"Lotureza",
+        "method":"Evolui com leaf stone.",
+        "image": "/images/pyroak.svg"
+      },
+      {
+        "id":55,
+        "number":"055",
+        "name":"Symetrirtemys",
+        "method":"Evolui com metal coat.",
+        "image": "/images/pyroak.svg"
+      }
+    ],
+    "base_stats":{
+      "hp":61,
+      "atk":37,
+      "def":62,
+      "spa":88,
+      "spd":76,
+      "spe":88
+    },
+    "moves":[
+      {
+        "level":"(Evo)",
+        "name":"Mirror Coat",
+        "type":"Psychic",
+        "category":"special",
+        "accuracy":100,
+        "desc": "Ao ser atingido por um Ataque Especial, o usuário contra-ataca com o dobro do poder."
+      },
+      {
+        "level":19,
+        "name":"Reflect",
+        "type":"Psychic",
+        "desc":"Reduz pela metade o dano recebido de ataques físicos por 5 turnos."
+      },
+      {
+        "level":24,
+        "name":"Psybeam",
+        "type":"Psychic",
+        "category":"special",
+        "power":65,
+        "accuracy":"100",
+        "desc":"Pode confundir o oponente."
+      },
+      {
+        "level":30,
+        "name":"Psychic",
+        "type":"Psychic",
+        "category":"special",
+        "power":90,
+        "accuracy":100,
+        "desc": "Pode diminuir a Defesa Especial do oponente."
+      },
+      {
+        "level":37,
+        "name":"Photon Shield",
+        "type":"Psychic",
+        "desc":"Protege o usuário e aliados de ataques físicos por 1 turno."
+      },
+      {
+        "level":45,
+        "name":"Guard Swap",
+        "type":"Psychic",
+        "desc":"Usuário e oponente trocam Defesa e Defesa Especiall."
+      },
+      {
+        "level":58,
+        "name":"Photon Geyser",
+        "type":"Psychic",
+        "category":"special",
+        "power":100,
+        "accuracy":100,
+        "desc":"Usa Ataque ou Ataque Especial, qual estiver maior."
+      },
+      {
+        "level":64,
+        "name":"Geometric Pulse",
+        "type":"Psychic",
+        "category":"special",
+        "accuracy":80,
+        "desc":"Quanto menor a Precisão/Evasão do oponente, maior o poder do ataque."
+      }
+    ]
+  },
+  {
+    "id":54,
+    "name":"Lotureza",
+    "number":"054",
+    "types":[
+      "Psychic",
+      "Grass"
+    ],
+    "image":"/images/pyroak.svg",
+    "entry":"Diz a lenda que o primeiro Lotureza nasceu quando um Vishaktec se recusou a construir uma parede que bloquearia a luz solar de uma flor solitária. Ele molda a luz como se fosse argila, criando estruturas que respiram e se regeneram, provando que a maior perfeição está na vida em constante mudança.",
+    "height_m":1.8,
+    "weight_kg":65,
+    "description":"Ao evoluir através da Leaf Stone, a estrutura molecular do Vishaktec se torna flexível e resiliente. Os cristais que orbitavam sua cabeça agora se expandem e se estabilizam nas suas costas, transformando-se em seis pétalas de luz sólida rosada que nunca se apagam. \n Diferente do metal, essas pétalas são quentes e vibram em uma frequência que estimula o crescimento de plantas ao redor. Suas mãos agora possuem glândulas que emitem fios de luz orgânica, permitindo que ele teça estruturas complexas, como pontes de cipós luminosos ou casulos de proteção. \n O Lotureza é um Pokémon nômade que busca restaurar o que foi destruído pela urbanização desenfreada ou por desastres naturais. Ele não vê a tecnologia como inimiga, mas acredita que ela deve ser curativa. \n É comum ver um Lotureza em florestas antigas, meditando em cima de uma plataforma de luz. Ele é tão leve que pode caminhar sobre a água ou sobre as folhas das árvores sem dobrá-las. Sua presença acalma Pokémon selvagens territoriais, transformando campos de batalha em santuários de paz.",
+    "abilities":[{"name":"Cura Natural (Natural Cure)","desc":"Todos os problemas de status são curados quando é trocado."},{"name":"Triagem (Triage)", "desc":"Dá prioridade a ações restauradoras."}],
+    "hidden_ability":{"name":"Analítico (Analytic)","desc":"Aumenta o poder do movimento quando o Pokémon se move por último."},
+    "evolution_stage":3,
+    "is_final_stage":true,
+    "base_stats":{
+      "hp":94,
+      "atk":48,
+      "def":73,
+      "spa":107,
+      "spd":111,
+      "spe":99
+    },
+    "moves":[
+      {
+        "level":"(Evo)",
+        "name":"Floral Healing",
+        "type":"Fairy",
+        "desc": "O usuário restaura até metade do HP máximo do alvo. A restauração de HP é maior em terrenos com grama."
+      },
+      {
+        "level":16,
+        "name":"Pin Missile",
+        "type":"Bug",
+        "category":"physical",
+        "power":25,
+        "accuracy":95,
+        "desc":"Acerta 2-5 vezes em um turno."
+      },
+      {
+        "level":16,
+        "name":"Telekinesis",
+        "type":"Psychic",
+        "desc": "Ignora a Evasão do oponente por três turnos e concede imunidade a dano Terrestre."
+      },
+      {
+        "level":19,
+        "name": "Magical Leaf",
+        "type":"Grass",
+        "category":"special",
+        "power":60,
+        "accuracy": "∞",
+        "desc": "Ignora precisão e evasiva."
+      },
+      {
+        "level":23,
+        "name":"Ally Switch",
+        "type":"Psychic",
+        "desc":"Usuário troca de posição com aliado oposto."
+      },
+      {
+        "level":27,
+        "name":"Aromatherapy",
+        "type": "Grass",
+        "desc": "Cura todos os problemas de status do seu grupo."
+      },
+      {
+        "level":31,
+        "name":"Spiky Shield",
+        "type":"Grass",
+        "desc":"Protege usuário e causa dano no contato."
+      },
+      {
+        "level":39,
+        "name":"Giga Drain",
+        "type":"Grass",
+        "category":"special",
+        "power":75,
+        "accuracy":100,
+        "desc": "O usuário recupera metade dos pontos de vida infligidos ao oponente."
+      },
+      {
+        "level":39,
+        "name":"Psychic Terrain",
+        "type":"Psychic",
+        "desc": "Impede que movimentos prioritários sejam usados ​​por 5 turnos."
+      },
+      {
+        "level":47,
+        "name":"Grassy Terrain",
+        "type":"Grass",
+        "desc": "Restaura um pouco de HP de todos os Pokémon por 5 turnos."
+      },
+      {
+        "level":52,
+        "name":"Heal Pulse",
+        "type":"Psychic",
+        "desc": "Usuário recupera metade de seu HP máximo."
+      },
+      {
+        "level":64,
+        "name":"Solar Beam",
+        "type":"Grass",
+        "category":"special",
+        "power":120,
+        "accuracy":100,
+        "desc": "Carrega no primeiro turno, ataca no segundo."
+      },
+      {
+        "level":70,
+        "name":"Vital Bloom",
+        "type":"Grass",
+        "desc": "Cura pokémon do time aliado e aumenta Defesa e Deffesa Especial por 3 turnos."
+      },
+      {
+        "level":75,
+        "name":"Healing Wish",
+        "type":"Psychic",
+        "desc": "O usuário desmaia e o próximo Pokémon liberado está totalmente curado."
+      }
+    ]
+  },
+  {
+    "id":55,
+    "name":"Symetrirtemys",
+    "number":"055",
+    "types":[
+      "Psychic",
+      "Steel"
+    ],
+    "image":"/images/pyroak.svg",
+    "entry":"Symetrirtemys não enxerga o mundo como nós; ela enxerga uma grade invisível de possibilidades infinitas. Embora não possua malícia, ela é incapaz de ignorar o que considera 'ruído visual'. Se um terreno precisa de uma ponte, ela não apenas a constrói; ela a tece com luz sólida em uma simetria tão absoluta que o olho humano mal consegue processar sua perfeição.",
+    "height_m":1.7,
+    "weight_kg":82,
+    "description":"Diferente de sua contraparte, Symetrirtemys abandonou completamente o aspecto orgânico. Seu corpo é uma estrutura de aço polido, com acabamento branco fosco e detalhes em azul cianeto, lembrando a estética futurista de cidades utópicas. Sua silhueta é composta por ângulos agudos e curvas calculadas pela proporção áurea. \n O detalhe mais impressionante são seus braços: do ombro para baixo, não há metal ou osso. No lugar dos membros, orbitam projeções de luz sólida constantes. Esses braços de energia não possuem as limitações de articulações comuns; eles podem se desfragmentar e se reconfigurar em milissegundos para realizar os complexos mudras (sinais de mão) necessários para tecer a realidade. Para Symetrirtemys, a carne era um erro de cálculo; a luz é a ferramenta definitiva. \n Ela é a personificação da Lei e Ordem. Se uma Symetrirtemys encontra uma floresta devastada, ela não replantará as árvores aleatoriamente como o Lotureza. Ela criará uma malha de suporte metálica e luz sólida onde cada nova muda crescerá a uma distância milimetricamente igual da outra.",
+    "abilities":[{"name":"Filtro (Filter)", "desc":"Reduz o dano de ataques super-efetivos recebidos."},{"name":"Corpo Limpo (Clear Body)", "desc":"Previne outros pokémon de diminuir seus stats."}],
+    "hidden_ability":{"name":"Analítico (Analytic)","desc":"Aumenta o poder do movimento quando o Pokémon se move por último."},
+    "evolution_stage":3,
+    "is_final_stage":true,
+    "base_stats":{
+      "hp":89,
+      "atk":34,
+      "def":144,
+      "spa":144,
+      "spd":34,
+      "spe":89
+    },
+    "moves":[
+      {
+        "level":"(Evo)",
+        "name":"Mirror Shot",
+        "type":"Steel",
+        "category":"special",
+        "power":65,
+        "accuracy":85,
+        "desc": "Pode diminuir a Precisão do oponente."
+      },
+      {
+        "level":16,
+        "name":"Teleport",
+        "type":"Psychic",
+        "desc":"Permite ao usuário fugir de batalhas selvagens; também teletransporta o jogador para o último Centro Pokémon."
+      },
+      {
+        "level":16,
+        "name":"Reflect",
+        "type":"Psychic",
+        "desc":"Reduz pela metade o dano recebido de ataques físicos por 5 turnos."
+      },
+      {
+        "level":21,
+        "name":"Charge Beam",
+        "type":"Electric",
+        "category":"special",
+        "power":50,
+        "accuracy":90,
+        "desc": "Pode aumentar o Ataque Especial do usuário."
+      },
+      {
+        "level":26,
+        "name":"Spikes",
+        "type":"Ground",
+        "desc":"Causa dano aos oponentes que entram em combate."
+      },
+      {
+        "level":34,
+        "name":"Flash Cannon",
+        "type":"Steel",
+        "category":"special",
+        "power":80,
+        "accuracy":100,
+        "desc":"Pode diminuir a Defesa Especial do oponente."
+      },
+      {
+        "level":39,
+        "name":"Lock-On",
+        "type":"Normal",
+        "desc":"Próximo ataque do usuário é garantido de acertar."
+      },
+      {
+        "level":44,
+        "name":"Toxic Spikes",
+        "type":"Poison",
+        "desc":"Envenena oponentes que entram em combate."
+      },
+      {
+        "level":50,
+        "name":"Luster Purge",
+        "type":"Psychic",
+        "category":"special",
+        "power":95,
+        "accuracy":100,
+        "desc":"Pode diminuir a Defesa Especial do oponente."
+      },
+      {
+        "level":55,
+        "name":"Steel Beam",
+        "type":"Steel",
+        "category":"special",
+        "power":140,
+        "accuracy":95,
+        "desc":"Usuário perde 50% de seu HP."
+      },
+      {
+        "level":60,
+        "name":"Gravity",
+        "type":"Psychic",
+        "desc":"Impede movimentos como Voar e Saltar, além da habilidade Levitar, por 5 turnos."
+      },
+      {
+        "level":68,
+        "name":"Mirror Coat",
+        "type":"Psychic",
+        "category":"special",
+        "accuracy":100,
+        "desc": "Ao ser atingido por um Ataque Especial, o usuário contra-ataca com o dobro do poder."
+      },
+      {
+        "level":75,
+        "name":"Photon Barrier",
+        "type":"Steel",
+        "desc":"Durante dois turnos, a equipe fica imune a ataques especiais e recebe menos dano de ataques físicos."
       }
     ]
   }

@@ -67,10 +67,9 @@ export default function FakemonCard({ f }) {
           />
         </div>
 
-        {/* Tipos */}
+        {/* Tipos com suporte a variantes */}
         <div className="flex justify-center gap-2">
-          {f.types.map((t) => (
-            // Agora usamos o componente TypeBadge
+          {(f.types || (f.variants && f.variants[0]?.types) || []).map((t) => (
             <TypeBadge key={t} type={t} />
           ))}
         </div>

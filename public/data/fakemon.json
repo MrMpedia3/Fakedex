@@ -95,10 +95,8 @@
     "height_m": 1.7,
     "weight_kg": 78,
     "description": "O Cellaraffe é o estágio intermediário do pokémon, adquirindo a tipagem Elétrica. Seus chifres de painel solar se multiplicam, cobrindo sua cabeça com múltiplas estruturas rígidas, semelhantes a pequenas folhas carregadoras. A nebulosa cósmica em sua crina e cauda se expande e brilha com mais intensidade, variando a cor conforme sua carga interna. \n A energia é armazenada por todo o seu corpo, refletida pelas manchas e linhas que se acendem em seu pescoço, como um indicador de bateria visível. \n O Cellaraffe ainda mantém sua natureza calma de descansar e absorver energia. No entanto, sua principal característica é a dificuldade em controlar a carga absorvida. Quando ele coleta energia demais (especialmente em dias muito ensolarados), a sobrecarga o torna extremamente agitado e brincalhão. \n Na natureza, o Cellaraffe é tipicamente um Pokémon de fuga, preferindo se afastar quando ameaçado. Contudo, nesses estados de hiperatividade, ele pode descarregar a energia de duas formas: através de uma explosão elétrica descontrolada ou por contato físico, o que pode surpreender até mesmo o Treinador ao tentar tocá-lo.",
-    "abilities": [
-    { "name": "Foco Solar (Solar Focus)", "desc": "Se o clima for Ensolarado, o Pokémon recupera 1/8 de seu HP máximo a cada turno." }
-    ],
-    "hidden_ability": { "name": "Poder de Carga (Power Charge)", "desc": "O Ataque e o Ataque Especial do Pokémon aumentam em 1 estágio quando atingido por um movimento do tipo Elétrico (e o dano é negado, como uma imunidade)." },
+    "abilities": [{ "name": "Foco Solar (Solar Focus)", "desc": "Se o clima for Ensolarado, o Pokémon recupera 1/8 de seu HP máximo a cada turno." }],
+    "hidden_ability": { "name": "Poder de Carga (Power Charge)", "desc": "O Ataque e o Ataque Especial do Pokémon aumentam em 1 estágio quando atingido por um movimento do tipo Elétrico (e o dano é negado, como uma imunidade)."},
     "evolution_stage":2,
     "is_final_stage":false,
     "evolutions": [
@@ -4898,6 +4896,541 @@
         "name":"Photon Barrier",
         "type":"Steel",
         "desc":"Durante dois turnos, a equipe fica imune a ataques especiais e recebe menos dano de ataques físicos."
+      }
+    ]
+  },
+  {
+    "id":56,
+    "name":"Shimashu",
+    "number":"056",
+    "image":"/images/spriglet.svg",
+    "types":[
+      "Fighting"
+    ],
+    "evolution_stage":1,
+    "is_final_stage":false,
+    "evolution_display_type":"SEQUENTIAL",
+    "has_variants": true,
+    "variants": [
+      {
+        "variant_name": "Norte",
+        "height_m":0.7,
+        "weight_kg":18.5,
+        "types": ["Fighting"],
+        "image": "/images/spriglet.svg",
+        "entry": "Diferente de sua contraparte do sul, o este Shimashu é mais calmo e paciente.",
+        "description":"Sua pele principal tem um tom de azul acinzentado fosco, mas o que realmente se destaca são suas placas dorsais. Estas placas são feitas de uma queratina densa em tom de azul vibrante e estão dispostas de forma sobreposta, criando um padrão idêntico a uma armadura samurai. Essas escamas reforçadas protegem seu dorso, pescoço e peito. No topo de sua cabeça, pequenas protuberâncias ósseas se ramificam como galhadas de dragão, sinalizando seu potencial místico latente. \n A característica mais perigosa é sua cauda. Ela termina em uma extensão óssea reta, plana e polida, que possui um fio de corte tão afiado quanto uma katana recém-forjada. \n Habita as encostas geladas e templos esquecidos nas montanhas do Norte. O Shimashu do Norte é um Pokémon solitário e profundamente disciplinado. Quando provocado, ele não avança de forma selvagem; ele se posiciona, levanta seu longo pescoço com imponência e aguarda o momento exato para desferir um único golpe de cauda.",
+        "evolutions":[{
+          "id": 57,
+          "name": "Arashimada",
+          "number": "057",
+          "method": "Evolui ao ser trocado com Shimashu (Sul).",
+          "image": "/images/pyroak.svg" 
+        }],
+        "base_stats":{
+          "hp":47,
+          "atk":81,
+          "def":61,
+          "spa":23,
+          "spd":39,
+          "spe":60
+        },
+        "abilities":[{"name":"Afiação (Sharpness)", "desc":"Aumenta o pode de ataques cortantes."},{"name":"Foco Interior (Inner Focus)", "desc":"O pokémon fica protegido de estremecer."}],
+        "hidden_ability":{"name":"Firme (Steadfast)","desc":"Aumenta a Velocidade sempre que o pokémon estremecer."},
+        "moves": [
+          {
+            "level":1,
+            "name":"Leer",
+            "type":"Normal",
+            "accuracy":100,
+            "desc": "Diminui a Defesa do oponente."
+          },
+          {
+            "level":1,
+            "name":"Quick Attack",
+            "type": "Normal",
+            "category":"physical",
+            "power":40,
+            "accuracy":100,
+            "desc": "Usuário ataca primeiro."
+          },
+          {
+            "level":4,
+            "name":"Focus Energy",
+            "type":"Normal",
+            "desc": "Aumenta a chance de crítico."
+          },
+          {
+            "level":8,
+            "name":"Rock Tomb",
+            "type":"Rock",
+            "category":"physical",
+            "power": 60,
+            "accuracy": 95,
+            "desc": "Diminui a Velocidade do oponente."
+          },
+          {
+            "level":12,
+            "name":"Iron Defense",
+            "type":"Steel",
+            "desc": "Aumenta drasticamente a Defesa do Usuário."
+          },
+          {
+            "level":16,
+            "name":"Aerial Ace",
+            "type":"Flying",
+            "category":"physical",
+            "power":60,
+            "accuracy":"∞",
+            "desc":"Ignora Evasão e Precisão."
+          },
+          {
+            "level":20,
+            "name":"Retaliate",
+            "type":"Normal",
+            "category":"physical",
+            "power":70,
+            "accuracy":100,
+            "desc":"Causa dano dobrado se um companheiro de equipe desmaiou no último turno."
+          },
+          {
+            "level":24,
+            "name":"Slash",
+            "type":"Normal",
+            "category":"physical",
+            "power":70,
+            "accuracy":100,
+            "desc":"Alta taxa de acerto crítico."
+          },
+          {
+            "level":28,
+            "name":"Swords Dance",
+            "type":"Normal",
+            "desc": "Aumenta drasticamente o Ataque do Usuário."
+          },
+          {
+            "level":32,
+            "name":"Sacred Sword",
+            "type":"Fighting",
+            "category":"physical",
+            "power":70,
+            "accuracy":100,
+            "desc":"Ignora as mudanças de stats do oponente."
+          },
+          {
+            "level":36,
+            "name":"Dragon Dance",
+            "type":"Dragon",
+            "desc":"Aumenta o Ataque e Velocidade do usuário."
+          },
+          {
+            "level":40,
+            "name":"Smart Strike",
+            "type":"Steel",
+            "category":"physical",
+            "power":70,
+            "desc": "O usuário perfura o oponente. Esse ataque nunca erra."
+          },
+          {
+            "level":44,
+            "name":"Dragon Claw",
+            "type": "Dragon",
+            "category":"physical",
+            "power":80,
+            "accuracy":100
+          },
+          {
+            "level":48,
+            "name":"Focus Punch",
+            "type":"Fighting",
+            "category":"physical",
+            "power":150,
+            "accuracy":100,
+            "desc":"Se o usuário for atingido antes de atacar, ele recua em vez de atacar."
+          },
+          {
+            "level":52,
+            "name":"Extreme Speed",
+            "type":"Normal",
+            "category":"physical",
+            "power":80,
+            "accuracy":100,
+            "desc":"Usuário ataca primeiro."
+          }
+        ]
+      },
+      {
+        "variant_name": "Sul",
+        "height_m":0.7,
+        "weight_kg":12,
+        "types": ["Fighting"],
+        "image": "/images/spriglet.svg",
+        "entry": "Diferente de sua contraparte do norte, o este Shimashu é mais agitado e inquieto.",
+        "description":"Ao contrário de sua contraparte do norte, este Pokémon possui um corpo esguio e aerodinâmico, coberto por escamas lisas em um tom de verde-musgo desaturado. Sua pele não apresenta as placas rígidas de armadura, o que o torna consideravelmente mais leve e silencioso ao se mover pela vegetação densa. \n Ele compartilha as mesmas características sagradas de sua linhagem: um par de galhadas de dragão que se projetam da cabeça e uma cauda terminada em uma lâmina óssea extremamente afiada. No entanto, sua postura é relaxada e seus olhos transmitem uma expressão amigável e curiosa, revelando uma personalidade menos sisuda. \n Habita as florestas tropicais e vales úmidos do Sul. Enquanto o Shimashu do Norte treina a resistência, o do Sul treina a evasão. Ele encara a luta como uma dança, movendo-se com uma leveza que desafia a gravidade. É comum vê-lo observando viajantes com curiosidade, oculto pelo verde das árvores. Dizem que sua calma é a preparação para uma tempestade que ele ainda não sabe que terá de enfrentar.",
+        "evolutions":[{
+          "id": 58,
+          "name": "Hayashimada",
+          "number": "058",
+          "method": "Evolui ao ser trocado com Shimashu (Norte).",
+          "image": "/images/pyroak.svg" 
+        }],
+        "base_stats":{
+          "hp":40,
+          "atk":71,
+          "def":40,
+          "spa":31,
+          "spd":39,
+          "spe":90
+        },
+        "abilities":[{"name":"Afiação (Sharpness)", "desc":"Aumenta o pode de ataques cortantes."},{"name":"Foco Interior (Inner Focus)", "desc":"O pokémon fica protegido de estremecer."}],
+        "hidden_ability":{"name":"Firme (Steadfast)","desc":"Aumenta a Velocidade sempre que o pokémon estremecer."},
+        "moves": [
+          {
+            "level":1,
+            "name":"Leer",
+            "type":"Normal",
+            "accuracy":100,
+            "desc": "Diminui a Defesa do oponente."
+          },
+          {
+            "level":1,
+            "name":"Quick Attack",
+            "type": "Normal",
+            "category":"physical",
+            "power":40,
+            "accuracy":100,
+            "desc": "Usuário ataca primeiro."
+          },
+          {
+            "level":4,
+            "name":"Focus Energy",
+            "type":"Normal",
+            "desc": "Aumenta a chance de crítico."
+          },
+          {
+            "level":8,
+            "name":"Trailblaze",
+            "type":"Grass",
+            "category":"physical",
+            "power": 50,
+            "accuracy": 100,
+            "desc": "Aumenta a Velocidade do Usuário."
+          },
+          {
+            "level":12,
+            "name":"Double Team",
+            "type":"Normal",
+            "desc": "Aumenta a Evasão do usuário."
+          },
+          {
+            "level":16,
+            "name":"Aerial Ace",
+            "type":"Flying",
+            "category":"physical",
+            "power":60,
+            "accuracy":"∞",
+            "desc":"Ignora Evasão e Precisão."
+          },
+          {
+            "level":20,
+            "name":"Agility",
+            "type":"Psychic",
+            "desc":"Aumenta drasticamente a Velocidade do usuário."
+          },
+          {
+            "level":24,
+            "name":"Slash",
+            "type":"Normal",
+            "category":"physical",
+            "power":70,
+            "accuracy":100,
+            "desc":"Alta taxa de acerto crítico."
+          },
+          {
+            "level":28,
+            "name":"Swords Dance",
+            "type":"Normal",
+            "desc": "Aumenta drasticamente o Ataque do Usuário."
+          },
+          {
+            "level":32,
+            "name":"Night Slash",
+            "type":"Dark",
+            "category":"physical",
+            "power":70,
+            "accuracy":100,
+            "desc":"Alta taxa de acerto crítico."
+          },
+          {
+            "level":36,
+            "name":"Dragon Dance",
+            "type":"Dragon",
+            "desc":"Aumenta o Ataque e Velocidade do usuário."
+          },
+          {
+            "level":40,
+            "name":"U-Turn",
+            "type":"Bug",
+            "category":"physical",
+            "power":70,
+            "accuracy":100,
+            "desc": "O usuário troca de lugar imediatamente após atacar."
+          },
+          {
+            "level":44,
+            "name":"Dragon Claw",
+            "type": "Dragon",
+            "category":"physical",
+            "power":80,
+            "accuracy":100
+          },
+          {
+            "level":48,
+            "name":"First Impression",
+            "type":"Bug",
+            "category":"physical",
+            "power":90,
+            "accuracy":100,
+            "desc":"Embora esse movimento tenha grande poder, ele só funciona no primeiro turno em que o usuário entra em batalha."
+          },
+          {
+            "level":52,
+            "name":"Extreme Speed",
+            "type":"Normal",
+            "category":"physical",
+            "power":80,
+            "accuracy":100,
+            "desc":"Usuário ataca primeiro."
+          }
+        ]
+      }
+    ],
+    "base_stats":{
+          "hp":47,
+          "atk":81,
+          "def":61,
+          "spa":23,
+          "spd":39,
+          "spe":60
+        }
+  },
+  {
+    "id":57,
+    "name":"Arashimada",
+    "number":"057",
+    "types":[
+      "Fighting",
+      "Dragon"
+    ],
+    "image":"/images/pyroak.svg",
+    "entry":"Diz a lenda que este Pokémon baniu sua própria lâmina após um duelo que partiu seu coração.",
+    "height_m":1.8,
+    "weight_kg":85,
+    "description":"O Arashimada é um Pokémon bípede de presença intimidadora e melancólica. Sua coloração azul-turquesa original tornou-se mais profunda, agora adornada com marcas negras orgânicas que serpenteiam por seus braços e tronco, lembrando tatuagens de guerra ancestrais. Sua pele é protegida por placas de queratina que emulam uma armadura samurai completa. \n A característica mais fascinante de sua anatomia é o Arco Mandibular. Na lateral de seu pescoço, existem duas estruturas ósseas retráteis que se projetam para frente e se curvam quando o Pokémon entra em posição de ataque. Entre as pontas desses espinhos, uma corda de pura energia espiritual se materializa. O Arashimada utiliza sua boca como o ponto de origem para disparos de ar comprimido e energia de dragão, funcionando como um arco e flecha biológico de precisão cirúrgica. \n O Arashimada é um eremita por natureza. Ele habita as altitudes mais extremas, onde o ar é rarefeito e o silêncio é absoluto. Embora seja um Pokémon do tipo Lutador, ele evita o combate corpo a corpo, preferindo utilizar sua agilidade para escalar superfícies verticais e disparar de ângulos imprevisíveis. \n Uma vez por ano, esses Pokémon realizam uma migração silenciosa para templos antigos. Eles não interagem com os Shimashu que encontram no caminho; pelo contrário, mantêm uma distância solene, como se o peso de sua evolução os impedisse de olhar para o passado.",
+    "abilities":[{"name":"Afiação (Sharpness)", "desc":"Aumenta o pode de ataques cortantes."},{"name":"Foco Interior (Inner Focus)", "desc":"O pokémon fica protegido de estremecer."}],
+    "hidden_ability":{"name":"Franco-Atirador (Sniper)","desc":"Aumenta o poder dos golpes se eles se tornarem acertos críticos."},
+    "evolution_stage":2,
+    "is_final_stage":true,
+    "base_stats":{
+      "hp":72,
+      "atk":120,
+      "def":85,
+      "spa":105,
+      "spd":78,
+      "spe":80
+    },
+    "moves":[
+      {
+        "level":"(Evo)",
+        "name":"Foresight",
+        "type":"Normal",
+        "desc": "Redefine a Evasão do oponente e permite que ataques do tipo Normal e Lutador atinjam Fantasmas."
+      },
+      {
+        "level":20,
+        "name":"Agility",
+        "type":"Psychic",
+        "desc":"Aumenta drasticamente a Velocidade do usuário."
+      },
+      {
+        "level":24,
+        "name":"Dragon Breath",
+        "type":"Dragon",
+        "category":"special",
+        "power":60,
+        "accuracy":100,
+        "desc": "Pode paralisar o oponente."
+      },
+      {
+        "level":30,
+        "name":"Focus Energy",
+        "type":"Normal",
+        "desc": "Aumenta a chance de crítico."
+      },
+      {
+        "level":36,
+        "name":"Aura Sphere",
+        "type":"Fighting",
+        "category":"special",
+        "power":80,
+        "accuracy":"∞",
+        "desc":"Ignora Evasão e Precisão."
+      },
+      {
+        "level":42,
+        "name":"Scale Shot",
+        "type":"Dragon",
+        "category":"physical",
+        "power":25,
+        "accuracy":90,
+        "desc": "Ataca de 2 a 5 vezes por turno. Aumenta a Velocidade do usuário, mas diminui sua Defesa."
+      },
+      {
+        "level":50,
+        "name":"Dragon Pulse",
+        "type":"Dragon",
+        "category":"special",
+        "power":85,
+        "accuracy":100
+      },
+      {
+        "level":60,
+        "name":"Dragon Dance",
+        "type":"Dragon",
+        "desc":"Aumenta o Ataque e Velocidade do usuário."
+      },
+      {
+        "level":70,
+        "name":"Dragon Energy",
+        "type":"Dragon",
+        "category":"special",
+        "power":150,
+        "accuracy":100,
+        "desc":"Quanto mais alto o HP do usuário, maior o poder."
+      }
+    ]
+  },
+  {
+    "id":58,
+    "name":"Hayashimada",
+    "number":"058",
+    "types":[
+      "Steel",
+      "Dragon"
+    ],
+    "image":"/images/pyroak.svg",
+    "entry":"Diz a lenda que este Pokémon nasceu de um Shimashu que desafiou o destino e confrontou um irmão pressionado.",
+    "height_m":1.7,
+    "weight_kg":110,
+    "description":"O Hayashimada é uma maravilha da evolução tecnológica e biológica. Após sobreviver a um evento traumático, seu corpo passou por uma mutação cibernética total: suas escamas orgânicas foram substituídas por uma liga metálica leve e ultra-resistente. Seu design é esguio e aerodinâmico, com uma estética cyberpunk agressiva. \n Abandonando a cauda-espada de sua forma anterior, este Pokémon desenvolveu lâminas fixas em seus antebraços. Elas se projetam para frente como as de um Scyther, mas são compostas de aço temperado que nunca perde o corte. Ele luta de forma bípede, utilizando estas lâminas como extensões naturais de seus ossos. \n Sulcos profundos e circuitos pulsantes atravessam todo o seu corpo metálico, brilhando intensamente em verde-néon. Essa luz é a manifestação de sua energia de dragão interna, que agora serve como o combustível que impulsiona seus sistemas a velocidades sobre-humanas. \n O Hayashimada é um andarilho veloz. Ao contrário de seu parente arqueiro, ele não busca o isolamento das montanhas, mas sim a superação de seus próprios limites. Ele vaga por diversos habitats, desde selvas densas até complexos industriais, movendo-se com tamanha agilidade que raramente é visto por olhos humanos. \n Recentemente evoluídos, os Hayashimada podem demonstrar uma natureza instável enquanto tentam reconciliar sua mente de dragão com seu novo corpo de máquina. No entanto, uma vez que atingem o equilíbrio, tornam-se guardiões implacáveis e velozes, capazes de atravessar campos de batalha inteiros em segundos para proteger o que consideram importante.",
+    "abilities":[{"name":"Afiação (Sharpness)", "desc":"Aumenta o pode de ataques cortantes."},{"name":"Aumento de Velocidade (Speed Boost)", "desc":"Seu atributo de Velocidade aumenta gradualmente."}],
+    "hidden_ability": { "name": "Infiltrador (Infiltrator)", "desc": "Atravessa a barreira do inimigo e ataca." },
+    "evolution_stage":2,
+    "is_final_stage":true,
+    "base_stats":{
+      "hp":70,
+      "atk":115,
+      "def":75,
+      "spa":60,
+      "spd":70,
+      "spe":150
+    },
+    "moves":[
+      {
+        "level":"(Evo)",
+        "name":"Detect",
+        "type":"Fighting",
+        "desc": "Protege o usuário, mas pode falhar se usado consecutivamente."
+      },
+      {
+        "level":20,
+        "name":"Metal Claw",
+        "type":"Steel",
+        "category":"physical",
+        "power":50,
+        "accuracy":95,
+        "desc":"Pode aumentar o Ataque do usuário."
+      },
+      {
+        "level":24,
+        "name":"Quick Attack",
+        "type": "Normal",
+        "category":"physical",
+        "power":40,
+        "accuracy":100,
+        "desc": "Usuário ataca primeiro."
+      },
+      {
+        "level":28,
+        "name":"Pin Missile",
+        "type":"Bug",
+        "category":"physical",
+        "power":25,
+        "accuracy":95,
+        "desc":"Acerta 2-5 vezes em um turno."
+      },
+      {
+        "level":32,
+        "name":"Agility",
+        "type":"Psychic",
+        "desc":"Aumenta drasticamente a Velocidade do usuário."
+      },
+      {
+        "level":36,
+        "name":"Smart Strike",
+        "type":"Steel",
+        "category":"physical",
+        "power":70,
+        "desc": "O usuário perfura o oponente. Esse ataque nunca erra."
+      },
+      {
+        "level":42,
+        "name":"Night Slash",
+        "type":"Dark",
+        "category":"physical",
+        "power":70,
+        "accuracy":100,
+        "desc":"Alta taxa de acerto crítico."
+      },
+      {
+        "level":48,
+        "name":"Dragon Claw",
+        "type": "Dragon",
+        "category":"physical",
+        "power":80,
+        "accuracy":100
+      },
+      {
+        "level":54,
+        "name":"X-Scissor",
+        "type":"Bug",
+        "category":"physical",
+        "power":80,
+        "accuracy":100
+      },
+      {
+        "level":60,
+        "name":"Dragon Dance",
+        "type":"Dragon",
+        "desc":"Aumenta o Ataque e Velocidade do usuário."
+      },
+      {
+        "level":66,
+        "name":"Extreme Speed",
+        "type":"Normal",
+        "category":"physical",
+        "power":80,
+        "accuracy":100,
+        "desc":"Usuário ataca primeiro."
+      },
+      {
+        "level":72,
+        "name":"Iron Head",
+        "type":"Steel",
+        "category":"physical",
+        "power":80,
+        "accuracy":100,
+        "desc":"Pode estremecer o oponente."
       }
     ]
   }

@@ -5433,5 +5433,148 @@
         "desc":"Pode estremecer o oponente."
       }
     ]
+  },
+  {
+    "id":59,
+    "name":"Colomalware",
+    "number":"059",
+    "types":[
+      "Dark",
+      "Ghost"
+    ],
+    "image":"/images/pyroak.svg",
+    "entry":"Dizem que se o sinal do seu aparelho cair três vezes seguidas sem motivo aparente, um Colomalware acabou de vender o seu histórico de buscas para o seu maior rival.",
+    "height_m":1.3,
+    "weight_kg":18.5,
+    "description":"Colomalware é uma entidade digital-biológica que habita as zonas cinzentas das grandes metrópoles. Embora possua um corpo físico com textura semelhante a tecido e uma máscara óssea que remete ao tipo Fantasma, sua existência é intrinsecamente ligada ao fluxo de dados. Ele é capaz de se desintegrar em cubos pixelados para transitar entre o mundo real e o plano digital, onde infecta redes para causar má conexão e roubar informações privilegiadas. \n Diferente de outros Pokémon que buscam sustento em bagas ou caça, Colomalware se nutre da energia gerada pela frustração e pelo caos. Ele não é um companheiro leal por natureza; mesmo após capturado, é conhecido por pregar peças em seu próprio treinador, ocultando mensagens ou alterando dados da Pokédex por puro divertimento. Suas interações com outros Pokémon são raras e puramente utilitárias, preferindo a companhia de humanos, cujos segredos ele considera fascinantes. \n Em batalha, o desânimo de enfrentar um Colomalware é imediato. Ele raramente utiliza força bruta, focando em incapacitar sistematicamente todas as ferramentas do adversário. Seu método favorito de encerrar um conflito não é o nocaute, mas sim o deboche: após deixar o oponente completamente impossibilitado de reagir, ele se aproxima, executa um leve toque no nariz da vítima — o infame 'Boop' — e desaparece em uma nuvem de pixels antes que possa ser atingido. \n Sua paleta de cores em tons de roxo profundo e neon serve como um aviso visual em ambientes urbanos escuros. O traço mais marcante, contudo, são seus olhos. Apesar da máscara estática, os olhos de Colomalware possuem um brilho magnífico e hipnotizante que contrasta drasticamente com sua personalidade maliciosa, muitas vezes desarmando aqueles que tentam confrontá-lo seriamente.",
+    "abilities":[{"name":"Oportunista (Opportunist)", "desc":"Copia os aumentos de atributos do oponente."},{"name": "Infiltrador (Infiltrator)", "desc": "Atravessa a barreira do inimigo e ataca."}],
+    "hidden_ability": {"name": "Falha no Sistema (System Failure)", "desc": "Ao entrar em campo, desabilita o último movimento usado pelo oponente e impede de usar o item segurado."},
+    "evolution_stage":1,
+    "is_final_stage":true,
+    "base_stats":{
+      "hp":52,
+      "atk":48,
+      "def":61,
+      "spa":94,
+      "spd":74,
+      "spe":117
+    },
+    "moves":[
+      {
+        "level":1,
+        "name":"Astonish",
+        "type": "Ghost",
+        "category": "physical",
+        "power": 30,
+        "accuracy": 100,
+        "desc": "Pode estremecer o oponente."
+      },
+      {
+        "level":1,
+        "name":"Leer",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "Diminui a Defesa do oponente."
+      },
+      {
+        "level":4,
+        "name":"Thunder Shock",
+        "type": "Electric",
+        "category": "special",
+        "power": 40,
+        "accuracy": 100,
+        "desc": "Pode paralisar o oponente."
+      },
+      {
+        "level":8,
+        "name":"Confuse Ray",
+        "type":"Ghost",
+        "desc":"Confunde o Oponente."
+      },
+      {
+        "level":12,
+        "name":"Night Shade",
+        "type":"Ghost",
+        "category":"special",
+        "accuracy":100,
+        "desc":"Causa dano igual ao nível do usuário."
+      },
+      {
+        "level":16,
+        "name":"Disable",
+        "type":"Normal",
+        "accuracy":100,
+        "desc": "O oponente não pode usar seu último movimento por alguns turnos."
+      },
+      {
+        "level":20,
+        "name":"Shock Wave",
+        "type":"Electric",
+        "category":"special",
+        "power":60,
+        "accuracy":"∞",
+        "desc": "Ignora Evasão e Precisão."
+      },
+      {
+        "level":24,
+        "name":"Camouflage",
+        "type": "Normal",
+        "desc":"Muda o tipo do usuário de acordo com o local."
+      },
+      {
+        "level":28,
+        "name":"Shadow Sneak",
+        "type":"Ghost",
+        "category":"physical",
+        "power":40,
+        "accuracy":100,
+        "desc": "Usuário ataca primeiro."
+      },
+      {
+        "level":32,
+        "name":"Taunt",
+        "type":"Dark",
+        "desc":"O alvo só pode usar movimentos de ataque."
+      },
+      {
+        "level":37,
+        "name":"Glitch Out",
+        "type":"Ghost",
+        "category":"special",
+        "power":60,
+        "accuracy":100,
+        "desc":"Usuário ataca primeiro, e volta para a pokébola."
+      },
+      {
+        "level":42,
+        "name":"Dark Pulse",
+        "type":"Dark",
+        "category":"special",
+        "power":80,
+        "accuracy":100,
+        "desc": "Pode estremecer o oponente."
+      },
+      {
+        "level":48,
+        "name":"Hacking",
+        "type":"Dark",
+        "accuracy":100,
+        "desc": "Por 2 turnos, se o oponente tentar usar um movimento que não seja físico, perde 1/8 de seu HP total."
+      },
+      {
+        "level":55,
+        "name":"Eerie Impulse",
+        "type":"Electric",
+        "accuracy":100,
+        "desc": "Diminui drasticamente o Ataque Especial do oponente."
+      },
+      {
+        "level":60,
+        "name":"Trick",
+        "type":"Psychic",
+        "accuracy":100,
+        "desc": "Troca de item com o oponente."
+      }
+    ]
   }
 ]

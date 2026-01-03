@@ -354,7 +354,7 @@
       "name": "Morteorex",
       "number": "006",
       "method": "Evolui no nível 36",
-      "image": "/images/pyroak.svg"
+      "image": "/images/Morteorex Inacabado.png"
     }
   ],
     "base_stats": {
@@ -428,7 +428,7 @@
       "Fire",
       "Rock"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Morteorex Inacabado.png",
     "entry": "A explosão é algo que os Morteorex aprenderam a controlar com maestria, expressando isso normalmente numa personalidade calma, tranquila e impertubável. O tornando ótima companhia para treinadores e sendo características muito importantes para se lidar com os jovens Dynites e Misseorites.",
     "height_m": 2.5,
     "weight_kg": 420,
@@ -919,7 +919,7 @@
     "types": [
       "Flying"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Passimpata (placeholder).png",
     "entry": "Esse pokémon é um tanto problemático quando se trata de convivência, podendo atacar até mesmo companheiros puramente porque sentiu que gostaria.",
     "height_m": 0.3,
     "weight_kg": 2,
@@ -1524,7 +1524,7 @@
     "types": [
       "Fairy"
     ],
-    "image": "/images/pyroak.svg",
+    "image": "/images/Lipony (placeholder).png",
     "entry": "Este pokémon é um dos mais variados conhecidos. Sua variação de cores de pelagem, crina e outros, faz com que cada um deles seja único para cada treinador que tenha a sorte de criar amizade com eles.",
     "height_m": 0.8,
     "weight_kg": 25,
@@ -4904,6 +4904,8 @@
     "name":"Shimashu",
     "number":"056",
     "image":"/images/spriglet.svg",
+    "height_m":0.7,
+    "weight_kg":18.5,
     "types":[
       "Fighting"
     ],
